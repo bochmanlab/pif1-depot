@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About &amp; sources — PIF1 Family Depot</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="assets/favicon.ico">
+</head><body>
+<div class="proto">Prototype &mdash; 21 reviewed proteins so far. Content is assembled automatically from public databases and has not been fully curated.</div>
+<header class="site"><div class="wrap row">
+<a class="brand" href="index.html">PIF1 <span>Family Depot</span></a>
+<nav aria-label="Primary"><ul><li><a href="index.html">Proteins</a></li><li><a href="family.html">Family overview</a></li><li><a href="about.html" aria-current=page>About &amp; sources</a></li><li><a href="https://bochmanlab.github.io">Bochman Lab &nearr;</a></li></ul></nav>
+</div></header>
+<section class="hero"><div class="wrap"><h1>About &amp; sources</h1>
+<p class="lede">What this site is, where its data come from, and what it does not do yet.</p></div></section>
+<main class="wrap prose" style="max-width:780px">
+<h2 style="margin-top:.5em">Scope</h2>
+<p>A prototype resource for PIF1-family helicases, started by the <a href="https://bochmanlab.github.io">Bochman Lab</a>. PIF1-family helicases are 5&prime;-to-3&prime; SF1B helicases found in nearly all eukaryotes and many bacteria, with relatives in phages. In yeast and humans they act on G-quadruplexes, R-loops, replication forks and telomeres. This first release lists only the Swiss-Prot (reviewed) members: 21 proteins: PIF1 (<i>Homo sapiens</i>), Pif1 (<i>Mus musculus</i>), Pif1 (<i>Rattus norvegicus</i>), pif1 (<i>Danio rerio</i>), pif1 (<i>Xenopus laevis</i>), Pif1 (<i>Saccharomyces cerevisiae</i>), Rrm3 (<i>Saccharomyces cerevisiae</i>), Pfh1 (<i>Schizosaccharomyces pombe</i>), Pif1 (<i>Candida albicans</i>), Pif1 (<i>Emericella nidulans</i>), TbPIF1 (<i>Trypanosoma brucei brucei</i>), TbPIF2 (<i>Trypanosoma brucei brucei</i>), TbPIF3 (<i>Trypanosoma brucei brucei</i>), TbPIF4 (<i>Trypanosoma brucei brucei</i>), TbPIF5 (<i>Trypanosoma brucei brucei</i>), TbPIF6 (<i>Trypanosoma brucei brucei</i>), TbPIF7 (<i>Trypanosoma brucei brucei</i>), Pif1 (<i>Psychrobacter sp.</i>), Pif1 (<i>Bdellovibrio bacteriovorus</i>), Pif1 (<i>Campylobacter jejuni subsp. jejuni serotype O:2</i>), Dda (<i>Enterobacteria phage T4</i>).</p>
+<h2 id="inclusion">What counts as PIF1-family</h2>
+<p>Gene names are inconsistent across species (<i>PIF1</i>, <i>RRM3</i>, <i>PFH1</i>, <i>dda</i>), so the site uses a database-defined rule instead of names: UniProt cross-references the protein to PANTHER family PTHR47642 (PIF1-like helicases), <i>and</i> the UniProt entry is reviewed (Swiss-Prot). Within PTHR47642, PANTHER distinguishes subfamilies; for example, human PIF1 is in SF7 and yeast Pif1 and Rrm3 are in SF5.</p>
+<p>Limits: the rule inherits PANTHER's classification, including its mistakes. PTHR47642 is large &mdash; more than 16,000 UniProt entries, nearly all unreviewed and annotated by similarity only &mdash; and this release deliberately shows just the reviewed ones. Left out for now: two reviewed insect iridescent virus entries, a duplicate <i>S. cerevisiae</i> strain entry (YJM789), and every unreviewed entry. The <i>Trypanosoma brucei</i> block (TbPIF1&ndash;TbPIF7) is included because the family is expanded and studied there, but several of those proteins have little literature, so their automatic PubMed searches return few records. Bacterial members are listed because Swiss-Prot has reviewed them, not because their function is established. Phage T4 Dda is a classic model PIF1-like helicase but sits outside the cellular tree. A phylogeny-based definition would still be a better long-term answer.</p>
+<p>Domain positions come from UniProt where annotated and otherwise from Pfam (via InterPro), since UniProt annotates few domains for this family.</p>
+<h2>Where the data come from</h2>
+<div class=""><table><thead><tr><th>Data</th><th>Source</th><th>Notes</th></tr></thead><tbody><tr><td>Sequence, domains, function, variants, mutagenesis</td><td><a href='https://www.uniprot.org/'>UniProt</a></td><td>Swiss-Prot entries are curated; TrEMBL entries are automatic and marked &ldquo;unreviewed&rdquo;</td></tr><tr><td>Family membership</td><td><a href='https://www.pantherdb.org/'>PANTHER</a> via UniProt</td><td>See rule above</td></tr><tr><td>Domain positions (when UniProt has none)</td><td><a href='https://www.ebi.ac.uk/interpro/'>InterPro</a> / Pfam</td><td></td></tr><tr><td>Predicted structure</td><td><a href='https://alphafold.ebi.ac.uk/'>AlphaFold DB</a></td><td>Model files copied into this site; some entries have none</td></tr><tr><td>Experimental structures</td><td>PDB via UniProt cross-references</td><td></td></tr><tr><td>Interactions</td><td><a href='https://www.ebi.ac.uk/intact/'>IntAct</a>; <a href='https://www.yeastgenome.org/'>SGD</a> for <i>S. cerevisiae</i></td><td>Counts include high-throughput screens</td></tr><tr><td>Yeast alleles and phenotypes</td><td>SGD</td><td><i>S. cerevisiae</i> only</td></tr><tr><td>Clinical variants</td><td><a href='https://www.ncbi.nlm.nih.gov/clinvar/'>ClinVar</a></td><td>Human only; counts by classification, no individual variant tables yet</td></tr><tr><td>Literature</td><td><a href='https://pubmed.ncbi.nlm.nih.gov/'>PubMed</a></td><td>Automatic keyword search per protein</td></tr></tbody></table></div>
+<h2>How it stays current</h2>
+<p>A script (<code>scripts/fetch_data.py</code>) re-downloads everything from the sources above and a second script (<code>scripts/build_site.py</code>) regenerates the pages. A scheduled GitHub Action runs both weekly. Data were last refreshed October 13, 2026.</p>
+<h2>Limitations</h2>
+<ul><li>This is aggregation, not expert curation. Annotations are only as good as the upstream databases, and unreviewed entries are the weakest.</li>
+<li>The automatic literature searches are imprecise; some off-topic papers appear and relevant ones can be missed.</li>
+<li>Only <i>S. cerevisiae</i> has allele/phenotype detail so far, and only human has clinical variants. Only reviewed entries are listed.</li>
+<li>There is no alignment, tree, or ortholog table yet.</li></ul>
+<h2>Contact</h2><p>Corrections and suggestions: <a href="mailto:bochman@iu.edu">bochman@iu.edu</a>.</p></main>
+<footer><div class="wrap">Data last refreshed October 13, 2026. Sources: UniProt, AlphaFold DB, PDB, IntAct, SGD, ClinVar, InterPro, PubMed &mdash; see <a href="about.html">About &amp; sources</a>. A project of the <a href="https://bochmanlab.github.io">Bochman Lab</a>, Indiana University Bloomington.</div></footer>
+
+</body></html>
