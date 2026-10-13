@@ -800,6 +800,20 @@
       "doi": null
      }
     ]
+   },
+   {
+    "topic": "Fission yeast Pfh1 (Bochman 2010 review)",
+    "items": [
+     {
+      "n": "p12409464",
+      "authors": "Tanaka et al.",
+      "year": "2002",
+      "title": "The fission yeast pfh1(+) gene encodes an essential 5' to 3' DNA helicase required for the completion of S-phase",
+      "journal": "Nucleic Acids Res",
+      "pmid": "12409464",
+      "doi": null
+     }
+    ]
    }
   ],
   "pif1-human": [
@@ -870,6 +884,29 @@
       "journal": "Cell Cycle",
       "pmid": "17172855",
       "doi": "10.4161/cc.5.23.3524"
+     }
+    ]
+   },
+   {
+    "topic": "Human PIF1 (Bochman 2010 review)",
+    "items": [
+     {
+      "n": "p16522649",
+      "authors": "Zhang et al.",
+      "year": "2006",
+      "title": "The human Pif1 helicase, a potential Escherichia coli RecD homologue, inhibits telomerase activity",
+      "journal": "Nucleic Acids Res",
+      "pmid": "16522649",
+      "doi": null
+     },
+     {
+      "n": "p17827721",
+      "authors": "Futami et al.",
+      "year": "2007",
+      "title": "Mitochondrial and nuclear localization of human Pif1 helicase",
+      "journal": "Biol Pharm Bull",
+      "pmid": "17827721",
+      "doi": null
      }
     ]
    }
@@ -957,6 +994,215 @@
       "journal": "J Mol Biol",
       "pmid": "22504228",
       "doi": "10.1016/j.jmb.2012.04.007"
+     }
+    ]
+   }
+  ],
+  "pif1-tbrucei": [
+   {
+    "topic": "Trypanosome PIF helicases and kinetoplast DNA (Bochman 2010 review)",
+    "items": [
+     {
+      "n": "p19646907",
+      "authors": "Liu et al.",
+      "year": "2009",
+      "title": "Trypanosomes have six mitochondrial DNA helicases with one controlling kinetoplast maxicircle replication",
+      "journal": "Mol Cell",
+      "pmid": "19646907",
+      "doi": null
+     },
+     {
+      "n": "p15967722",
+      "authors": "Liu et al.",
+      "year": "2005",
+      "title": "Fellowship of the rings: the replication of kinetoplast DNA",
+      "journal": "Trends Parasitol",
+      "pmid": "15967722",
+      "doi": null
+     }
+    ]
+   }
+  ],
+  "pif3-tbrucei": [
+   {
+    "topic": "Trypanosome PIF helicases and kinetoplast DNA (Bochman 2010 review)",
+    "items": [
+     {
+      "n": "p19646907",
+      "authors": "Liu et al.",
+      "year": "2009",
+      "title": "Trypanosomes have six mitochondrial DNA helicases with one controlling kinetoplast maxicircle replication",
+      "journal": "Mol Cell",
+      "pmid": "19646907",
+      "doi": null
+     },
+     {
+      "n": "p15967722",
+      "authors": "Liu et al.",
+      "year": "2005",
+      "title": "Fellowship of the rings: the replication of kinetoplast DNA",
+      "journal": "Trends Parasitol",
+      "pmid": "15967722",
+      "doi": null
+     }
+    ]
+   }
+  ],
+  "pif4-tbrucei": [
+   {
+    "topic": "Trypanosome PIF helicases and kinetoplast DNA (Bochman 2010 review)",
+    "items": [
+     {
+      "n": "p19646907",
+      "authors": "Liu et al.",
+      "year": "2009",
+      "title": "Trypanosomes have six mitochondrial DNA helicases with one controlling kinetoplast maxicircle replication",
+      "journal": "Mol Cell",
+      "pmid": "19646907",
+      "doi": null
+     },
+     {
+      "n": "p15967722",
+      "authors": "Liu et al.",
+      "year": "2005",
+      "title": "Fellowship of the rings: the replication of kinetoplast DNA",
+      "journal": "Trends Parasitol",
+      "pmid": "15967722",
+      "doi": null
+     }
+    ]
+   }
+  ],
+  "pif6-tbrucei": [
+   {
+    "topic": "Trypanosome PIF helicases and kinetoplast DNA (Bochman 2010 review)",
+    "items": [
+     {
+      "n": "p19646907",
+      "authors": "Liu et al.",
+      "year": "2009",
+      "title": "Trypanosomes have six mitochondrial DNA helicases with one controlling kinetoplast maxicircle replication",
+      "journal": "Mol Cell",
+      "pmid": "19646907",
+      "doi": null
+     },
+     {
+      "n": "p15967722",
+      "authors": "Liu et al.",
+      "year": "2005",
+      "title": "Fellowship of the rings: the replication of kinetoplast DNA",
+      "journal": "Trends Parasitol",
+      "pmid": "15967722",
+      "doi": null
+     }
+    ]
+   }
+  ],
+  "pif7-tbrucei": [
+   {
+    "topic": "Trypanosome PIF helicases and kinetoplast DNA (Bochman 2010 review)",
+    "items": [
+     {
+      "n": "p19646907",
+      "authors": "Liu et al.",
+      "year": "2009",
+      "title": "Trypanosomes have six mitochondrial DNA helicases with one controlling kinetoplast maxicircle replication",
+      "journal": "Mol Cell",
+      "pmid": "19646907",
+      "doi": null
+     },
+     {
+      "n": "p15967722",
+      "authors": "Liu et al.",
+      "year": "2005",
+      "title": "Fellowship of the rings: the replication of kinetoplast DNA",
+      "journal": "Trends Parasitol",
+      "pmid": "15967722",
+      "doi": null
+     }
+    ]
+   }
+  ],
+  "pif2-tbrucei": [
+   {
+    "topic": "Trypanosome PIF helicases and kinetoplast DNA (Bochman 2010 review)",
+    "items": [
+     {
+      "n": "p19646907",
+      "authors": "Liu et al.",
+      "year": "2009",
+      "title": "Trypanosomes have six mitochondrial DNA helicases with one controlling kinetoplast maxicircle replication",
+      "journal": "Mol Cell",
+      "pmid": "19646907",
+      "doi": null
+     },
+     {
+      "n": "p15967722",
+      "authors": "Liu et al.",
+      "year": "2005",
+      "title": "Fellowship of the rings: the replication of kinetoplast DNA",
+      "journal": "Trends Parasitol",
+      "pmid": "15967722",
+      "doi": null
+     },
+     {
+      "n": "p18421378",
+      "authors": "Li et al.",
+      "year": "2008",
+      "title": "Identification of a bacterial-like HslVU protease in the mitochondria of Trypanosoma brucei and its role in mitochondrial DNA replication",
+      "journal": "PLoS Pathog",
+      "pmid": "18421378",
+      "doi": null
+     }
+    ]
+   }
+  ],
+  "pif5-tbrucei": [
+   {
+    "topic": "Trypanosome PIF helicases and kinetoplast DNA (Bochman 2010 review)",
+    "items": [
+     {
+      "n": "p19646907",
+      "authors": "Liu et al.",
+      "year": "2009",
+      "title": "Trypanosomes have six mitochondrial DNA helicases with one controlling kinetoplast maxicircle replication",
+      "journal": "Mol Cell",
+      "pmid": "19646907",
+      "doi": null
+     },
+     {
+      "n": "p19779567",
+      "authors": "Liu et al.",
+      "year": "2009",
+      "title": "TbPIF5 is a Trypanosoma brucei mitochondrial DNA helicase involved in processing of minicircle Okazaki fragments",
+      "journal": "PLoS Pathog",
+      "pmid": "19779567",
+      "doi": null
+     },
+     {
+      "n": "p15967722",
+      "authors": "Liu et al.",
+      "year": "2005",
+      "title": "Fellowship of the rings: the replication of kinetoplast DNA",
+      "journal": "Trends Parasitol",
+      "pmid": "15967722",
+      "doi": null
+     }
+    ]
+   }
+  ],
+  "pif1-mouse": [
+   {
+    "topic": "Mouse Pif1 (Bochman 2010 review)",
+    "items": [
+     {
+      "n": "p17130244",
+      "authors": "Snow et al.",
+      "year": "2007",
+      "title": "Murine Pif1 interacts with telomerase and is dispensable for telomere function in vivo",
+      "journal": "Mol Cell Biol",
+      "pmid": "17130244",
+      "doi": null
      }
     ]
    }
@@ -1109,6 +1355,15 @@
      "journal": "DNA Repair (Amst)",
      "pmid": "20097624",
      "doi": "10.1016/j"
+    },
+    {
+     "n": "p15967722",
+     "authors": "Liu et al.",
+     "year": "2005",
+     "title": "Fellowship of the rings: the replication of kinetoplast DNA",
+     "journal": "Trends Parasitol",
+     "pmid": "15967722",
+     "doi": null
     }
    ]
   },
