@@ -1,0 +1,1311 @@
+{
+ "proteins": {
+  "pif1-scerevisiae": [
+   {
+    "topic": "History and family overview",
+    "items": [
+     {
+      "n": "p26411679",
+      "authors": "Rossi et al.",
+      "year": "2015",
+      "title": "Rad53-Mediated Regulation of Rrm3 and Pif1 DNA Helicases Contributes to Prevention of Aberrant Fork Transitions under Replication Stress",
+      "journal": "Cell Rep",
+      "pmid": "26411679",
+      "doi": null
+     },
+     {
+      "n": "p29141206",
+      "authors": "Buzovetsky et al.",
+      "year": "2017",
+      "title": "Role of the Pif1-PCNA Complex in Pol \u03b4-Dependent Strand Displacement DNA Synthesis and Break-Induced Replication",
+      "journal": "Cell Rep",
+      "pmid": "29141206",
+      "doi": null
+     },
+     {
+      "n": "p30395308",
+      "authors": "Dahan et al.",
+      "year": "2018",
+      "title": "Pif1 is essential for efficient replisome progression through lagging strand G-quadruplex DNA secondary structures",
+      "journal": "Nucleic Acids Res",
+      "pmid": "30395308",
+      "doi": null
+     },
+     {
+      "n": "p10926538",
+      "authors": "Zhou et al.",
+      "year": "2000",
+      "title": "Pif1p helicase, a catalytic inhibitor of telomerase in yeast",
+      "journal": "Science",
+      "pmid": "10926538",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Replication through protein barriers (rDNA, telomeres, centromeres)",
+    "items": [
+     {
+      "n": "p10693764",
+      "authors": "Ivessa et al.",
+      "year": "2000",
+      "title": "The Saccharomyces Pif1p DNA helicase and the highly related Rrm3p have opposite effects on replication fork progression in ribosomal DNA",
+      "journal": "Cell",
+      "pmid": "10693764",
+      "doi": null
+     },
+     {
+      "n": "p8287473",
+      "authors": "Schulz & Zakian",
+      "year": "1994",
+      "title": "The saccharomyces PIF1 DNA helicase inhibits telomere elongation and de novo telomere formation",
+      "journal": "Cell",
+      "pmid": "8287473",
+      "doi": null
+     },
+     {
+      "n": "p16121131",
+      "authors": "Boule et al.",
+      "year": "2005",
+      "title": "The yeast Pif1p helicase removes telomerase from telomeric DNA",
+      "journal": "Nature",
+      "pmid": "16121131",
+      "doi": null
+     },
+     {
+      "n": "p17257907",
+      "authors": "Cheng et al.",
+      "year": "2007",
+      "title": "The role of Pif1p, a DNA helicase in Saccharomyces cerevisiae, in maintaining mitochondrial DNA",
+      "journal": "Mitochondrion",
+      "pmid": "17257907",
+      "doi": null
+     },
+     {
+      "n": "p28429714",
+      "authors": "Tran et al.",
+      "year": "2017",
+      "title": "PIF1 family DNA helicases suppress R-loop mediated genome instability at tRNA genes",
+      "journal": "Nat Commun",
+      "pmid": "28429714",
+      "doi": null
+     },
+     {
+      "n": "p27991904",
+      "authors": "Osmundson et al.",
+      "year": "2017",
+      "title": "Pif1-family helicases cooperatively suppress widespread replication-fork arrest at tRNA genes",
+      "journal": "Nat Struct Mol Biol",
+      "pmid": "27991904",
+      "doi": null
+     },
+     {
+      "n": "p30442759",
+      "authors": "Chen et al.",
+      "year": "2019",
+      "title": "Two Pif1 Family DNA Helicases Cooperate in Centromere Replication and Segregation in Saccharomyces cerevisiae",
+      "journal": "Genetics",
+      "pmid": "30442759",
+      "doi": null
+     },
+     {
+      "n": "p21620135",
+      "authors": "Paeschke et al.",
+      "year": "2011",
+      "title": "DNA Replication through G-Quadruplex Motifs Is Promoted by the Saccharomyces cerevisiae Pif1 DNA Helicase",
+      "journal": null,
+      "pmid": null,
+      "doi": null
+     },
+     {
+      "n": "p16537895",
+      "authors": "Budd et al.",
+      "year": "2006",
+      "title": "Evidence suggesting that Pif1 helicase functions in DNA replication with the Dna2 helicase/nuclease and DNA polymerase delta",
+      "journal": "Mol Cell Biol",
+      "pmid": "16537895",
+      "doi": null
+     },
+     {
+      "n": "p24025768",
+      "authors": "Wilson et al.",
+      "year": "2013",
+      "title": "Pif1 helicase and Pol\u03b4 promote recombination-coupled DNA synthesis via bubble migration",
+      "journal": "Nature",
+      "pmid": "24025768",
+      "doi": null
+     },
+     {
+      "n": "p30850330",
+      "authors": "Deegan et al.",
+      "year": "2019",
+      "title": "Pif1-Family Helicases Support Fork Convergence during DNA Replication Termination in Eukaryotes",
+      "journal": "Mol Cell",
+      "pmid": "30850330",
+      "doi": null
+     },
+     {
+      "n": "p30107417",
+      "authors": "Garcia-Rodriguez et al.",
+      "year": "2018",
+      "title": "The helicase Pif1 functions in the template switching pathway of DNA damage bypass",
+      "journal": "Nucleic Acids Res",
+      "pmid": "30107417",
+      "doi": null
+     },
+     {
+      "n": "p21045806",
+      "authors": "Dewar & Lydall",
+      "year": "2010",
+      "title": "Pif1- and Exo1-dependent nucleases coordinate checkpoint activation following telomere uncapping",
+      "journal": "EMBO J",
+      "pmid": "21045806",
+      "doi": null
+     },
+     {
+      "n": "p26483010",
+      "authors": "Stundon & Zakian",
+      "year": "2015",
+      "title": "Identification of Saccharomyces cerevisiae Genes Whose Deletion Causes Synthetic Effects in Cells with Reduced Levels of the Nuclear Pif1 DNA Helicase",
+      "journal": "G3 (Bethesda)",
+      "pmid": "26483010",
+      "doi": null
+     },
+     {
+      "n": "p16816432",
+      "authors": "Wagner et al.",
+      "year": "2006",
+      "title": "The absence of Top3 reveals an interaction between the Sgs1 and Pif1 DNA helicases in Saccharomyces cerevisiae",
+      "journal": "Genetics",
+      "pmid": "16816432",
+      "doi": null
+     },
+     {
+      "n": "p23175612",
+      "authors": "Ramanagoudr-Bhojappa et al.",
+      "year": "2013",
+      "title": "Physical and functional interaction between yeast Pif1 helicase and Rim1 single-stranded DNA binding protein",
+      "journal": "Nucleic Acids Res",
+      "pmid": "23175612",
+      "doi": null
+     },
+     {
+      "n": "p20795654",
+      "authors": "Barranco-Medina & Galletto",
+      "year": "2010",
+      "title": "DNA binding induces dimerization of Saccharomyces cerevisiae Pif1",
+      "journal": "Biochemistry",
+      "pmid": "20795654",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Replication through tRNA genes",
+    "items": [
+     {
+      "n": "p26733194",
+      "authors": "Chib et al.",
+      "year": "2016",
+      "title": "Yeast Helicase Pif1 Unwinds RNA:DNA Hybrids with Higher Processivity than DNA:DNA Duplexes",
+      "journal": "J Biol Chem",
+      "pmid": "26733194",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Telomere length maintenance",
+    "items": [
+     {
+      "n": "p16878131",
+      "authors": "Eugster et al.",
+      "year": "2006",
+      "title": "The finger subdomain of yeast telomerase cooperates with Pif1p to limit telomere elongation",
+      "journal": "Nat Struct Mol Biol",
+      "pmid": "16878131",
+      "doi": null
+     },
+     {
+      "n": "p30068549",
+      "authors": "Nickens et al.",
+      "year": "2018",
+      "title": "The Saccharomyces cerevisiae Hrq1 and Pif1 DNA helicases synergistically modulate telomerase activity in vitro",
+      "journal": "J Biol Chem",
+      "pmid": "30068549",
+      "doi": null
+     },
+     {
+      "n": "p25329304",
+      "authors": "Vasianovich et al.",
+      "year": "2014",
+      "title": "Break-induced replication requires DNA damage-induced phosphorylation of Pif1 and leads to telomere lengthening",
+      "journal": "PLoS Genet",
+      "pmid": "25329304",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Okazaki fragment maturation",
+    "items": [
+     {
+      "n": "p20959454",
+      "authors": "Pike et al.",
+      "year": "2010",
+      "title": "An alternative pathway for Okazaki fragment processing: resolution of fold-back flaps by Pif1 helicase",
+      "journal": "J Biol Chem",
+      "pmid": "20959454",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "G-quadruplex resolution",
+    "items": [
+     {
+      "n": "p19424434",
+      "authors": "Ribeyre et al.",
+      "year": "2009",
+      "title": "The yeast Pif1 helicase prevents genomic instability caused by G-quadruplex-forming CEB1 sequences in vivo",
+      "journal": "PLoS Genet",
+      "pmid": "19424434",
+      "doi": null
+     },
+     {
+      "n": "p30305390",
+      "authors": "Wang et al.",
+      "year": "2018",
+      "title": "DNA-unwinding activity of Saccharomyces cerevisiae Pif1 is modulated by thermal stability, folding conformation, and loop lengths of G-quadruplex DNA",
+      "journal": "J Biol Chem",
+      "pmid": "30305390",
+      "doi": null
+     },
+     {
+      "n": "p30257865",
+      "authors": "Byrd et al.",
+      "year": "2018",
+      "title": "Pif1 helicase unfolding of G-quadruplex DNA is highly dependent on sequence and reaction conditions",
+      "journal": "J Biol Chem",
+      "pmid": "30257865",
+      "doi": null
+     },
+     {
+      "n": "p23446274",
+      "authors": "Galletto & Tomko",
+      "year": "2013",
+      "title": "Translocation of Saccharomyces cerevisiae Pif1 helicase monomers on single-stranded DNA",
+      "journal": "Nucleic Acids Res",
+      "pmid": "23446274",
+      "doi": null
+     },
+     {
+      "n": "p27471032",
+      "authors": "Zhang et al.",
+      "year": "2016",
+      "title": "G-quadruplex and G-rich sequence stimulate Pif1p-catalyzed downstream duplex DNA unwinding through reducing waiting time at ss/dsDNA junction",
+      "journal": "Nucleic Acids Res",
+      "pmid": "27471032",
+      "doi": null
+     },
+     {
+      "n": "p25627683",
+      "authors": "Duan et al.",
+      "year": "2015",
+      "title": "G-Quadruplexes Significantly Stimulate Pif1 Helicase-Catalyzed Duplex DNA Unwinding",
+      "journal": null,
+      "pmid": null,
+      "doi": null
+     },
+     {
+      "n": "p27079238",
+      "authors": "Li et al.",
+      "year": "2016",
+      "title": "Multiple Pif1 helicases are required to sequentially disrupt G-quadruplex structure and unwind duplex DNA",
+      "journal": "Biochem Biophys Res Commun",
+      "pmid": "27079238",
+      "doi": null
+     },
+     {
+      "n": "p24843019",
+      "authors": "Zhou et al.",
+      "year": "2014",
+      "title": "Periodic DNA patrolling underlies diverse functions of Pif1 on R-loops and G-rich DNA",
+      "journal": "Elife",
+      "pmid": "24843019",
+      "doi": null
+     },
+     {
+      "n": "p23657261",
+      "authors": "Paeschke et al.",
+      "year": "2013",
+      "title": "Pif1 family helicases suppress genome instability at G-quadruplex motifs",
+      "journal": "Nature",
+      "pmid": "23657261",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Helicase-independent functions of Rrm3",
+    "items": [
+     {
+      "n": "p19277716",
+      "authors": "Cheng et al.",
+      "year": "2009",
+      "title": "Loss of mitochondrial DNA under genotoxic stress conditions in the absence of the yeast DNA helicase Pif1p occurs independently of the DNA helicase Rrm3p",
+      "journal": "Mol Genet Genomics",
+      "pmid": "19277716",
+      "doi": null
+     },
+     {
+      "n": "p20655619",
+      "authors": "Cheng & Ivessa",
+      "year": "2010",
+      "title": "Association of the yeast DNA helicase Pif1p with mitochondrial membranes and mitochondrial DNA",
+      "journal": "Eur J Cell Biol",
+      "pmid": "20655619",
+      "doi": null
+     },
+     {
+      "n": "p15907372",
+      "authors": "O\u2019Rourke et al.",
+      "year": "2005",
+      "title": "Differential involvement of the related DNA helicases Pif1p and Rrm3p in mtDNA point mutagenesis and stability",
+      "journal": "Gene",
+      "pmid": "15907372",
+      "doi": null
+     },
+     {
+      "n": "p25471447",
+      "authors": "Hou et al.",
+      "year": "2015",
+      "title": "Molecular mechanism of G-quadruplex unwinding helicase: sequential and repetitive unfolding of G-quadruplex by Pif1 helicase",
+      "journal": "Biochem J",
+      "pmid": "25471447",
+      "doi": null
+     },
+     {
+      "n": "p27098034",
+      "authors": "Li et al.",
+      "year": "2016",
+      "title": "Pif1 is a force-regulated helicase",
+      "journal": "Nucleic Acids Res",
+      "pmid": "27098034",
+      "doi": null
+     },
+     {
+      "n": "p30566876",
+      "authors": "Jimeno et al.",
+      "year": "2018",
+      "title": "The Helicase PIF1 Facilitates Resection over Sequences Prone to Forming G4 Structures",
+      "journal": "Cell Rep",
+      "pmid": "30566876",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Introduction and family overview",
+    "items": [
+     {
+      "n": "p3038524",
+      "authors": "Foury & Lahaye",
+      "year": "1987",
+      "title": "Cloning and sequencing of the PIF gene involved in repair and recombination of yeast mitochondrial DNA",
+      "journal": "EMBO J",
+      "pmid": "3038524",
+      "doi": null
+     },
+     {
+      "n": "p19605347",
+      "authors": "Pike & Bambara",
+      "year": "2009",
+      "title": "Pif1 helicase lengthens some Okazaki fragment flaps necessitating Dna2 nuclease/helicase action in the two-nuclease processing pathway",
+      "journal": "J Biol Chem",
+      "pmid": "19605347",
+      "doi": "10.1074/jbc.M109.023325"
+     },
+     {
+      "n": "p18689797",
+      "authors": "Rossi & Bambara",
+      "year": "2008",
+      "title": "Pif1 helicase directs eukaryotic Okazaki fragments toward the two-nuclease cleavage pathway for primer removal",
+      "journal": "J Biol Chem",
+      "pmid": "18689797",
+      "doi": "10.1074/jbc.M804550200"
+     },
+     {
+      "n": "p27001517",
+      "authors": "Koc & Galletto",
+      "year": "2016",
+      "title": "Pif1 removes a Rap1-dependent barrier to the strand displacement activity of DNA polymerase \u03b4",
+      "journal": "Nucleic Acids Res",
+      "pmid": "27001517",
+      "doi": "10.1093/nar/gkw181"
+     }
+    ]
+   },
+   {
+    "topic": "Structure",
+    "items": [
+     {
+      "n": "p26908222",
+      "authors": "Singh & Galletto",
+      "year": "2016",
+      "title": "A Monomer of Pif1 Unwinds Double-Stranded DNA and It Is Regulated by the Nature of the Non-Translocating Strand at the 3'-End",
+      "journal": "J Mol Biol",
+      "pmid": "26908222",
+      "doi": "10.1016/j.jmb.2016.02.017"
+     }
+    ]
+   },
+   {
+    "topic": "Quaternary structure",
+    "items": [
+     {
+      "n": "p8253734",
+      "authors": "Lahaye & Foury",
+      "year": "1993",
+      "title": "PIF1 DNA helicase from Saccharomyces cerevisiae. Biochemical characterization of the enzyme",
+      "journal": "J Biol Chem",
+      "pmid": "8253734",
+      "doi": null
+     },
+     {
+      "n": "p23596008",
+      "authors": "Ramanagoudr-Bhojappa",
+      "year": "2013",
+      "title": "Yeast Pif1 helicase exhibits a one-base-pair stepping mechanism for unwinding duplex DNA",
+      "journal": "J Biol Chem",
+      "pmid": "23596008",
+      "doi": "10.1074/jbc.M113.470013"
+     }
+    ]
+   },
+   {
+    "topic": "Biochemical activity and mechanism",
+    "items": [
+     {
+      "n": "p17720711",
+      "authors": "Boule & Zakian",
+      "year": "2007",
+      "title": "The yeast Pif1p DNA helicase preferentially unwinds RNA DNA substrates",
+      "journal": "Nucleic Acids Res",
+      "pmid": "17720711",
+      "doi": "10.1093/nar/gkm613"
+     }
+    ]
+   },
+   {
+    "topic": "Replication through barriers and G4 unwinding",
+    "items": [
+     {
+      "n": "p25393406",
+      "authors": "Ramanagoudr-Bhojappa & Raney",
+      "year": "2014",
+      "title": "Yeast Pif1 accelerates annealing of complementary DNA strands",
+      "journal": "Biochemistry",
+      "pmid": "25393406",
+      "doi": "10.1021/bi500746v"
+     }
+    ]
+   }
+  ],
+  "rrm3-scerevisiae": [
+   {
+    "topic": "History and family overview",
+    "items": [
+     {
+      "n": "p26411679",
+      "authors": "Rossi et al.",
+      "year": "2015",
+      "title": "Rad53-Mediated Regulation of Rrm3 and Pif1 DNA Helicases Contributes to Prevention of Aberrant Fork Transitions under Replication Stress",
+      "journal": "Cell Rep",
+      "pmid": "26411679",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Replication through protein barriers (rDNA, telomeres, centromeres)",
+    "items": [
+     {
+      "n": "p10693764",
+      "authors": "Ivessa et al.",
+      "year": "2000",
+      "title": "The Saccharomyces Pif1p DNA helicase and the highly related Rrm3p have opposite effects on replication fork progression in ribosomal DNA",
+      "journal": "Cell",
+      "pmid": "10693764",
+      "doi": null
+     },
+     {
+      "n": "p15037547",
+      "authors": "Torres et al.",
+      "year": "2004",
+      "title": "Local chromatin structure at the ribosomal DNA causes replication fork pausing and genome instability in the absence of the S. cerevisiae DNA helicase Rrm3p",
+      "journal": "Genes Dev",
+      "pmid": "15037547",
+      "doi": null
+     },
+     {
+      "n": "p27923055",
+      "authors": "Syed et al.",
+      "year": "2016",
+      "title": "A Novel Rrm3 Function in Restricting DNA Replication via an Orc5-Binding Domain Is Genetically Separable from Rrm3 Function as an ATPase/Helicase in Facilitating Fork Progression",
+      "journal": "PLoS Genet",
+      "pmid": "27923055",
+      "doi": null
+     },
+     {
+      "n": "p16418273",
+      "authors": "Mohanty et al.",
+      "year": "2006",
+      "title": "The Tof1p-Csm3p protein complex counteracts the Rrm3p helicase to control replication termination of Saccharomyces cerevisiae",
+      "journal": "Proc Natl Acad Sci U S A",
+      "pmid": "16418273",
+      "doi": null
+     },
+     {
+      "n": "p12050116",
+      "authors": "Ivessa et al.",
+      "year": "2002",
+      "title": "Saccharomyces Rrm3p, a 5' to 3' DNA helicase that promotes replication fork progression through telomeric and subtelomeric DNA",
+      "journal": "Genes Dev",
+      "pmid": "12050116",
+      "doi": null
+     },
+     {
+      "n": "p14690605",
+      "authors": "Ivessa et al.",
+      "year": "2003",
+      "title": "The Saccharomyces cerevisiae helicase Rrm3p facilitates replication past nonhistone protein-DNA complexes",
+      "journal": "Mol Cell",
+      "pmid": "14690605",
+      "doi": null
+     },
+     {
+      "n": "p28429714",
+      "authors": "Tran et al.",
+      "year": "2017",
+      "title": "PIF1 family DNA helicases suppress R-loop mediated genome instability at tRNA genes",
+      "journal": "Nat Commun",
+      "pmid": "28429714",
+      "doi": null
+     },
+     {
+      "n": "p27991904",
+      "authors": "Osmundson et al.",
+      "year": "2017",
+      "title": "Pif1-family helicases cooperatively suppress widespread replication-fork arrest at tRNA genes",
+      "journal": "Nat Struct Mol Biol",
+      "pmid": "27991904",
+      "doi": null
+     },
+     {
+      "n": "p30442759",
+      "authors": "Chen et al.",
+      "year": "2019",
+      "title": "Two Pif1 Family DNA Helicases Cooperate in Centromere Replication and Segregation in Saccharomyces cerevisiae",
+      "journal": "Genetics",
+      "pmid": "30442759",
+      "doi": null
+     },
+     {
+      "n": "p28475600",
+      "authors": "Munoz-Galvan et al.",
+      "year": "2017",
+      "title": "A new role for Rrm3 in repair of replication-born DNA breakage by sister chromatid recombination",
+      "journal": "PLoS Genet",
+      "pmid": "28475600",
+      "doi": null
+     },
+     {
+      "n": "p30850330",
+      "authors": "Deegan et al.",
+      "year": "2019",
+      "title": "Pif1-Family Helicases Support Fork Convergence during DNA Replication Termination in Eukaryotes",
+      "journal": "Mol Cell",
+      "pmid": "30850330",
+      "doi": null
+     },
+     {
+      "n": "p19414561",
+      "authors": "Stamenova et al.",
+      "year": "2009",
+      "title": "Rrm3 protects the Saccharomyces cerevisiae genome from instability at nascent sites of retrotransposition",
+      "journal": "Genetics",
+      "pmid": "19414561",
+      "doi": null
+     },
+     {
+      "n": "p15579680",
+      "authors": "Bessler & Zakian",
+      "year": "2004",
+      "title": "The amino terminus of the Saccharomyces cerevisiae DNA helicase Rrm3p modulates protein function altering replication and checkpoint activity",
+      "journal": "Genetics",
+      "pmid": "15579680",
+      "doi": null
+     },
+     {
+      "n": "p15060144",
+      "authors": "Torres et al.",
+      "year": "2004",
+      "title": "Saccharomyces cerevisiae Rrm3p DNA helicase promotes genome integrity by preventing replication fork stalling: viability of rrm3 cells requires the intra-S-phase checkpoint and fork restart activities",
+      "journal": "Mol Cell Biol",
+      "pmid": "15060144",
+      "doi": null
+     },
+     {
+      "n": "p15060145",
+      "authors": "Schmidt & Kolodner",
+      "year": "2004",
+      "title": "Requirement of Rrm3 helicase for repair of spontaneous DNA lesions in cells lacking Srs2 or Sgs1 helicase",
+      "journal": "Mol Cell Biol",
+      "pmid": "15060145",
+      "doi": null
+     },
+     {
+      "n": "p17114583",
+      "authors": "Azvolinsky et al.",
+      "year": "2006",
+      "title": "The S. cerevisiae Rrm3p DNA helicase moves with the replication fork and affects replication of all yeast chromosomes",
+      "journal": "Genes Dev",
+      "pmid": "17114583",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "G-quadruplex resolution",
+    "items": [
+     {
+      "n": "p23657261",
+      "authors": "Paeschke et al.",
+      "year": "2013",
+      "title": "Pif1 family helicases suppress genome instability at G-quadruplex motifs",
+      "journal": "Nature",
+      "pmid": "23657261",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Helicase-independent functions of Rrm3",
+    "items": [
+     {
+      "n": "p19277716",
+      "authors": "Cheng et al.",
+      "year": "2009",
+      "title": "Loss of mitochondrial DNA under genotoxic stress conditions in the absence of the yeast DNA helicase Pif1p occurs independently of the DNA helicase Rrm3p",
+      "journal": "Mol Genet Genomics",
+      "pmid": "19277716",
+      "doi": null
+     },
+     {
+      "n": "p15907372",
+      "authors": "O\u2019Rourke et al.",
+      "year": "2005",
+      "title": "Differential involvement of the related DNA helicases Pif1p and Rrm3p in mtDNA point mutagenesis and stability",
+      "journal": "Gene",
+      "pmid": "15907372",
+      "doi": null
+     },
+     {
+      "n": "p21087929",
+      "authors": "Bairwa et al.",
+      "year": "2011",
+      "title": "The intra-S phase checkpoint protein Tof1 collaborates with the helicase Rrm3 and the F-box protein Dia2 to maintain genome stability in Saccharomyces cerevisiae",
+      "journal": "J Biol Chem",
+      "pmid": "21087929",
+      "doi": null
+     }
+    ]
+   }
+  ],
+  "pfh1-spombe": [
+   {
+    "topic": "Replication through protein barriers (rDNA, telomeres, centromeres)",
+    "items": [
+     {
+      "n": "p18725402",
+      "authors": "Pinter et al.",
+      "year": "2008",
+      "title": "The Schizosaccharomyces pombe Pfh1p DNA helicase is essential for the maintenance of nuclear and mitochondrial DNA",
+      "journal": "Mol Cell Biol",
+      "pmid": "18725402",
+      "doi": null
+     },
+     {
+      "n": "p25303777",
+      "authors": "McDonald et al.",
+      "year": "2014",
+      "title": "The Pif1 family helicase Pfh1 facilitates telomere replication and has an RPA-dependent role during telomere lengthening",
+      "journal": "DNA Repair (Amst)",
+      "pmid": "25303777",
+      "doi": null
+     },
+     {
+      "n": "p27611590",
+      "authors": "McDonald et al.",
+      "year": "2016",
+      "title": "Pfh1 Is an Accessory Replicative Helicase that Interacts with the Replisome to Facilitate Fork Progression and Preserve Genome Integrity",
+      "journal": "PLoS Genet",
+      "pmid": "27611590",
+      "doi": null
+     },
+     {
+      "n": "p27185885",
+      "authors": "Wallgren et al.",
+      "year": "2016",
+      "title": "G-rich telomeric and ribosomal DNA sequences from the fission yeast genome form stable G-quadruplex DNA structures in vitro and are unwound by the Pfh1 DNA helicase",
+      "journal": "Nucleic Acids Res",
+      "pmid": "27185885",
+      "doi": null
+     },
+     {
+      "n": "p25471935",
+      "authors": "Sabouri et al.",
+      "year": "2014",
+      "title": "The essential Schizosaccharomyces pombe Pfh1 DNA helicase promotes fork movement past G-quadruplex motifs to prevent DNA damage",
+      "journal": "BMC Biol",
+      "pmid": "25471935",
+      "doi": null
+     },
+     {
+      "n": "p15302919",
+      "authors": "Ryu et al.",
+      "year": "2004",
+      "title": "Genetic and biochemical analyses of Pfh1 DNA helicase function in fission yeast",
+      "journal": "Nucleic Acids Res",
+      "pmid": "15302919",
+      "doi": null
+     },
+     {
+      "n": "p22426535",
+      "authors": "Steinacher et al.",
+      "year": "2012",
+      "title": "The DNA helicase Pfh1 promotes fork merging at replication termination sites to ensure genome stability",
+      "journal": "Genes Dev",
+      "pmid": "22426535",
+      "doi": null
+     },
+     {
+      "n": "p30321377",
+      "authors": "Telekawa et al.",
+      "year": "2018",
+      "title": "Proteomic profiling and functional characterization of post-translational modifications of the fission yeast RNA exosome",
+      "journal": "Nucleic Acids Res",
+      "pmid": "30321377",
+      "doi": null
+     }
+    ]
+   }
+  ],
+  "pif1-human": [
+   {
+    "topic": "Replication through protein barriers (rDNA, telomeres, centromeres)",
+    "items": [
+     {
+      "n": "p30698796",
+      "authors": "Dehghani-Tafti et al.",
+      "year": "2019",
+      "title": "Structural and functional analysis of the nucleotide and DNA binding activities of the human PIF1 helicase",
+      "journal": "Nucleic Acids Res",
+      "pmid": "30698796",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "G-quadruplex resolution",
+    "items": [
+     {
+      "n": "p19700773",
+      "authors": "George et al.",
+      "year": "2009",
+      "title": "Human Pif1 helicase unwinds synthetic DNA structures resembling stalled DNA replication forks",
+      "journal": "Nucleic Acids Res",
+      "pmid": "19700773",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Helicase-independent functions of Rrm3",
+    "items": [
+     {
+      "n": "p22347400",
+      "authors": "Chisholm et al.",
+      "year": "2012",
+      "title": "A genomewide screen for suppressors of Alu-mediated rearrangements reveals a role for PIF1",
+      "journal": "PLoS One",
+      "pmid": "22347400",
+      "doi": null
+     }
+    ]
+   },
+   {
+    "topic": "Structure",
+    "items": [
+     {
+      "n": "p18835853",
+      "authors": "Gu & Kamiya",
+      "year": "2008",
+      "title": "Biochemical analysis of human PIF1 helicase and functions of its N-terminal domain",
+      "journal": "Nucleic Acids Res",
+      "pmid": "18835853",
+      "doi": "10.1093/nar/gkn609"
+     }
+    ]
+   },
+   {
+    "topic": "Replication through barriers and G4 unwinding",
+    "items": [
+     {
+      "n": "p17172855",
+      "authors": "Mateyak & Zakian",
+      "year": "2006",
+      "title": "Human PIF helicase is cell cycle regulated and associates with telomerase",
+      "journal": "Cell Cycle",
+      "pmid": "17172855",
+      "doi": "10.4161/cc.5.23.3524"
+     }
+    ]
+   }
+  ],
+  "pif1-calbicans": [
+   {
+    "topic": "Telomere length maintenance",
+    "items": [
+     {
+      "n": "p28216645",
+      "authors": "Wei et al.",
+      "year": "2017",
+      "title": "A 3'-5' exonuclease activity embedded in the helicase core domain of Candida albicans Pif1 helicase",
+      "journal": "Sci Rep",
+      "pmid": "28216645",
+      "doi": null
+     }
+    ]
+   }
+  ],
+  "dda-t4": [
+   {
+    "topic": "Structure",
+    "items": [
+     {
+      "n": "p22658750",
+      "authors": "He",
+      "year": "2012",
+      "title": "The T4 phage SF1B helicase Dda is structurally optimized to perform DNA strand separation",
+      "journal": "Structure",
+      "pmid": "22658750",
+      "doi": "10.1016/j.str.2012.04.013"
+     }
+    ]
+   },
+   {
+    "topic": "Quaternary structure",
+    "items": [
+     {
+      "n": "p11278788",
+      "authors": "Morris",
+      "year": "2001",
+      "title": "Evidence for a functional monomeric form of the bacteriophage T4 DdA helicase. Dda does not form stable oligomeric structures",
+      "journal": "J Biol Chem",
+      "pmid": "11278788",
+      "doi": "10.1074/jbc.M010928200"
+     },
+     {
+      "n": "p12411580",
+      "authors": "Nanduri & Raney",
+      "year": "2002",
+      "title": "Pre-steady-state DNA unwinding by bacteriophage T4 Dda helicase reveals a monomeric molecular motor",
+      "journal": "Proc Natl Acad Sci U S A",
+      "pmid": "12411580",
+      "doi": "10.1073/pnas.232401899"
+     },
+     {
+      "n": "p16185067",
+      "authors": "Byrd & Raney",
+      "year": "2005",
+      "title": "Increasing the length of the single-stranded overhang enhances unwinding of duplex DNA by bacteriophage T4 Dda helicase",
+      "journal": "Biochemistry",
+      "pmid": "16185067",
+      "doi": "10.1021/bi050703z"
+     },
+     {
+      "n": "p16738140",
+      "authors": "Byrd & Raney",
+      "year": "2006",
+      "title": "Displacement of a DNA binding protein by Dda helicase",
+      "journal": "Nucleic Acids Res",
+      "pmid": "16738140",
+      "doi": "10.1093/nar/"
+     }
+    ]
+   },
+   {
+    "topic": "Replication through barriers and G4 unwinding",
+    "items": [
+     {
+      "n": "p22504228",
+      "authors": "Byrd",
+      "year": "2012",
+      "title": "Dda helicase tightly couples translocation on single-stranded DNA to unwinding of duplex DNA: Dda is an optimally active helicase",
+      "journal": "J Mol Biol",
+      "pmid": "22504228",
+      "doi": "10.1016/j.jmb.2012.04.007"
+     }
+    ]
+   }
+  ]
+ },
+ "family": [
+  {
+   "topic": "Reviews and background on helicases and the Pif1 family",
+   "items": [
+    {
+     "n": "p16935874",
+     "authors": "Boule & Zakian",
+     "year": "2006",
+     "title": "Roles of Pif1-like helicases in the maintenance of genomic stability",
+     "journal": "Nucleic Acids Res",
+     "pmid": "16935874",
+     "doi": null
+    },
+    {
+     "n": "p21670310",
+     "authors": "Bochman & Zakian",
+     "year": "2011",
+     "title": "The Pif1 family in prokaryotes: what are our helicases doing in your bacteria?",
+     "journal": "Mol Biol Cell",
+     "pmid": "21670310",
+     "doi": "10.1091/mbc.E11-01-0045"
+    },
+    {
+     "n": "p11166213",
+     "authors": "Bessler & Zakian",
+     "year": "2001",
+     "title": "The Pif1p subfamily of helicases: region-specific DNA helicases?",
+     "journal": "Trends Cell Biol",
+     "pmid": "11166213",
+     "doi": "10.1016/S0962-8924(00)01877-8"
+    },
+    {
+     "n": "p18329872",
+     "authors": "Enemark & Joshua-Tor",
+     "year": "2008",
+     "title": "On helicases and other motor proteins",
+     "journal": "Curr Opin Struct Biol",
+     "pmid": "18329872",
+     "doi": "10.1016/j.sbi.2008.01.007"
+    },
+    {
+     "n": "p18414490",
+     "authors": "Lohman et al.",
+     "year": "2008",
+     "title": "Non-hexameric DNA helicases and translocases: mechanisms and regulation",
+     "journal": "Nat Rev Mol Cell Biol",
+     "pmid": "18414490",
+     "doi": null
+    },
+    {
+     "n": "p17506634",
+     "authors": "Singleton et al.",
+     "year": "2007",
+     "title": "Structure and mechanism of helicases and nucleic acid translocases",
+     "journal": "Annu Rev Biochem",
+     "pmid": "17506634",
+     "doi": null
+    },
+    {
+     "n": "tdnareplicationthroughhardtoreplicatesitesincludingbothhighly",
+     "authors": "Sabouri et al.",
+     "year": "2012",
+     "title": "DNA Replication through Hard-to-Replicate Sites, Including Both Highly Transcribed Rna Pol Ii and Pol Iii Genes, Requires the S. Pombe Pfh1 Helicase",
+     "journal": null,
+     "pmid": null,
+     "doi": null
+    },
+    {
+     "n": "p24500472",
+     "authors": "Chung",
+     "year": "2014",
+     "title": "To peep into Pif1 helicase: multifaceted all the way from genome stability to repair-associated DNA synthesis",
+     "journal": "J Microbiol",
+     "pmid": "24500472",
+     "doi": "10.1007/s12275-014-3524-3"
+    },
+    {
+     "n": "p27884703",
+     "authors": "Crouch & Brosh",
+     "year": "2017",
+     "title": "Mechanistic and biological considerations of oxidatively damaged DNA for helicase-dependent pathways of nucleic acid metabolism",
+     "journal": "Free Radic Biol Med",
+     "pmid": "27884703",
+     "doi": "10.1016/j.freeradbiomed.2016.11.022"
+    },
+    {
+     "n": "p22652765",
+     "authors": "Byrd & Raney",
+     "year": "2012",
+     "title": "Superfamily 2 helicases",
+     "journal": "Front Biosci (Landmark Ed)",
+     "pmid": "22652765",
+     "doi": "10.2741/4038"
+    },
+    {
+     "n": "p23269543",
+     "authors": "Raney & Aarattuthodiyil",
+     "year": "2013",
+     "title": "Structure and Mechanisms of SF1 DNA Helicases",
+     "journal": "Adv Exp Med Biol",
+     "pmid": "23269543",
+     "doi": "10.1007/"
+    },
+    {
+     "n": "p27308340",
+     "authors": "Bochman",
+     "year": "2014",
+     "title": "Roles of DNA helicases in the maintenance of genome integrity",
+     "journal": "Mol Cell Oncol",
+     "pmid": "27308340",
+     "doi": "10.4161/23723548.2014"
+    },
+    {
+     "n": "p28054200",
+     "authors": "Sabouri",
+     "year": "2017",
+     "title": "The functions of the multi-tasking Pfh1(Pif1) helicase",
+     "journal": "Curr Genet",
+     "pmid": "28054200",
+     "doi": "10.1007/s00294-016-0675-2"
+    },
+    {
+     "n": "tgettingitdoneattheendspif1familydnahelicasesandtelomeres",
+     "authors": "Geronimo & Zakian",
+     "year": "2016",
+     "title": "Getting it done at the ends: Pif1 family DNA helicases and telomeres",
+     "journal": null,
+     "pmid": null,
+     "doi": "10.1016/j"
+    },
+    {
+     "n": "p10594814",
+     "authors": "Hall & Matson",
+     "year": "1999",
+     "title": "Helicase motifs: the engine that powers DNA unwinding",
+     "journal": "Mol Microbiol",
+     "pmid": "10594814",
+     "doi": "10.1046/j.1365-2958"
+    },
+    {
+     "n": "p20097624",
+     "authors": "Bochman & Zakian",
+     "year": "2010",
+     "title": "Unwinding the functions of the Pif1 family helicases",
+     "journal": "DNA Repair (Amst)",
+     "pmid": "20097624",
+     "doi": "10.1016/j"
+    }
+   ]
+  },
+  {
+   "topic": "G-quadruplexes and genome stability",
+   "items": [
+    {
+     "n": "p12239216",
+     "authors": "Schmidt et al.",
+     "year": "2002",
+     "title": "Saccharomyces cerevisiae RRM3, a 5' to 3' DNA helicase, physically interacts with proliferating cell nuclear antigen",
+     "journal": "J Biol Chem",
+     "pmid": "12239216",
+     "doi": null
+    },
+    {
+     "n": "p21873979",
+     "authors": "Lopes et al.",
+     "year": "2011",
+     "title": "G-quadruplex-induced instability during leading-strand replication",
+     "journal": "EMBO J",
+     "pmid": "21873979",
+     "doi": null
+    },
+    {
+     "n": "p28369605",
+     "authors": "Lopez et al.",
+     "year": "2017",
+     "title": "Yeast Sub1 and human PC4 are G-quadruplex binding proteins that suppress genome instability at co-transcriptionally formed G4 DNA",
+     "journal": "Nucleic Acids Res",
+     "pmid": "28369605",
+     "doi": null
+    },
+    {
+     "n": "p19704012",
+     "authors": "Chang et al.",
+     "year": "2009",
+     "title": "Telomerase is essential to alleviate pif1-induced replication stress at telomeres",
+     "journal": "Genetics",
+     "pmid": "19704012",
+     "doi": null
+    },
+    {
+     "n": "p25589786",
+     "authors": "Byrd & Raney",
+     "year": "2015",
+     "title": "A parallel quadruplex DNA is bound tightly but unfolded slowly by pif1 helicase",
+     "journal": "J Biol Chem",
+     "pmid": "25589786",
+     "doi": null
+    },
+    {
+     "n": "p20676380",
+     "authors": "Capra et al.",
+     "year": "2010",
+     "title": "G-quadruplex DNA sequences are evolutionarily conserved and associated with distinct genomic features in Saccharomyces cerevisiae",
+     "journal": "PLoS Comput Biol",
+     "pmid": "20676380",
+     "doi": null
+    },
+    {
+     "n": "p22965135",
+     "authors": "Wanrooij et al.",
+     "year": "2012",
+     "title": "A hybrid G-quadruplex structure formed between RNA and DNA explains the extraordinary stability of the mitochondrial R-loop",
+     "journal": "Nucleic Acids Res",
+     "pmid": "22965135",
+     "doi": null
+    },
+    {
+     "n": "p21172804",
+     "authors": "Hashash et al.",
+     "year": "2011",
+     "title": "Regulation of fragile sites expression in budding yeast by MEC1, RRM3 and hydroxyurea",
+     "journal": "J Cell Sci",
+     "pmid": "21172804",
+     "doi": null
+    }
+   ]
+  },
+  {
+   "topic": "Barriers, regulation and G4 unwinding",
+   "items": [
+    {
+     "n": "p26883636",
+     "authors": "Mendoza & Mergny",
+     "year": "2016",
+     "title": "G-quadruplexes and helicases",
+     "journal": "Nucleic Acids Res",
+     "pmid": "26883636",
+     "doi": "10.1093/nar/gkw079"
+    },
+    {
+     "n": "p25765657",
+     "authors": "Mendoza & Mergny",
+     "year": "2015",
+     "title": "A fluorescence-based helicase assay: application to the screening of G-quadruplex ligands",
+     "journal": "Nucleic Acids Res",
+     "pmid": "25765657",
+     "doi": "10.1093/nar/gkv193"
+    },
+    {
+     "n": "p24487181",
+     "authors": "Gray & Chaires",
+     "year": "2014",
+     "title": "Folding and unfolding pathways of the human telomeric G-quadruplex",
+     "journal": "J Mol Biol",
+     "pmid": "24487181",
+     "doi": "10.1016/j.jmb.2014.01.009"
+    },
+    {
+     "n": "p27799468",
+     "authors": "Aznauryan & Birkedal",
+     "year": "2016",
+     "title": "A direct view of the complex multi-pathway folding of telomeric G-quadruplexes",
+     "journal": "Nucleic Acids Res",
+     "pmid": "27799468",
+     "doi": "10.1093/nar/gkw1010"
+    },
+    {
+     "n": "p27342280",
+     "authors": "Wu & Spies",
+     "year": "2016",
+     "title": "G-quadruplex recognition and remodeling by the FANCJ helicase",
+     "journal": "Nucleic Acids Res",
+     "pmid": "27342280",
+     "doi": "10.1093/nar/"
+    },
+    {
+     "n": "p27407146",
+     "authors": "Tippana & Myong",
+     "year": "2016",
+     "title": "Single-molecule imaging reveals a common mechanism shared by G-quadruplex-resolving helicases",
+     "journal": "Proc Natl Acad Sci U S A",
+     "pmid": "27407146",
+     "doi": "10.1073/pnas.1603724113"
+    },
+    {
+     "n": "p20472641",
+     "authors": "Lattmann & Nagamine",
+     "year": "2010",
+     "title": "Role of the amino terminal RHAU-specific motif in the recognition and resolution of guanine quadruplex-RNA by the DEAH-box RNA helicase RHAU",
+     "journal": "Nucleic Acids Res",
+     "pmid": "20472641",
+     "doi": "10.1093/nar/gkq372"
+    },
+    {
+     "n": "p26195789",
+     "authors": "Heddi & Phan",
+     "year": "2015",
+     "title": "Insights into G-quadruplex specific recognition by the DEAH-box helicase RHAU: Solution structure of a peptide-quadruplex complex",
+     "journal": "Proc Natl Acad Sci U S A",
+     "pmid": "26195789",
+     "doi": "10.1073/pnas.1422605112"
+    },
+    {
+     "n": "p28069813",
+     "authors": "Ketkar & Eoff",
+     "year": "2017",
+     "title": "Residues in the RecQ C-terminal Domain of the Human Werner Syndrome Helicase Are Involved in Unwinding G-quadruplex DNA",
+     "journal": "J Biol Chem",
+     "pmid": "28069813",
+     "doi": "10.1074/jbc.M116.767699"
+    },
+    {
+     "n": "p25813861",
+     "authors": "Gao",
+     "year": "2015",
+     "title": "Yeast transcription co-activator Sub1 and its human homolog PC4 preferentially bind to G-quadruplex DNA",
+     "journal": "Chem Commun (Camb)",
+     "pmid": "25813861",
+     "doi": "10.1039/C5CC00742A"
+    }
+   ]
+  },
+  {
+   "topic": "Bacterial and structural studies",
+   "items": [
+    {
+     "n": "p26809678",
+     "authors": "Chen",
+     "year": "2016",
+     "title": "Crystal structures of the BsPif1 helicase reveal that a major movement of the 2B SH3 domain is required for DNA unwinding",
+     "journal": "Nucleic Acids Res",
+     "pmid": "26809678",
+     "doi": "10.1093/nar/gkw033"
+    },
+    {
+     "n": "p26904952",
+     "authors": "Zhou",
+     "year": "2016",
+     "title": "Structural and Functional Insights into the Unwinding Mechanism of Bacteroides sp Pif1",
+     "journal": "Cell Rep",
+     "pmid": "26904952",
+     "doi": "10.1016/j.celrep.2016.02.008"
+    }
+   ]
+  }
+ ]
+}
