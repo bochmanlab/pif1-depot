@@ -1483,6 +1483,101 @@
   ],
   "genetic_count": 351,
   "interaction_rows": 779,
+  "summary": {
+   "name_description": "rDNA Recombination Mutation",
+   "description": "DNA helicase involved in rDNA replication and Ty1 transposition; binds to and suppresses DNA damage at G4 motifs in vivo; relieves replication fork pauses at telomeric regions; deletion or inactivation of helicase function suppresses chromosome instability (CIN) associated with centromere or kinetochore defects; structurally and functionally related to Pif1p",
+   "paragraph": null,
+   "protein_summary": null,
+   "phenotype_summary": "RRM3/YHR031C is a non-essential gene in reference strain S288C; null mutants are viable and show abnormal vacuolar and bud morphology, delayed S-phase and metaphase-anaphase progression, reduced endocytosis, slower exponential growth and decreased anaerobic growth, shortened chronological lifespan, increased heat sensitivity and decreased hyperosmotic stress resistance, with genome instability phenotypes including increased mutation frequency, mitotic recombination, transposable element transposition, and telomere length. Overexpression slows vegetative growth, increases mutation frequency, and causes abnormal cellular morphology, S\u2011phase progression, and budding.",
+   "regulation_summary": "RRM3/YHR031C transcription is regulated by <a href=\"/locus/S000001393\">Fkh1p</a> in response to heat, by <a href=\"/locus/S000004395\">Sfp1p</a> in response to stress, and by <a href=\"/locus/S000001393\">Fkh1p</a> during maintenance of stationary phase in response to starvation.",
+   "regulation": [
+    {
+     "regulator": "FKH1",
+     "regulator_sgdid": "S000001393",
+     "target": "RRM3",
+     "of": "transcription",
+     "during": "cellular response to heat",
+     "evidence": "chromatin immunoprecipitation-chip evidence",
+     "ref": "Venters BJ, et al. (2011)",
+     "pmid": 21329885
+    },
+    {
+     "regulator": "FKH2",
+     "regulator_sgdid": "S000005012",
+     "target": "RRM3",
+     "of": "transcription",
+     "during": null,
+     "evidence": "chromatin immunoprecipitation-chip evidence",
+     "ref": "MacIsaac KD, et al. (2006)",
+     "pmid": 16522208
+    },
+    {
+     "regulator": "SFP1",
+     "regulator_sgdid": "S000004395",
+     "target": "RRM3",
+     "of": "transcription",
+     "during": "cellular response to stress",
+     "evidence": "DNA to cDNA expression microarray evidence",
+     "ref": "Cipollina C, et al. (2008)",
+     "pmid": 18524923
+    },
+    {
+     "regulator": "FKH1",
+     "regulator_sgdid": "S000001393",
+     "target": "RRM3",
+     "of": "transcription",
+     "during": null,
+     "evidence": "chromatin immunoprecipitation-chip evidence",
+     "ref": "Ostrow AZ, et al. (2014)",
+     "pmid": 24504085
+    },
+    {
+     "regulator": "FKH2",
+     "regulator_sgdid": "S000005012",
+     "target": "RRM3",
+     "of": "transcription",
+     "during": null,
+     "evidence": "chromatin immunoprecipitation-chip evidence",
+     "ref": "Ostrow AZ, et al. (2014)",
+     "pmid": 24504085
+    },
+    {
+     "regulator": "FKH1",
+     "regulator_sgdid": "S000001393",
+     "target": "RRM3",
+     "of": "transcription",
+     "during": null,
+     "evidence": "chromatin immunoprecipitation- exonuclease evidence",
+     "ref": "Mondeel TDGA, et al. (2019)",
+     "pmid": 31299083
+    },
+    {
+     "regulator": "FKH1",
+     "regulator_sgdid": "S000001393",
+     "target": "RRM3",
+     "of": "transcription",
+     "during": "cellular response to starvation",
+     "evidence": "chromatin immunoprecipitation- exonuclease evidence",
+     "ref": "Mondeel TDGA, et al. (2019)",
+     "pmid": 31299083
+    }
+   ],
+   "former_names": [
+    "RTT104"
+   ],
+   "ptm_counts": {
+    "phosphorylated residue": 18,
+    "ubiquitinylated lysine": 1
+   },
+   "disease": [],
+   "literature": {
+    "primary_count": 96,
+    "additional_count": 71,
+    "review_count": 42,
+    "total_count": 305
+   },
+   "systematic": "YHR031C"
+  },
   "phenotypes": [
    {
     "phenotype": "competitive fitness: decreased",
@@ -2372,101 +2467,6 @@
     "pmid": 23103169,
     "experiment": "homozygous diploid, competitive growth"
    }
-  ],
-  "summary": {
-   "name_description": "rDNA Recombination Mutation",
-   "description": "DNA helicase involved in rDNA replication and Ty1 transposition; binds to and suppresses DNA damage at G4 motifs in vivo; relieves replication fork pauses at telomeric regions; deletion or inactivation of helicase function suppresses chromosome instability (CIN) associated with centromere or kinetochore defects; structurally and functionally related to Pif1p",
-   "paragraph": null,
-   "protein_summary": null,
-   "phenotype_summary": "RRM3/YHR031C is a non-essential gene in reference strain S288C; null mutants are viable and show abnormal vacuolar and bud morphology, delayed S-phase and metaphase-anaphase progression, reduced endocytosis, slower exponential growth and decreased anaerobic growth, shortened chronological lifespan, increased heat sensitivity and decreased hyperosmotic stress resistance, with genome instability phenotypes including increased mutation frequency, mitotic recombination, transposable element transposition, and telomere length. Overexpression slows vegetative growth, increases mutation frequency, and causes abnormal cellular morphology, S\u2011phase progression, and budding.",
-   "regulation_summary": "RRM3/YHR031C transcription is regulated by <a href=\"/locus/S000001393\">Fkh1p</a> in response to heat, by <a href=\"/locus/S000004395\">Sfp1p</a> in response to stress, and by <a href=\"/locus/S000001393\">Fkh1p</a> during maintenance of stationary phase in response to starvation.",
-   "regulation": [
-    {
-     "regulator": "FKH1",
-     "regulator_sgdid": "S000001393",
-     "target": "RRM3",
-     "of": "transcription",
-     "during": "cellular response to heat",
-     "evidence": "chromatin immunoprecipitation-chip evidence",
-     "ref": "Venters BJ, et al. (2011)",
-     "pmid": 21329885
-    },
-    {
-     "regulator": "FKH2",
-     "regulator_sgdid": "S000005012",
-     "target": "RRM3",
-     "of": "transcription",
-     "during": null,
-     "evidence": "chromatin immunoprecipitation-chip evidence",
-     "ref": "MacIsaac KD, et al. (2006)",
-     "pmid": 16522208
-    },
-    {
-     "regulator": "SFP1",
-     "regulator_sgdid": "S000004395",
-     "target": "RRM3",
-     "of": "transcription",
-     "during": "cellular response to stress",
-     "evidence": "DNA to cDNA expression microarray evidence",
-     "ref": "Cipollina C, et al. (2008)",
-     "pmid": 18524923
-    },
-    {
-     "regulator": "FKH1",
-     "regulator_sgdid": "S000001393",
-     "target": "RRM3",
-     "of": "transcription",
-     "during": null,
-     "evidence": "chromatin immunoprecipitation-chip evidence",
-     "ref": "Ostrow AZ, et al. (2014)",
-     "pmid": 24504085
-    },
-    {
-     "regulator": "FKH2",
-     "regulator_sgdid": "S000005012",
-     "target": "RRM3",
-     "of": "transcription",
-     "during": null,
-     "evidence": "chromatin immunoprecipitation-chip evidence",
-     "ref": "Ostrow AZ, et al. (2014)",
-     "pmid": 24504085
-    },
-    {
-     "regulator": "FKH1",
-     "regulator_sgdid": "S000001393",
-     "target": "RRM3",
-     "of": "transcription",
-     "during": null,
-     "evidence": "chromatin immunoprecipitation- exonuclease evidence",
-     "ref": "Mondeel TDGA, et al. (2019)",
-     "pmid": 31299083
-    },
-    {
-     "regulator": "FKH1",
-     "regulator_sgdid": "S000001393",
-     "target": "RRM3",
-     "of": "transcription",
-     "during": "cellular response to starvation",
-     "evidence": "chromatin immunoprecipitation- exonuclease evidence",
-     "ref": "Mondeel TDGA, et al. (2019)",
-     "pmid": 31299083
-    }
-   ],
-   "former_names": [
-    "RTT104"
-   ],
-   "ptm_counts": {
-    "phosphorylated residue": 18,
-    "ubiquitinylated lysine": 1
-   },
-   "disease": [],
-   "literature": {
-    "primary_count": 96,
-    "additional_count": 71,
-    "review_count": 42,
-    "total_count": 305
-   },
-   "systematic": "YHR031C"
-  }
+  ]
  }
 }

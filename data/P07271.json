@@ -1486,6 +1486,106 @@
   ],
   "genetic_count": 179,
   "interaction_rows": 358,
+  "summary": {
+   "name_description": "Petite Integration Frequency",
+   "description": "DNA helicase, potent G-quadruplex DNA binder/unwinder; possesses strand annealing activity; promotes DNA synthesis during break-induced replication; involved in crossover recombination; works with Hrq1p to maintain telomere length homeostasis; translation from different start sites produces mitochondrial (DNA repair and recombination) and nuclear (catalytic inhibitor of telomerase) isoforms; mutations affect Zn, Fe homeostasis; regulated by Rad53p-dependent phosphorylation in rho0 cells",
+   "paragraph": "PIF1 encodes a DNA helicase and telomerase inhibitor that binds single-stranded DNA and G-quadruplex DNA. Pif1p has multiple roles in chromosome organization including DNA strand renaturation, G-quadruplex DNA unwinding, telomere maintenance, DNA recombination, double-strand break repair via break-induced replication, replication fork reversal, and mitochondrial genome maintenance. Pif1p localizes to the nuclear replication fork, sites of double-strand breaks, and the mitochondrial membrane. PIF1/YML061C is located on the left arm of chromosome XIII between MFT1 THO complex subunit and OGG1 nuclear and mitochondrial glycosylase/lyase. The PIF1 coding sequence is 2580 nucleotides long with 23 SNPs, 4 of which cause amino acid polymorphisms. Pif1p is 859 amino acids long, and low in abundance. Pif1p is acetylated on 6 lysines, sumoylated on 4 lysines, and phosphorylated on 19 residues.<br><br>PIF1 is a non-essential gene; null mutants are viable. The null mutant shows elevated frequency of mutations and gross chromosomal rearrangements, accumulates more iron than wild type in mitochondria and cytoplasm and more zinc in mitochondria, is sensitive to DNA damaging agents and oxidative stress but resistant to Zn++, shows defective inheritance of the mitochondrial genome, defective respiratory growth, small cell size, reduced competitive fitness in a variety of different media, lengthened telomeres, and altered resistance to various chemicals. The PIF1 promoter is bound by Yap5p in response to heat. PIF1 transcription is regulated by Sfp1p in response to stress. Pif1 protein activity is activated by Esa1p and deactivated by Rpd3p. Pif1p interacts physically with proteins involved in DNA repair and DNA replication. PIF1 interacts genetically with genes involved in DNA repair. Yeast PIF1 is homologous to human PIF1, and has been used to study mutations found in patients with cancer and progeria.<br><br>",
+   "protein_summary": "Pif1p is 859 amino acids long, low in abundance; acetylated on 6 lysines, sumoylated on 4 lysines, phosphorylated on 19 residues",
+   "phenotype_summary": "Non-essential gene in reference strain S288C; null mutant shows elevated frequency of mutations and gross chromosomal rearrangements; null mutant accumulates more iron than wild type in mitochondria and cytoplasm, and more zinc in mitochondria; null mutant is sensitive to DNA damaging agents and oxidative stress but resistant to Zn++; inheritance of the mitochondrial genome is defective in the null mutant; in large-scale studies, null mutant shows respiratory growth defect, small cell size, reduced competitive fitness in a variety of different media, lengthened telomeres, and altered resistance to various chemicals\n",
+   "regulation_summary": "PIF1 promoter is bound by <a href=\"/locus/S000001457\">Yap5p</a> in response to heat; PIF1 transcription is regulated by <a href=\"/locus/S000004395\">Sfp1p</a> in response to stress; Pif1 protein activity is activated by <a href=\"/locus/S000005770\">Esa1p</a> and deactivated by <a href=\"/locus/S000005274\">Rpd3p</a>",
+   "regulation": [
+    {
+     "regulator": "YAP5",
+     "regulator_sgdid": "S000001457",
+     "target": "PIF1",
+     "of": "transcription",
+     "during": "cellular response to heat",
+     "evidence": "chromatin immunoprecipitation-chip evidence",
+     "ref": "Venters BJ, et al. (2011)",
+     "pmid": 21329885
+    },
+    {
+     "regulator": "SPT10",
+     "regulator_sgdid": "S000003663",
+     "target": "PIF1",
+     "of": "transcription",
+     "during": null,
+     "evidence": "DNA to cDNA expression microarray evidence",
+     "ref": "Mendiratta G, et al. (2006)",
+     "pmid": 16415340
+    },
+    {
+     "regulator": "SFP1",
+     "regulator_sgdid": "S000004395",
+     "target": "PIF1",
+     "of": "transcription",
+     "during": "cellular response to stress",
+     "evidence": "DNA to cDNA expression microarray evidence",
+     "ref": "Cipollina C, et al. (2008)",
+     "pmid": 18524923
+    },
+    {
+     "regulator": "ESA1",
+     "regulator_sgdid": "S000005770",
+     "target": "PIF1",
+     "of": "protein activity",
+     "during": null,
+     "evidence": "qualitative western immunoblotting evidence",
+     "ref": "Ononye OE, et al. (2020)",
+     "pmid": 32878983
+    },
+    {
+     "regulator": "RPD3",
+     "regulator_sgdid": "S000005274",
+     "target": "PIF1",
+     "of": "protein activity",
+     "during": null,
+     "evidence": "qualitative western immunoblotting evidence",
+     "ref": "Ononye OE, et al. (2020)",
+     "pmid": 32878983
+    },
+    {
+     "regulator": "RPD3",
+     "regulator_sgdid": "S000005274",
+     "target": "PIF1",
+     "of": "protein activity",
+     "during": null,
+     "evidence": "experimental evidence",
+     "ref": "Ononye OE, et al. (2020)",
+     "pmid": 32878983
+    },
+    {
+     "regulator": "ESA1",
+     "regulator_sgdid": "S000005770",
+     "target": "PIF1",
+     "of": "protein activity",
+     "during": null,
+     "evidence": "experimental evidence",
+     "ref": "Ononye OE, et al. (2020)",
+     "pmid": 32878983
+    }
+   ],
+   "former_names": [
+    "TST1"
+   ],
+   "ptm_counts": {
+    "phosphorylated residue": 44,
+    "sumoylated lysine": 4,
+    "deacetylated residue": 6,
+    "monoacetylated residue": 6
+   },
+   "disease": [
+    "cancer",
+    "progeria"
+   ],
+   "literature": {
+    "primary_count": 165,
+    "additional_count": 94,
+    "review_count": 59,
+    "total_count": 409
+   },
+   "systematic": "YML061C"
+  },
   "phenotypes": [
    {
     "phenotype": "viable",
@@ -2701,106 +2801,6 @@
     "pmid": 23103169,
     "experiment": "homozygous diploid, competitive growth"
    }
-  ],
-  "summary": {
-   "name_description": "Petite Integration Frequency",
-   "description": "DNA helicase, potent G-quadruplex DNA binder/unwinder; possesses strand annealing activity; promotes DNA synthesis during break-induced replication; involved in crossover recombination; works with Hrq1p to maintain telomere length homeostasis; translation from different start sites produces mitochondrial (DNA repair and recombination) and nuclear (catalytic inhibitor of telomerase) isoforms; mutations affect Zn, Fe homeostasis; regulated by Rad53p-dependent phosphorylation in rho0 cells",
-   "paragraph": "PIF1 encodes a DNA helicase and telomerase inhibitor that binds single-stranded DNA and G-quadruplex DNA. Pif1p has multiple roles in chromosome organization including DNA strand renaturation, G-quadruplex DNA unwinding, telomere maintenance, DNA recombination, double-strand break repair via break-induced replication, replication fork reversal, and mitochondrial genome maintenance. Pif1p localizes to the nuclear replication fork, sites of double-strand breaks, and the mitochondrial membrane. PIF1/YML061C is located on the left arm of chromosome XIII between MFT1 THO complex subunit and OGG1 nuclear and mitochondrial glycosylase/lyase. The PIF1 coding sequence is 2580 nucleotides long with 23 SNPs, 4 of which cause amino acid polymorphisms. Pif1p is 859 amino acids long, and low in abundance. Pif1p is acetylated on 6 lysines, sumoylated on 4 lysines, and phosphorylated on 19 residues.<br><br>PIF1 is a non-essential gene; null mutants are viable. The null mutant shows elevated frequency of mutations and gross chromosomal rearrangements, accumulates more iron than wild type in mitochondria and cytoplasm and more zinc in mitochondria, is sensitive to DNA damaging agents and oxidative stress but resistant to Zn++, shows defective inheritance of the mitochondrial genome, defective respiratory growth, small cell size, reduced competitive fitness in a variety of different media, lengthened telomeres, and altered resistance to various chemicals. The PIF1 promoter is bound by Yap5p in response to heat. PIF1 transcription is regulated by Sfp1p in response to stress. Pif1 protein activity is activated by Esa1p and deactivated by Rpd3p. Pif1p interacts physically with proteins involved in DNA repair and DNA replication. PIF1 interacts genetically with genes involved in DNA repair. Yeast PIF1 is homologous to human PIF1, and has been used to study mutations found in patients with cancer and progeria.<br><br>",
-   "protein_summary": "Pif1p is 859 amino acids long, low in abundance; acetylated on 6 lysines, sumoylated on 4 lysines, phosphorylated on 19 residues",
-   "phenotype_summary": "Non-essential gene in reference strain S288C; null mutant shows elevated frequency of mutations and gross chromosomal rearrangements; null mutant accumulates more iron than wild type in mitochondria and cytoplasm, and more zinc in mitochondria; null mutant is sensitive to DNA damaging agents and oxidative stress but resistant to Zn++; inheritance of the mitochondrial genome is defective in the null mutant; in large-scale studies, null mutant shows respiratory growth defect, small cell size, reduced competitive fitness in a variety of different media, lengthened telomeres, and altered resistance to various chemicals\n",
-   "regulation_summary": "PIF1 promoter is bound by <a href=\"/locus/S000001457\">Yap5p</a> in response to heat; PIF1 transcription is regulated by <a href=\"/locus/S000004395\">Sfp1p</a> in response to stress; Pif1 protein activity is activated by <a href=\"/locus/S000005770\">Esa1p</a> and deactivated by <a href=\"/locus/S000005274\">Rpd3p</a>",
-   "regulation": [
-    {
-     "regulator": "YAP5",
-     "regulator_sgdid": "S000001457",
-     "target": "PIF1",
-     "of": "transcription",
-     "during": "cellular response to heat",
-     "evidence": "chromatin immunoprecipitation-chip evidence",
-     "ref": "Venters BJ, et al. (2011)",
-     "pmid": 21329885
-    },
-    {
-     "regulator": "SPT10",
-     "regulator_sgdid": "S000003663",
-     "target": "PIF1",
-     "of": "transcription",
-     "during": null,
-     "evidence": "DNA to cDNA expression microarray evidence",
-     "ref": "Mendiratta G, et al. (2006)",
-     "pmid": 16415340
-    },
-    {
-     "regulator": "SFP1",
-     "regulator_sgdid": "S000004395",
-     "target": "PIF1",
-     "of": "transcription",
-     "during": "cellular response to stress",
-     "evidence": "DNA to cDNA expression microarray evidence",
-     "ref": "Cipollina C, et al. (2008)",
-     "pmid": 18524923
-    },
-    {
-     "regulator": "ESA1",
-     "regulator_sgdid": "S000005770",
-     "target": "PIF1",
-     "of": "protein activity",
-     "during": null,
-     "evidence": "qualitative western immunoblotting evidence",
-     "ref": "Ononye OE, et al. (2020)",
-     "pmid": 32878983
-    },
-    {
-     "regulator": "RPD3",
-     "regulator_sgdid": "S000005274",
-     "target": "PIF1",
-     "of": "protein activity",
-     "during": null,
-     "evidence": "qualitative western immunoblotting evidence",
-     "ref": "Ononye OE, et al. (2020)",
-     "pmid": 32878983
-    },
-    {
-     "regulator": "RPD3",
-     "regulator_sgdid": "S000005274",
-     "target": "PIF1",
-     "of": "protein activity",
-     "during": null,
-     "evidence": "experimental evidence",
-     "ref": "Ononye OE, et al. (2020)",
-     "pmid": 32878983
-    },
-    {
-     "regulator": "ESA1",
-     "regulator_sgdid": "S000005770",
-     "target": "PIF1",
-     "of": "protein activity",
-     "during": null,
-     "evidence": "experimental evidence",
-     "ref": "Ononye OE, et al. (2020)",
-     "pmid": 32878983
-    }
-   ],
-   "former_names": [
-    "TST1"
-   ],
-   "ptm_counts": {
-    "phosphorylated residue": 44,
-    "sumoylated lysine": 4,
-    "deacetylated residue": 6,
-    "monoacetylated residue": 6
-   },
-   "disease": [
-    "cancer",
-    "progeria"
-   ],
-   "literature": {
-    "primary_count": 165,
-    "additional_count": 94,
-    "review_count": 59,
-    "total_count": 409
-   },
-   "systematic": "YML061C"
-  }
+  ]
  }
 }
