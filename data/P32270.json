@@ -1,0 +1,676 @@
+{
+ "uniprot": "P32270",
+ "slug": "dda-t4",
+ "gene": "dda",
+ "short": "Dda",
+ "organism": "Enterobacteria phage T4",
+ "kingdom": "Viruses",
+ "pubmed": "Dda[tiab] AND (helicase OR T4 OR phage)",
+ "uniprot_data": {
+  "accession": "P32270",
+  "entry": "DDA_BPT4",
+  "reviewed": true,
+  "name": "ATP-dependent DNA helicase dda",
+  "alt_names": [
+   "DNA 5'-3' helicase Dda"
+  ],
+  "ec": [
+   "5.6.2.3"
+  ],
+  "genes": [
+   "dda",
+   "sud"
+  ],
+  "organism": "Enterobacteria phage T4",
+  "taxid": 10665,
+  "length": 439,
+  "mass": 49897,
+  "sequence": "MTFDDLTEGQKNAFNIVMKAIKEKKHHVTINGPAGTGKTTLTKFIIEALISTGGTGIILAAPTHAAKKILSKLSGKEASTIHSILKINPVTYEENVLFEQKEVPDLAKCRVLICDEVSMYDRKLFKILLSTIPPWCTIIGIGDNKQIRPVEPGENTAYISPFFTHKDFYQCELTEVKRSNAPIIDVATDVRNGKWNYDKVVDGHGVRGFTGDTALRDFMVNYFSIVKSLDDLFENRVMAFTNKSVDKLNSIIRKKIFETDKDFIVGEIIVMQEPLFKTYKIDGKPVSEIIFNNGQLVRIIEAEYTSTFVKARGVPGEYLIRHWDLTVETYGDDEYYREKIKIISSDEELYKFNLFLAKTAETYKNWNKGGKAPWSDFWDAKSQFSKVKALPASTFHKAQGMSVDRAFIYTPCIHYADVELAQQLLYVGVTRGRYDVFYV",
+  "existence": "1: Evidence at protein level",
+  "annotation_score": 4.0,
+  "last_modified": "2026-09-02",
+  "comments": {
+   "FUNCTION": [
+    "DNA helicase that stimulates viral DNA replication and recombination. Plays a role in T4 DNA replication initiation by selecting and activating DNA origins. Acts by dissociating and reassociating with the DNA molecule being unwound. Unwinds DNA as a monomer in a 5'-3' direction at a rate of 250 bp/s and can efficiently displace proteins from the DNA (PubMed:17823128, PubMed:22504228)"
+   ],
+   "CATALYTIC ACTIVITY": [
+    "Couples ATP hydrolysis with the unwinding of duplex DNA at the replication fork by translocating in the 5'-3' direction.",
+    "ATP + H2O = ADP + phosphate + H(+)"
+   ],
+   "SUBUNIT": [
+    "Monomer (PubMed:12411580). Interacts with UvsX and gene 32 protein (PubMed:1328208). Interacts with the single-stranded DNA-binding protein; this interaction probably allows Dda to stimulate branch migration (PubMed:39417586)"
+   ]
+  },
+  "features": {
+   "domains": [
+    {
+     "name": "AAA domain (Pfam PF13604)",
+     "start": 6,
+     "end": 196
+    },
+    {
+     "name": "Dda helicase SH3 domain (Pfam PF18343)",
+     "start": 261,
+     "end": 389
+    },
+    {
+     "name": "UvrD-like helicase C-terminal domain (Pfam PF13538)",
+     "start": 392,
+     "end": 434
+    }
+   ],
+   "regions": [],
+   "motifs": [],
+   "binding": [
+    {
+     "start": 32,
+     "end": 39,
+     "ligand": "ATP"
+    }
+   ],
+   "mutagenesis": [],
+   "variants": []
+  },
+  "go": [
+   {
+    "id": "GO:0043139",
+    "term": "F:5'-3' DNA helicase activity"
+   },
+   {
+    "id": "GO:0005524",
+    "term": "F:ATP binding"
+   },
+   {
+    "id": "GO:0016887",
+    "term": "F:ATP hydrolysis activity"
+   },
+   {
+    "id": "GO:0004386",
+    "term": "F:helicase activity"
+   },
+   {
+    "id": "GO:0006260",
+    "term": "P:DNA replication"
+   }
+  ],
+  "pdb": [
+   {
+    "id": "3UPU",
+    "method": "X-ray",
+    "res": "3.30 A",
+    "chains": "A/B/C=1-439"
+   },
+   {
+    "id": "8GME",
+    "method": "X-ray",
+    "res": "4.98 A",
+    "chains": "C/D=1-439"
+   },
+   {
+    "id": "8S9I",
+    "method": "X-ray",
+    "res": "3.53 A",
+    "chains": "A=1-439"
+   }
+  ],
+  "interpro": [
+   {
+    "id": "IPR003593",
+    "name": "AAA+_ATPase"
+   },
+   {
+    "id": "IPR027417",
+    "name": "P-loop_NTPase"
+   },
+   {
+    "id": "IPR051055",
+    "name": "PIF1_helicase"
+   },
+   {
+    "id": "IPR041214",
+    "name": "SH3_14"
+   },
+   {
+    "id": "IPR027785",
+    "name": "UvrD-like_helicase_C"
+   }
+  ],
+  "pfam": [
+   {
+    "id": "PF13604",
+    "name": "AAA_30"
+   },
+   {
+    "id": "PF18343",
+    "name": "SH3_14"
+   },
+   {
+    "id": "PF13538",
+    "name": "UvrD_C_2"
+   }
+  ],
+  "omim": [],
+  "orphanet": [],
+  "refseq": [
+   "NP_049632.1"
+  ],
+  "panther": [
+   {
+    "id": "PTHR47642",
+    "name": "ATP-DEPENDENT DNA HELICASE"
+   },
+   {
+    "id": "PTHR47642:SF7",
+    "name": "ATP-DEPENDENT DNA HELICASE PIF1"
+   }
+  ]
+ },
+ "group_ids": [
+  "PTHR47642"
+ ],
+ "group": "PIF1 family",
+ "literature": {
+  "count": 67,
+  "papers": [
+   {
+    "pmid": "42607195",
+    "title": "Novel Class I HDAC Inhibitors Sensitize Ovarian Cancer Cells for Cisplatin and Niraparib via an HDAC3-SLFN11 Axis",
+    "authors": [
+     "Eichhorn JM",
+     "Menning J",
+     "Sch\u00e4ker-H\u00fcbner L",
+     "et al."
+    ],
+    "journal": "ACS Chem Biol",
+    "year": "2026",
+    "date": "2026 Aug 18"
+   },
+   {
+    "pmid": "42441405",
+    "title": "eIF4E2 deficiency translationally unleashes WRN to sustain DNA repair-mediated chemoresistance",
+    "authors": [
+     "Lin X",
+     "Zhang R",
+     "Tao W",
+     "et al."
+    ],
+    "journal": "Cell Rep",
+    "year": "2026",
+    "date": "2026 Jul 28"
+   },
+   {
+    "pmid": "41885501",
+    "title": "Quantitative DIA-MS Uncovers Functional Impact of SMARCA4 Knockdown in Group 3 Medulloblastoma",
+    "authors": [
+     "Pai MGJ",
+     "Singh A",
+     "Patra S",
+     "et al."
+    ],
+    "journal": "J Proteome Res",
+    "year": "2026",
+    "date": "2026 May 1"
+   },
+   {
+    "pmid": "41342550",
+    "title": "Structural and functional insights into acidophilic helicases as DNA-unwinding motors",
+    "authors": [
+     "Liu R",
+     "Liu J",
+     "Zhang K",
+     "et al."
+    ],
+    "journal": "Appl Environ Microbiol",
+    "year": "2025",
+    "date": "2025 Dec 23"
+   },
+   {
+    "pmid": "39417586",
+    "title": "Structural and functional insights into the interaction between the bacteriophage T4 DNA processing proteins gp32 and Dda",
+    "authors": [
+     "He X",
+     "Yun MK",
+     "Li Z",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2024",
+    "date": "2024 Nov 11"
+   },
+   {
+    "pmid": "36656349",
+    "title": "Combination of untargeted and targeted proteomics for secretome analysis of L-WRN cells",
+    "authors": [
+     "Chen Z",
+     "Leung TCN",
+     "Lui YL",
+     "et al."
+    ],
+    "journal": "Anal Bioanal Chem",
+    "year": "2023",
+    "date": "2023 Mar"
+   },
+   {
+    "pmid": "34761452",
+    "title": "A structural feature of Dda helicase which enhances displacement of streptavidin and trp repressor from DNA",
+    "authors": [
+     "Byrd AK",
+     "Malone EG",
+     "Hazeslip L",
+     "et al."
+    ],
+    "journal": "Protein Sci",
+    "year": "2022",
+    "date": "2022 Feb"
+   },
+   {
+    "pmid": "35934480",
+    "title": "Alignment of helicases on single-stranded DNA increases activity",
+    "authors": [
+     "Ozaslan D",
+     "Byrd AK",
+     "Belachew B",
+     "et al."
+    ],
+    "journal": "Methods Enzymol",
+    "year": "2022",
+    "date": "2022"
+   },
+   {
+    "pmid": "34663950",
+    "title": "Retrospective analysis of Schlafen11 (SLFN11) to predict the outcomes to therapies affecting the DNA damage response",
+    "authors": [
+     "Willis SE",
+     "Winkler C",
+     "Roudier MP",
+     "et al."
+    ],
+    "journal": "Br J Cancer",
+    "year": "2021",
+    "date": "2021 Dec"
+   },
+   {
+    "pmid": "34549724",
+    "title": "SLFN11 captures cancer-immunity interactions associated with platinum sensitivity in high-grade serous ovarian cancer",
+    "authors": [
+     "Winkler C",
+     "King M",
+     "Berthe J",
+     "et al."
+    ],
+    "journal": "JCI Insight",
+    "year": "2021",
+    "date": "2021 Sep 22"
+   },
+   {
+    "pmid": "26809678",
+    "title": "Crystal structures of the BsPif1 helicase reveal that a major movement of the 2B SH3 domain is required for DNA unwinding",
+    "authors": [
+     "Chen WF",
+     "Dai YX",
+     "Duan XL",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2016",
+    "date": "2016 Apr 7"
+   },
+   {
+    "pmid": "26719188",
+    "title": "Combined Application of Essential Oil Compounds and Bacteriophage to Inhibit Growth of Staphylococcus aureus In Vitro",
+    "authors": [
+     "Ghosh A",
+     "Ricke SC",
+     "Almeida G",
+     "et al."
+    ],
+    "journal": "Curr Microbiol",
+    "year": "2016",
+    "date": "2016 Apr"
+   },
+   {
+    "pmid": "26292944",
+    "title": "Production and characterisation of Epstein-Barr virus helicase-primase complex and its accessory protein BBLF2/3",
+    "authors": [
+     "Thierry E",
+     "Brennich M",
+     "Round A",
+     "et al."
+    ],
+    "journal": "Virus Genes",
+    "year": "2015",
+    "date": "2015 Oct"
+   },
+   {
+    "pmid": "25481875",
+    "title": "Regulation of the bacteriophage T4 Dda helicase by Gp32 single-stranded DNA-binding protein",
+    "authors": [
+     "Jordan CS",
+     "Morrical SW"
+    ],
+    "journal": "DNA Repair (Amst)",
+    "year": "2015",
+    "date": "2015 Jan"
+   },
+   {
+    "pmid": "25249618",
+    "title": "Simultaneous binding to the tracking strand, displaced strand and the duplex of a DNA fork enhances unwinding by Dda helicase",
+    "authors": [
+     "Aarattuthodiyil S",
+     "Byrd AK",
+     "Raney KD"
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2014",
+    "date": "2014 Oct"
+   },
+   {
+    "pmid": "33065880",
+    "title": "Structure des enzymes de r\u00e9plication du virus Epstein-Barr",
+    "authors": [
+     "Thierry E",
+     "Morand P",
+     "Burmeister WP"
+    ],
+    "journal": "Virologie (Montrouge)",
+    "year": "2012",
+    "date": "2012 Aug 1"
+   },
+   {
+    "pmid": "22504228",
+    "title": "Dda helicase tightly couples translocation on single-stranded DNA to unwinding of duplex DNA: Dda is an optimally active helicase",
+    "authors": [
+     "Byrd AK",
+     "Matlock DL",
+     "Bagchi D",
+     "et al."
+    ],
+    "journal": "J Mol Biol",
+    "year": "2012",
+    "date": "2012 Jul 13"
+   },
+   {
+    "pmid": "22770366",
+    "title": "How to build a DNA unwinding machine",
+    "authors": [
+     "Szczelkun MD",
+     "Dillingham MS"
+    ],
+    "journal": "Structure",
+    "year": "2012",
+    "date": "2012 Jul 3"
+   },
+   {
+    "pmid": "22658750",
+    "title": "The T4 phage SF1B helicase Dda is structurally optimized to perform DNA strand separation",
+    "authors": [
+     "He X",
+     "Byrd AK",
+     "Yun MK",
+     "et al."
+    ],
+    "journal": "Structure",
+    "year": "2012",
+    "date": "2012 Jul 3"
+   },
+   {
+    "pmid": "20170733",
+    "title": "Analysis of the DNA translocation and unwinding activities of T4 phage helicases",
+    "authors": [
+     "Perumal SK",
+     "Raney KD",
+     "Benkovic SJ"
+    ],
+    "journal": "Methods",
+    "year": "2010",
+    "date": "2010 Jul"
+   },
+   {
+    "pmid": "20408588",
+    "title": "Kinetic mechanism for DNA unwinding by multiple molecules of Dda helicase aligned on DNA",
+    "authors": [
+     "Eoff RL",
+     "Raney KD"
+    ],
+    "journal": "Biochemistry",
+    "year": "2010",
+    "date": "2010 Jun 1"
+   },
+   {
+    "pmid": "19256528",
+    "title": "Development and evaluation of a structural model for SF1B helicase Dda",
+    "authors": [
+     "Blair LP",
+     "Tackett AJ",
+     "Raney KD"
+    ],
+    "journal": "Biochemistry",
+    "year": "2009",
+    "date": "2009 Mar 24"
+   },
+   {
+    "pmid": "18314134",
+    "title": "Origin activation requires both replicative and accessory helicases during T4 infection",
+    "authors": [
+     "Brister JR"
+    ],
+    "journal": "J Mol Biol",
+    "year": "2008",
+    "date": "2008 Apr 11"
+   },
+   {
+    "pmid": "16984922",
+    "title": "DNA unwinding by Escherichia coli DNA helicase I (TraI) provides evidence for a processive monomeric molecular motor",
+    "authors": [
+     "Sikora B",
+     "Eoff RL",
+     "Matson SW",
+     "et al."
+    ],
+    "journal": "J Biol Chem",
+    "year": "2006",
+    "date": "2006 Nov 24"
+   },
+   {
+    "pmid": "16738140",
+    "title": "Displacement of a DNA binding protein by Dda helicase",
+    "authors": [
+     "Byrd AK",
+     "Raney KD"
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2006",
+    "date": "2006"
+   },
+   {
+    "pmid": "16439125",
+    "title": "Dda helicase unwinds a DNA-PNA chimeric substrate: evidence for an inchworm mechanism",
+    "authors": [
+     "Spurling TL",
+     "Eoff RL",
+     "Raney KD"
+    ],
+    "journal": "Bioorg Med Chem Lett",
+    "year": "2006",
+    "date": "2006 Apr 1"
+   },
+   {
+    "pmid": "16474403",
+    "title": "Intermediates revealed in the kinetic mechanism for DNA unwinding by a monomeric helicase",
+    "authors": [
+     "Eoff RL",
+     "Raney KD"
+    ],
+    "journal": "Nat Struct Mol Biol",
+    "year": "2006",
+    "date": "2006 Mar"
+   },
+   {
+    "pmid": "16185067",
+    "title": "Increasing the length of the single-stranded overhang enhances unwinding of duplex DNA by bacteriophage T4 Dda helicase",
+    "authors": [
+     "Byrd AK",
+     "Raney KD"
+    ],
+    "journal": "Biochemistry",
+    "year": "2005",
+    "date": "2005 Oct 4"
+   },
+   {
+    "pmid": "18969979",
+    "title": "Selection of phage antibodies with GPX activity by combination of phage displayed antibody library with chemical modification and their characterization using a surface plasmon resonance biosensor",
+    "authors": [
+     "Mu Y",
+     "Song D",
+     "Li Y",
+     "et al."
+    ],
+    "journal": "Talanta",
+    "year": "2005",
+    "date": "2005 Mar 31"
+   },
+   {
+    "pmid": "15641792",
+    "title": "Chemically modified DNA substrates implicate the importance of electrostatic interactions for DNA unwinding by Dda helicase",
+    "authors": [
+     "Eoff RL",
+     "Spurling TL",
+     "Raney KD"
+    ],
+    "journal": "Biochemistry",
+    "year": "2005",
+    "date": "2005 Jan 18"
+   },
+   {
+    "pmid": "15194689",
+    "title": "UvsX recombinase and Dda helicase rescue stalled bacteriophage T4 DNA replication forks in vitro",
+    "authors": [
+     "Kadyrov FA",
+     "Drake JW"
+    ],
+    "journal": "J Biol Chem",
+    "year": "2004",
+    "date": "2004 Aug 20"
+   },
+   {
+    "pmid": "15146172",
+    "title": "Protein displacement by an assembly of helicase molecules aligned along single-stranded DNA",
+    "authors": [
+     "Byrd AK",
+     "Raney KD"
+    ],
+    "journal": "Nat Struct Mol Biol",
+    "year": "2004",
+    "date": "2004 Jun"
+   },
+   {
+    "pmid": "14871889",
+    "title": "Dual functions of single-stranded DNA-binding protein in helicase loading at the bacteriophage T4 DNA replication fork",
+    "authors": [
+     "Ma Y",
+     "Wang T",
+     "Villemain JL",
+     "et al."
+    ],
+    "journal": "J Biol Chem",
+    "year": "2004",
+    "date": "2004 Apr 30"
+   },
+   {
+    "pmid": "12411580",
+    "title": "Pre-steady-state DNA unwinding by bacteriophage T4 Dda helicase reveals a monomeric molecular motor",
+    "authors": [
+     "Nanduri B",
+     "Byrd AK",
+     "Eoff RL",
+     "et al."
+    ],
+    "journal": "Proc Natl Acad Sci U S A",
+    "year": "2002",
+    "date": "2002 Nov 12"
+   },
+   {
+    "pmid": "12181327",
+    "title": "A dominant-negative mutant of human DNA helicase B blocks the onset of chromosomal DNA replication",
+    "authors": [
+     "Taneja P",
+     "Gu J",
+     "Peng R",
+     "et al."
+    ],
+    "journal": "J Biol Chem",
+    "year": "2002",
+    "date": "2002 Oct 25"
+   },
+   {
+    "pmid": "11842106",
+    "title": "Non-Watson-Crick interactions between PNA and DNA inhibit the ATPase activity of bacteriophage T4 Dda helicase",
+    "authors": [
+     "Tackett AJ",
+     "Corey DR",
+     "Raney KD"
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2002",
+    "date": "2002 Feb 15"
+   },
+   {
+    "pmid": "11600293",
+    "title": "Analysis of intracellular didanosine triphosphate at sub-ppb level using LC-MS/MS",
+    "authors": [
+     "Cahours X",
+     "Tran TT",
+     "Mesplet N",
+     "et al."
+    ],
+    "journal": "J Pharm Biomed Anal",
+    "year": "2001",
+    "date": "2001 Dec"
+   },
+   {
+    "pmid": "11433029",
+    "title": "Measurement of steady-state kinetic parameters for DNA unwinding by the bacteriophage T4 Dda helicase: use of peptide nucleic acids to trap single-stranded DNA products of helicase reactions",
+    "authors": [
+     "Nanduri B",
+     "Eoff RL",
+     "Tackett AJ",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2001",
+    "date": "2001 Jul 1"
+   },
+   {
+    "pmid": "11278788",
+    "title": "Evidence for a functional monomeric form of the bacteriophage T4 DdA helicase. Dda does not form stable oligomeric structures",
+    "authors": [
+     "Morris PD",
+     "Tackett AJ",
+     "Babb K",
+     "et al."
+    ],
+    "journal": "J Biol Chem",
+    "year": "2001",
+    "date": "2001 Jun 8"
+   },
+   {
+    "pmid": "11148049",
+    "title": "Unwinding of unnatural substrates by a DNA helicase",
+    "authors": [
+     "Tackett AJ",
+     "Morris PD",
+     "Dennis R",
+     "et al."
+    ],
+    "journal": "Biochemistry",
+    "year": "2001",
+    "date": "2001 Jan 16"
+   }
+  ],
+  "query": "Dda[tiab] AND (helicase OR T4 OR phage)"
+ },
+ "interactions_intact": {
+  "total": 0,
+  "partners": []
+ }
+}

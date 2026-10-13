@@ -1,0 +1,481 @@
+{
+ "uniprot": "Q80SX8",
+ "slug": "pif1-mouse",
+ "gene": "Pif1",
+ "short": "Pif1",
+ "organism": "Mus musculus",
+ "kingdom": "Animals",
+ "pubmed": "Pif1[tiab] AND (mouse OR mice OR murine) AND helicase",
+ "uniprot_data": {
+  "accession": "Q80SX8",
+  "entry": "PIF1_MOUSE",
+  "reviewed": true,
+  "name": "ATP-dependent DNA helicase PIF1",
+  "alt_names": [
+   "DNA 5'-3' helicase PIF1",
+   "DNA repair and recombination helicase PIF1",
+   "Pif1/Rrm3 DNA helicase-like protein"
+  ],
+  "ec": [
+   "5.6.2.3"
+  ],
+  "genes": [
+   "Pif1"
+  ],
+  "organism": "Mus musculus",
+  "taxid": 10090,
+  "length": 650,
+  "mass": 70942,
+  "sequence": "MRSGLCTPAEALEMPSSTEAATDECDDAELRCRVAVEELSPGGQPRKRQALRAAELSLGRNERRELMLRLQAPGPTGRPRCFPLRAVRLFTRFAATGRSTLRLPTDGVPGAGSVQLLLSDCPPERLRRFLRTLRLKLAVAPGPGPASARAQLLGPRPRDFVTISPVQPEELQRAAATKAPDSALEKRPMESQTSTEAPRWPLPVKKLRMPSTKPKLSEEQAAVLRMVLKGQSIFFTGSAGTGKSYLLKHILGSLPPTGTVATASTGVAACHIGGTTLHAFAGIGSGQAPLAQCMALANRPGVRQGWLNCQRLVIDEISMVEADFFDKLEAVARAVRQQKKPFGGIQLIICGDFLQLPPVTKGSQQPQFCFQAKSWRRCVPVILELTEVWRQADQTFISLLQAVRLGRCSDEVTRQLRATAAHKVGRDGIVATRLCTHQDDVALTNEKWLKALPGDVHSFEAIDSDPELSRTLDAQCPVSRVLQLKLGAQVMLVKNLAVSRGLVNGARGVVVGFESEGRGLPRVRFLCGITEVIRTDRWTVQVTGGQYLSRQQLPLQLAWAISIHKSQGMSLDCVEISLGRVFASGQAYVALSRARSLQGLRVLDFDPTVVRCDSRVLHFYATLRQGRGLSLESQDDEEANSDLENMDPNL",
+  "existence": "1: Evidence at protein level",
+  "annotation_score": 5.0,
+  "last_modified": "2026-09-02",
+  "comments": {
+   "FUNCTION": [
+    "DNA-dependent ATPase and 5'-3' DNA helicase required for the maintenance of both mitochondrial and nuclear genome stability. Efficiently unwinds G-quadruplex (G4) DNA structures and forked RNA-DNA hybrids. Resolves G4 structures, preventing replication pausing and double-strand breaks (DSBs) at G4 motifs. Involved in the maintenance of telomeric DNA. Inhibits telomere elongation, de novo telomere formation and telomere addition to DSBs via catalytic inhibition of telomerase. Reduces the processivity of telomerase by displacing active telomerase from DNA ends. Releases telomerase by unwinding the short telomerase RNA/telomeric DNA hybrid that is the intermediate in the telomerase reaction. Possesses an intrinsic strand annealing activity"
+   ],
+   "CATALYTIC ACTIVITY": [
+    "Couples ATP hydrolysis with the unwinding of duplex DNA at the replication fork by translocating in the 5'-3' direction.",
+    "ATP + H2O = ADP + phosphate + H(+)"
+   ],
+   "COFACTOR": [
+    "Mg(2+)"
+   ],
+   "SUBUNIT": [
+    "Monomer (By similarity). Interacts with telomerase"
+   ],
+   "SUBCELLULAR LOCATION": [
+    "Nucleus",
+    "Mitochondrion"
+   ],
+   "DOMAIN": [
+    "The PIF1 N-terminal (PINT) domain enhances the interaction with ssDNA through intrinsic binding activity, it also harbors DNA strand-annealing activity"
+   ],
+   "DISRUPTION PHENOTYPE": [
+    "Mice do not exhibit any change in telomere length in thymocytes or plenocytes nor significant change in chromosome gain or rearrangements"
+   ],
+   "MISCELLANEOUS": [
+    "Produced by alternative initiation of isoform 1"
+   ],
+   "SIMILARITY": [
+    "Belongs to the helicase family. PIF1 subfamily"
+   ]
+  },
+  "features": {
+   "domains": [
+    {
+     "name": "LRR1 pleckstrin homology domain (Pfam PF25344)",
+     "start": 29,
+     "end": 137
+    },
+    {
+     "name": "PIF1-like helicase (Pfam PF05970)",
+     "start": 215,
+     "end": 413
+    },
+    {
+     "name": "DNA helicase Pif1, 2B domain (Pfam PF21530)",
+     "start": 467,
+     "end": 513
+    }
+   ],
+   "regions": [
+    {
+     "name": "PINT",
+     "start": 14,
+     "end": 192
+    },
+    {
+     "name": "Disordered",
+     "start": 171,
+     "end": 199
+    },
+    {
+     "name": "Disordered",
+     "start": 631,
+     "end": 650
+    }
+   ],
+   "motifs": [],
+   "binding": [
+    {
+     "start": 237,
+     "end": 244,
+     "ligand": "ATP"
+    }
+   ],
+   "mutagenesis": [],
+   "variants": []
+  },
+  "go": [
+   {
+    "id": "GO:0000781",
+    "term": "C:chromosome, telomeric region"
+   },
+   {
+    "id": "GO:0042645",
+    "term": "C:mitochondrial nucleoid"
+   },
+   {
+    "id": "GO:0005739",
+    "term": "C:mitochondrion"
+   },
+   {
+    "id": "GO:0005654",
+    "term": "C:nucleoplasm"
+   },
+   {
+    "id": "GO:0005634",
+    "term": "C:nucleus"
+   },
+   {
+    "id": "GO:0043139",
+    "term": "F:5'-3' DNA helicase activity"
+   },
+   {
+    "id": "GO:0033678",
+    "term": "F:5'-3' DNA/RNA helicase activity"
+   },
+   {
+    "id": "GO:0005524",
+    "term": "F:ATP binding"
+   },
+   {
+    "id": "GO:0016887",
+    "term": "F:ATP hydrolysis activity"
+   },
+   {
+    "id": "GO:0051880",
+    "term": "F:G-quadruplex DNA binding"
+   },
+   {
+    "id": "GO:0160225",
+    "term": "F:G-quadruplex unwinding activity"
+   },
+   {
+    "id": "GO:0000287",
+    "term": "F:magnesium ion binding"
+   },
+   {
+    "id": "GO:0017116",
+    "term": "F:single-stranded DNA helicase activity"
+   },
+   {
+    "id": "GO:0010521",
+    "term": "F:telomerase inhibitor activity"
+   },
+   {
+    "id": "GO:0042162",
+    "term": "F:telomeric repeat DNA binding"
+   },
+   {
+    "id": "GO:0006310",
+    "term": "P:DNA recombination"
+   },
+   {
+    "id": "GO:0006281",
+    "term": "P:DNA repair"
+   },
+   {
+    "id": "GO:0032211",
+    "term": "P:negative regulation of telomere maintenance via telomerase"
+   },
+   {
+    "id": "GO:0001117",
+    "term": "P:protein-DNA-RNA complex disassembly"
+   },
+   {
+    "id": "GO:0000723",
+    "term": "P:telomere maintenance"
+   }
+  ],
+  "pdb": [],
+  "interpro": [
+   {
+    "id": "IPR010285",
+    "name": "DNA_helicase_pif1-like_DEAD"
+   },
+   {
+    "id": "IPR027417",
+    "name": "P-loop_NTPase"
+   },
+   {
+    "id": "IPR049163",
+    "name": "Pif1-like_2B_dom"
+   },
+   {
+    "id": "IPR057437",
+    "name": "PIF1/LRR1_PH"
+   },
+   {
+    "id": "IPR051055",
+    "name": "PIF1_helicase"
+   },
+   {
+    "id": "IPR048293",
+    "name": "PIF1_RRM3_pfh1"
+   }
+  ],
+  "pfam": [
+   {
+    "id": "PF25344",
+    "name": "PH_LRR1"
+   },
+   {
+    "id": "PF05970",
+    "name": "PIF1"
+   },
+   {
+    "id": "PF21530",
+    "name": "Pif1_2B_dom"
+   }
+  ],
+  "omim": [],
+  "orphanet": [],
+  "refseq": [
+   "NP_001408440.1",
+   "NP_766041.2"
+  ],
+  "panther": [
+   {
+    "id": "PTHR47642",
+    "name": "ATP-DEPENDENT DNA HELICASE"
+   },
+   {
+    "id": "PTHR47642:SF7",
+    "name": "ATP-DEPENDENT DNA HELICASE PIF1"
+   }
+  ]
+ },
+ "group_ids": [
+  "PTHR47642"
+ ],
+ "group": "PIF1 family",
+ "alphafold": {
+  "entryId": "AF-Q80SX8-F1",
+  "globalMetricValue": 74.94,
+  "fractionPlddtVeryHigh": 0.265,
+  "fractionPlddtConfident": 0.472,
+  "fractionPlddtLow": 0.078,
+  "fractionPlddtVeryLow": 0.185,
+  "cifUrl": "https://alphafold.ebi.ac.uk/files/AF-Q80SX8-F1-model_v6.cif",
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-Q80SX8-F1-model_v6.pdb",
+  "paeImageUrl": "https://alphafold.ebi.ac.uk/files/AF-Q80SX8-F1-predicted_aligned_error_v6.png",
+  "latestVersion": 6,
+  "modelCreatedDate": "2025-08-01T00:00:00Z"
+ },
+ "literature": {
+  "count": 16,
+  "papers": [
+   {
+    "pmid": "40854122",
+    "title": "G-quadruplexes as a source of vulnerability in BRCA2-deficient granule cell progenitors and medulloblastoma",
+    "authors": [
+     "Keahi DL",
+     "Sanders MA",
+     "Paul MR",
+     "et al."
+    ],
+    "journal": "Proc Natl Acad Sci U S A",
+    "year": "2025",
+    "date": "2025 Sep 2"
+   },
+   {
+    "pmid": "39368985",
+    "title": "53BP1 deficiency leads to hyperrecombination using break-induced replication (BIR)",
+    "authors": [
+     "Shah SB",
+     "Li Y",
+     "Li S",
+     "et al."
+    ],
+    "journal": "Nat Commun",
+    "year": "2024",
+    "date": "2024 Oct 5"
+   },
+   {
+    "pmid": "39091814",
+    "title": "G-quadruplexes are a source of vulnerability in BRCA2 deficient granule cell progenitors and medulloblastoma",
+    "authors": [
+     "Keahi DL",
+     "Sanders MA",
+     "Paul MR",
+     "et al."
+    ],
+    "journal": "bioRxiv",
+    "year": "2024",
+    "date": "2024 Jul 22"
+   },
+   {
+    "pmid": "38530355",
+    "title": "RNF4 sustains Myc-driven tumorigenesis by facilitating DNA replication",
+    "authors": [
+     "Her J",
+     "Zheng H",
+     "Bunting SF"
+    ],
+    "journal": "J Clin Invest",
+    "year": "2024",
+    "date": "2024 Mar 26"
+   },
+   {
+    "pmid": "36085167",
+    "title": "A RUNX-targeted gene switch-off approach modulates the BIRC5/PIF1-p21 pathway and reduces glioblastoma growth in mice",
+    "authors": [
+     "Hattori EY",
+     "Masuda T",
+     "Mineharu Y",
+     "et al."
+    ],
+    "journal": "Commun Biol",
+    "year": "2022",
+    "date": "2022 Sep 9"
+   },
+   {
+    "pmid": "34048583",
+    "title": "Budding yeast Rap1, but not telomeric DNA, is inhibitory for multiple stages of DNA replication in vitro",
+    "authors": [
+     "Douglas ME",
+     "Diffley JFX"
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2021",
+    "date": "2021 Jun 4"
+   },
+   {
+    "pmid": "33445471",
+    "title": "Proximity Ligation Assay Detection of Protein-DNA Interactions-Is There a Link between Heme Oxygenase-1 and G-quadruplexes?",
+    "authors": [
+     "Krzeptowski W",
+     "Chudy P",
+     "Soko\u0142owski G",
+     "et al."
+    ],
+    "journal": "Antioxidants (Basel)",
+    "year": "2021",
+    "date": "2021 Jan 12"
+   },
+   {
+    "pmid": "32043463",
+    "title": "Small-molecule G-quadruplex stabilizers reveal a novel pathway of autophagy regulation in neurons",
+    "authors": [
+     "Moruno-Manchon JF",
+     "Lejault P",
+     "Wang Y",
+     "et al."
+    ],
+    "journal": "Elife",
+    "year": "2020",
+    "date": "2020 Feb 11"
+   },
+   {
+    "pmid": "31136580",
+    "title": "Petite Integration Factor 1 (PIF1) helicase deficiency increases weight gain in Western diet-fed female mice without increased inflammatory markers or decreased glucose clearance",
+    "authors": [
+     "Belmonte FR",
+     "Dedousis N",
+     "Sipula I",
+     "et al."
+    ],
+    "journal": "PLoS One",
+    "year": "2019",
+    "date": "2019"
+   },
+   {
+    "pmid": "26923168",
+    "title": "Inactivation of Pif1 helicase causes a mitochondrial myopathy in mice",
+    "authors": [
+     "Bannwarth S",
+     "Berg-Alonso L",
+     "Aug\u00e9 G",
+     "et al."
+    ],
+    "journal": "Mitochondrion",
+    "year": "2016",
+    "date": "2016 Sep"
+   },
+   {
+    "pmid": "25359767",
+    "title": "Human PIF1 helicase supports DNA replication and cell growth under oncogenic-stress",
+    "authors": [
+     "Gagou ME",
+     "Ganesh A",
+     "Phear G",
+     "et al."
+    ],
+    "journal": "Oncotarget",
+    "year": "2014",
+    "date": "2014 Nov 30"
+   },
+   {
+    "pmid": "24512911",
+    "title": "Germline mutations in oncogene-induced senescence pathways are associated with multiple sessile serrated adenomas",
+    "authors": [
+     "Gala MK",
+     "Mizukami Y",
+     "Le LP",
+     "et al."
+    ],
+    "journal": "Gastroenterology",
+    "year": "2014",
+    "date": "2014 Feb"
+   },
+   {
+    "pmid": "21945094",
+    "title": "PIF1 disruption or NBS1 hypomorphism does not affect chromosome healing or fusion resulting from double-strand breaks near telomeres in murine embryonic stem cells",
+    "authors": [
+     "Reynolds GE",
+     "Gao Q",
+     "Miller D",
+     "et al."
+    ],
+    "journal": "DNA Repair (Amst)",
+    "year": "2011",
+    "date": "2011 Nov 10"
+   },
+   {
+    "pmid": "21616935",
+    "title": "Suppression of apoptosis by PIF1 helicase in human tumor cells",
+    "authors": [
+     "Gagou ME",
+     "Ganesh A",
+     "Thompson R",
+     "et al."
+    ],
+    "journal": "Cancer Res",
+    "year": "2011",
+    "date": "2011 Jul 15"
+   },
+   {
+    "pmid": "20097624",
+    "title": "Unwinding the functions of the Pif1 family helicases",
+    "authors": [
+     "Bochman ML",
+     "Sabouri N",
+     "Zakian VA"
+    ],
+    "journal": "DNA Repair (Amst)",
+    "year": "2010",
+    "date": "2010 Mar 2"
+   },
+   {
+    "pmid": "17130244",
+    "title": "Murine Pif1 interacts with telomerase and is dispensable for telomere function in vivo",
+    "authors": [
+     "Snow BE",
+     "Mateyak M",
+     "Paderova J",
+     "et al."
+    ],
+    "journal": "Mol Cell Biol",
+    "year": "2007",
+    "date": "2007 Feb"
+   }
+  ],
+  "query": "Pif1[tiab] AND (mouse OR mice OR murine) AND helicase"
+ },
+ "interactions_intact": {
+  "total": 0,
+  "partners": []
+ }
+}

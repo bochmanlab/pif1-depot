@@ -1,0 +1,185 @@
+{
+ "uniprot": "Q383A1",
+ "slug": "pif3-tbrucei",
+ "gene": "PIF3",
+ "short": "TbPIF3",
+ "organism": "Trypanosoma brucei brucei",
+ "kingdom": "Protists",
+ "pubmed": "(TbPIF3[tiab] OR \"PIF3\"[tiab]) AND (Trypanosoma OR brucei)",
+ "uniprot_data": {
+  "accession": "Q383A1",
+  "entry": "PIF3_TRYB2",
+  "reviewed": true,
+  "name": "ATP-dependent DNA helicase PIF3",
+  "alt_names": [
+   "DNA 5'-3' helicase PIF3",
+   "DNA repair and recombination helicase PIF3"
+  ],
+  "ec": [
+   "5.6.2.3"
+  ],
+  "genes": [
+   "PIF3"
+  ],
+  "organism": "Trypanosoma brucei brucei (strain 927/4 GUTat10.1)",
+  "taxid": 185431,
+  "length": 812,
+  "mass": 90236,
+  "sequence": "MRLAAESSLVFFVSHFYFERFFSFVMVAYTLDTLFASDIDSATLFYSEGCGPIRLVALSAQMRRLVRLGPIRVAKACVEVRPMAPTKEFFEEGRQLQHIEAAGVGDFPDSERSGDTFVNPFTGRLTPTWGRVAKELFSLGFEHSIVNPFRLVWNPTKAALVSDAALQPFRTSTVTWRRNLAALLSRRDAADAVGEEIHRLYNEITSAYLPPKLDTMHDPRLSTMTMTPDQQNVIRCALRGYSMFIGGSAGTGKTVLLKAIHRKLTEMGLRVAMTATTGVASVQLGGCTFHLAFGVPIKGEEGTRKRWDSNAFRAVDVVIIDEVSLLDAELFETFEEEARMARLQQSPFGGLQVIACGDFLQLAMMDVSIGGPCYQSHAFRHLIPVCLVTSMRQAQGDPFCELLGQLRVGKFDKKAFKALDRPVSGDANNVTYIFPRRCDAQRLNDEKLCELRSEEMIFAPQRGPLQLVGNFTPAGLVDWGRKKDFPKREKIITVLSEEIKRITGVDIVDHNIVVMPAGGEKNAVLIRLRHSEDRNVLICKNGGSKEHGASNEGGAEESHWRAILEATAGRLKGKLHQIYNQDPHNFIPPSVSLMLADASLHPNAELISPLRLKLGCRVMINRNLSRTVSNGSVGIVEAFAAPNLDLFPRRHETSPKAFHTWSLERNGFQRLPIVRLLSGEVVQLPPLSVMIGGTPSTYFYGHELFVLPLQLGYGFTVHKVQGLTLEGTVVLDCKKFFECPHLVYVACSRVRSMDQLIVRNVRSDMIIVRQSALDFTNALRDASVMSSLDPPDGCTRASWVRRLSPLLVGLTD",
+  "existence": "3: Inferred from homology",
+  "annotation_score": 5.0,
+  "last_modified": "2026-09-02",
+  "comments": {
+   "FUNCTION": [
+    "DNA-dependent ATPase and 5'-3' DNA helicase required for the maintenance of genome stability"
+   ],
+   "CATALYTIC ACTIVITY": [
+    "Couples ATP hydrolysis with the unwinding of duplex DNA at the replication fork by translocating in the 5'-3' direction.",
+    "ATP + H2O = ADP + phosphate + H(+)"
+   ],
+   "COFACTOR": [
+    "Mg(2+)"
+   ],
+   "SUBUNIT": [
+    "Monomer"
+   ],
+   "SUBCELLULAR LOCATION": [
+    "Cytoplasm"
+   ],
+   "DISRUPTION PHENOTYPE": [
+    "No growth phenotype"
+   ],
+   "SIMILARITY": [
+    "Belongs to the helicase family. PIF1 subfamily"
+   ]
+  },
+  "features": {
+   "domains": [
+    {
+     "name": "PIF1-like helicase (Pfam PF05970)",
+     "start": 228,
+     "end": 363
+    }
+   ],
+   "regions": [],
+   "motifs": [],
+   "binding": [
+    {
+     "start": 247,
+     "end": 254,
+     "ligand": "ATP"
+    }
+   ],
+   "mutagenesis": [],
+   "variants": []
+  },
+  "go": [
+   {
+    "id": "GO:0005737",
+    "term": "C:cytoplasm"
+   },
+   {
+    "id": "GO:0005739",
+    "term": "C:mitochondrion"
+   },
+   {
+    "id": "GO:0031981",
+    "term": "C:nuclear lumen"
+   },
+   {
+    "id": "GO:0043139",
+    "term": "F:5'-3' DNA helicase activity"
+   },
+   {
+    "id": "GO:0005524",
+    "term": "F:ATP binding"
+   },
+   {
+    "id": "GO:0016887",
+    "term": "F:ATP hydrolysis activity"
+   },
+   {
+    "id": "GO:0000287",
+    "term": "F:magnesium ion binding"
+   },
+   {
+    "id": "GO:0051276",
+    "term": "P:chromosome organization"
+   },
+   {
+    "id": "GO:0006310",
+    "term": "P:DNA recombination"
+   },
+   {
+    "id": "GO:0006281",
+    "term": "P:DNA repair"
+   },
+   {
+    "id": "GO:0000723",
+    "term": "P:telomere maintenance"
+   }
+  ],
+  "pdb": [],
+  "interpro": [
+   {
+    "id": "IPR003593",
+    "name": "AAA+_ATPase"
+   },
+   {
+    "id": "IPR010285",
+    "name": "DNA_helicase_pif1-like_DEAD"
+   },
+   {
+    "id": "IPR027417",
+    "name": "P-loop_NTPase"
+   },
+   {
+    "id": "IPR051055",
+    "name": "PIF1_helicase"
+   }
+  ],
+  "pfam": [
+   {
+    "id": "PF05970",
+    "name": "PIF1"
+   }
+  ],
+  "omim": [],
+  "orphanet": [],
+  "refseq": [
+   "XP_829242.1"
+  ],
+  "panther": [
+   {
+    "id": "PTHR47642",
+    "name": "ATP-DEPENDENT DNA HELICASE"
+   }
+  ]
+ },
+ "group_ids": [
+  "PTHR47642"
+ ],
+ "group": "PIF1 family",
+ "alphafold": {
+  "entryId": "AF-Q383A1-F1",
+  "globalMetricValue": 68.75,
+  "fractionPlddtVeryHigh": 0.09,
+  "fractionPlddtConfident": 0.528,
+  "fractionPlddtLow": 0.185,
+  "fractionPlddtVeryLow": 0.197,
+  "cifUrl": "https://alphafold.ebi.ac.uk/files/AF-Q383A1-F1-model_v6.cif",
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-Q383A1-F1-model_v6.pdb",
+  "paeImageUrl": "https://alphafold.ebi.ac.uk/files/AF-Q383A1-F1-predicted_aligned_error_v6.png",
+  "latestVersion": 6,
+  "modelCreatedDate": "2025-08-01T00:00:00Z"
+ },
+ "literature": {
+  "count": 0,
+  "papers": [],
+  "query": "(TbPIF3[tiab] OR \"PIF3\"[tiab]) AND (Trypanosoma OR brucei)"
+ },
+ "interactions_intact": {
+  "total": 0,
+  "partners": []
+ }
+}

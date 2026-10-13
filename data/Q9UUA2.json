@@ -1,0 +1,613 @@
+{
+ "uniprot": "Q9UUA2",
+ "slug": "pfh1-spombe",
+ "gene": "pfh1",
+ "short": "Pfh1",
+ "organism": "Schizosaccharomyces pombe",
+ "kingdom": "Fungi",
+ "pubmed": "(Pfh1[tiab] OR \"Pfh1p\"[tiab]) AND (pombe OR \"fission yeast\" OR helicase)",
+ "uniprot_data": {
+  "accession": "Q9UUA2",
+  "entry": "PIF1_SCHPO",
+  "reviewed": true,
+  "name": "ATP-dependent DNA helicase pfh1",
+  "alt_names": [
+   "DNA 5'-3' helicase pfh1",
+   "DNA repair and recombination helicase pfh1",
+   "PIF1 helicase homolog",
+   "RRM3/PIF1 homolog 1"
+  ],
+  "ec": [
+   "5.6.2.3"
+  ],
+  "genes": [
+   "pfh1",
+   "pif1",
+   "rph1"
+  ],
+  "organism": "Schizosaccharomyces pombe (strain 972 / ATCC 24843)",
+  "taxid": 284812,
+  "length": 805,
+  "mass": 90050,
+  "sequence": "MFSCQSLYKFSHSFRKRIPVMFQRAQQKSSLLHTQNESSHQPSLNKLGGFSSASLNFNSSRSSTNDDQQTFSSQSDNLPSSPITLPAKRGRSAASLKQLDNTVGFDVSKPSLPVFENSGLGSKYSTEIANGVYIDENDFDDDLLLENDIDQKPIPWSSSPIEHTKLTKSMLSSEKRSKNHLSKIYEDHTSEKGASSVISSNITRQGIKRSRTLPWAVDPYRYGDPDPKRTSTSADISQHTVSNDSSNKLSNGRSSSLDSLAKKRMSKSKSTPQISKKFSVPLNSASKSPIGSSLFKTSDSRKKSVPSIFLSDEQKRILDMVVEQQHSIFFTGSAGTGKSVLLRKIIEVLKSKYRKQSDRVAVTASTGLAACNIGGVTLHSFAGVGLARESVDLLVSKIKKNKKCVNRWLRTRVLIIDEVSMVDAELMDKLEEVARVIRKDSKPFGGIQLVLTGDFFQLPPVPENGKESKFCFESQTWKSALDFTIGLTHVFRQKDEEFVKMLNELRLGKLSDESVRKFKVLNRTIEYEDGLLPTELFPTRYEVERSNDMRMQQINQNPVTFTAIDSGTVRDKEFRDRLLQGCMAPATLVLKVNAQVMLIKNIDDQLVNGSLGKVIGFIDDETYQMEKKDAEMQGRNAFEYDSLDISPFDLPDVKQKKYKLIAMRKASSTAIKWPLVRFKLPNGGERTIVVQRETWNIELPNGEVQASRSQIPLILAYAISIHKAQGQTLDRVKVDLGRVFEKGQAYVALSRATTQEGLQVLNFSPAKVMAHPKVVQFYKQLASVNGLPIRNENKAPVQMRGVKNK",
+  "existence": "1: Evidence at protein level",
+  "annotation_score": 5.0,
+  "last_modified": "2026-09-02",
+  "comments": {
+   "FUNCTION": [
+    "DNA-dependent ATPase and 5'-3' DNA helicase required for the maintenance of both mitochondrial and nuclear genome stability. Involved in the maintenance of mitochondrial (mtDNA). Required for both repair of mitochondrial DNA and recognition of a recombinogenic signal characterized by a 26-bp palindromic at sequence in the ery region of mitochondrial DNA. May have a general role in chromosomal replication by affecting Okazaki fragment maturation. Required for the completion of S-phase"
+   ],
+   "CATALYTIC ACTIVITY": [
+    "Couples ATP hydrolysis with the unwinding of duplex DNA at the replication fork by translocating in the 5'-3' direction.",
+    "ATP + H2O = ADP + phosphate + H(+)"
+   ],
+   "COFACTOR": [
+    "Mg(2+)"
+   ],
+   "SUBUNIT": [
+    "Monomer"
+   ],
+   "SUBCELLULAR LOCATION": [
+    "Nucleus, nucleolus",
+    "Mitochondrion"
+   ],
+   "MISCELLANEOUS": [
+    "Produced by alternative initiation at Met-40 of isoform Mitochondrial"
+   ],
+   "SIMILARITY": [
+    "Belongs to the helicase family. PIF1 subfamily"
+   ]
+  },
+  "features": {
+   "domains": [
+    {
+     "name": "PIF1-like helicase (Pfam PF05970)",
+     "start": 310,
+     "end": 514
+    },
+    {
+     "name": "DNA helicase Pif1, 2B domain (Pfam PF21530)",
+     "start": 573,
+     "end": 617
+    }
+   ],
+   "regions": [
+    {
+     "name": "Disordered",
+     "start": 58,
+     "end": 91
+    },
+    {
+     "name": "Disordered",
+     "start": 217,
+     "end": 282
+    }
+   ],
+   "motifs": [],
+   "binding": [
+    {
+     "start": 332,
+     "end": 339,
+     "ligand": "ATP"
+    }
+   ],
+   "mutagenesis": [
+    {
+     "pos": 1,
+     "change": "M>A",
+     "desc": "In pfh1-m1; localizes exclusively to nucleus, loss of mitochondrial function."
+    },
+    {
+     "pos": 21,
+     "change": "M>A",
+     "desc": "In pfh1-m21; localizes exclusively to mitochondria, loss of nuclear function."
+    },
+    {
+     "pos": 338,
+     "change": "K>E",
+     "desc": "Abolishes ATPase and DNA unwinding activities."
+    },
+    {
+     "pos": 458,
+     "change": "L>S",
+     "desc": "In pfh1-R20; cold sensitive for growth, suppresses a temperature-sensitive allele of cdc24."
+    },
+    {
+     "pos": 508,
+     "change": "G>E",
+     "desc": "In pfh1-R23; cold sensitive for growth, suppresses a temperature-sensitive allele of cdc24."
+    }
+   ],
+   "variants": []
+  },
+  "go": [
+   {
+    "id": "GO:0000785",
+    "term": "C:chromatin"
+   },
+   {
+    "id": "GO:0140445",
+    "term": "C:chromosome, telomeric repeat region"
+   },
+   {
+    "id": "GO:0005739",
+    "term": "C:mitochondrion"
+   },
+   {
+    "id": "GO:0043596",
+    "term": "C:nuclear replication fork"
+   },
+   {
+    "id": "GO:0043601",
+    "term": "C:nuclear replisome"
+   },
+   {
+    "id": "GO:0005730",
+    "term": "C:nucleolus"
+   },
+   {
+    "id": "GO:0005634",
+    "term": "C:nucleus"
+   },
+   {
+    "id": "GO:0033553",
+    "term": "C:rDNA heterochromatin"
+   },
+   {
+    "id": "GO:0035861",
+    "term": "C:site of double-strand break"
+   },
+   {
+    "id": "GO:0043139",
+    "term": "F:5'-3' DNA helicase activity"
+   },
+   {
+    "id": "GO:0033678",
+    "term": "F:5'-3' DNA/RNA helicase activity"
+   },
+   {
+    "id": "GO:0005524",
+    "term": "F:ATP binding"
+   },
+   {
+    "id": "GO:0016887",
+    "term": "F:ATP hydrolysis activity"
+   },
+   {
+    "id": "GO:0061995",
+    "term": "F:ATP-dependent protein-DNA complex displacement activity"
+   },
+   {
+    "id": "GO:1990814",
+    "term": "F:DNA/DNA annealing activity"
+   },
+   {
+    "id": "GO:0070336",
+    "term": "F:flap-structured DNA binding"
+   },
+   {
+    "id": "GO:0051880",
+    "term": "F:G-quadruplex DNA binding"
+   },
+   {
+    "id": "GO:0160225",
+    "term": "F:G-quadruplex unwinding activity"
+   },
+   {
+    "id": "GO:0003723",
+    "term": "F:RNA binding"
+   },
+   {
+    "id": "GO:0003697",
+    "term": "F:single-stranded DNA binding"
+   },
+   {
+    "id": "GO:0017116",
+    "term": "F:single-stranded DNA helicase activity"
+   },
+   {
+    "id": "GO:0006310",
+    "term": "P:DNA recombination"
+   },
+   {
+    "id": "GO:0006281",
+    "term": "P:DNA repair"
+   },
+   {
+    "id": "GO:1902983",
+    "term": "P:DNA strand elongation involved in mitotic DNA replication"
+   },
+   {
+    "id": "GO:0043504",
+    "term": "P:mitochondrial DNA repair"
+   },
+   {
+    "id": "GO:1990426",
+    "term": "P:mitotic recombination-dependent replication fork processing"
+   },
+   {
+    "id": "GO:1903469",
+    "term": "P:removal of RNA primer involved in mitotic DNA replication"
+   },
+   {
+    "id": "GO:0031297",
+    "term": "P:replication fork processing"
+   },
+   {
+    "id": "GO:0071932",
+    "term": "P:replication fork reversal"
+   },
+   {
+    "id": "GO:0000723",
+    "term": "P:telomere maintenance"
+   }
+  ],
+  "pdb": [],
+  "interpro": [
+   {
+    "id": "IPR003593",
+    "name": "AAA+_ATPase"
+   },
+   {
+    "id": "IPR010285",
+    "name": "DNA_helicase_pif1-like_DEAD"
+   },
+   {
+    "id": "IPR027417",
+    "name": "P-loop_NTPase"
+   },
+   {
+    "id": "IPR049163",
+    "name": "Pif1-like_2B_dom"
+   },
+   {
+    "id": "IPR051055",
+    "name": "PIF1_helicase"
+   },
+   {
+    "id": "IPR048293",
+    "name": "PIF1_RRM3_pfh1"
+   }
+  ],
+  "pfam": [
+   {
+    "id": "PF05970",
+    "name": "PIF1"
+   },
+   {
+    "id": "PF21530",
+    "name": "Pif1_2B_dom"
+   }
+  ],
+  "omim": [],
+  "orphanet": [],
+  "refseq": [
+   "NP_596488.1"
+  ],
+  "panther": [
+   {
+    "id": "PTHR47642",
+    "name": "ATP-DEPENDENT DNA HELICASE"
+   },
+   {
+    "id": "PTHR47642:SF5",
+    "name": "ATP-DEPENDENT DNA HELICASE"
+   }
+  ]
+ },
+ "group_ids": [
+  "PTHR47642"
+ ],
+ "group": "PIF1 family",
+ "alphafold": {
+  "entryId": "AF-Q9UUA2-F1",
+  "globalMetricValue": 63.94,
+  "fractionPlddtVeryHigh": 0.263,
+  "fractionPlddtConfident": 0.272,
+  "fractionPlddtLow": 0.098,
+  "fractionPlddtVeryLow": 0.366,
+  "cifUrl": "https://alphafold.ebi.ac.uk/files/AF-Q9UUA2-F1-model_v6.cif",
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-Q9UUA2-F1-model_v6.pdb",
+  "paeImageUrl": "https://alphafold.ebi.ac.uk/files/AF-Q9UUA2-F1-predicted_aligned_error_v6.png",
+  "latestVersion": 6,
+  "modelCreatedDate": "2025-08-01T00:00:00Z"
+ },
+ "literature": {
+  "count": 23,
+  "papers": [
+   {
+    "pmid": "42150082",
+    "title": "Regulation of Pfh1 helicase activity by nucleic acid interactions and mitochondrial SSB",
+    "authors": [
+     "Ortiz-Rodr\u00edguez M",
+     "Singh SP",
+     "Cao-Garc\u00eda FJ",
+     "et al."
+    ],
+    "journal": "Proc Natl Acad Sci U S A",
+    "year": "2026",
+    "date": "2026 May 26"
+   },
+   {
+    "pmid": "34228709",
+    "title": "Expression of the cancer-associated DNA polymerase \u03b5 P286R in fission yeast leads to translesion synthesis polymerase dependent hypermutation and defective DNA replication",
+    "authors": [
+     "Soriano I",
+     "Vazquez E",
+     "De Leon N",
+     "et al."
+    ],
+    "journal": "PLoS Genet",
+    "year": "2021",
+    "date": "2021 Jul"
+   },
+   {
+    "pmid": "32093266",
+    "title": "Yeast Genome Maintenance by the Multifunctional PIF1 DNA Helicase Family",
+    "authors": [
+     "Muellner J",
+     "Schmidt KH"
+    ],
+    "journal": "Genes (Basel)",
+    "year": "2020",
+    "date": "2020 Feb 20"
+   },
+   {
+    "pmid": "31744872",
+    "title": "Branched unwinding mechanism of the Pif1 family of DNA helicases",
+    "authors": [
+     "Singh SP",
+     "Soranno A",
+     "Sparks MA",
+     "et al."
+    ],
+    "journal": "Proc Natl Acad Sci U S A",
+    "year": "2019",
+    "date": "2019 Dec 3"
+   },
+   {
+    "pmid": "31473486",
+    "title": "Identification of putative G-quadruplex DNA structures in S. pombe genome by quantitative PCR stop assay",
+    "authors": [
+     "Jamroskovic J",
+     "Obi I",
+     "Movahedi A",
+     "et al."
+    ],
+    "journal": "DNA Repair (Amst)",
+    "year": "2019",
+    "date": "2019 Oct"
+   },
+   {
+    "pmid": "30667359",
+    "title": "Factors affecting template switch recombination associated with restarted DNA replication",
+    "authors": [
+     "Jalan M",
+     "Oehler J",
+     "Morrow CA",
+     "et al."
+    ],
+    "journal": "Elife",
+    "year": "2019",
+    "date": "2019 Jan 22"
+   },
+   {
+    "pmid": "30442759",
+    "title": "Two Pif1 Family DNA Helicases Cooperate in Centromere Replication and Segregation in Saccharomyces cerevisiae",
+    "authors": [
+     "Chen CF",
+     "Pohl TJ",
+     "Pott S",
+     "et al."
+    ],
+    "journal": "Genetics",
+    "year": "2019",
+    "date": "2019 Jan"
+   },
+   {
+    "pmid": "30053106",
+    "title": "The Pif1 signature motif of Pfh1 is necessary for both protein displacement and helicase unwinding activities, but is dispensable for strand-annealing activity",
+    "authors": [
+     "Mohammad JB",
+     "Wallgren M",
+     "Sabouri N"
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2018",
+    "date": "2018 Sep 19"
+   },
+   {
+    "pmid": "28054200",
+    "title": "The functions of the multi-tasking Pfh1(Pif1) helicase",
+    "authors": [
+     "Sabouri N"
+    ],
+    "journal": "Curr Genet",
+    "year": "2017",
+    "date": "2017 Aug"
+   },
+   {
+    "pmid": "27611590",
+    "title": "Pfh1 Is an Accessory Replicative Helicase that Interacts with the Replisome to Facilitate Fork Progression and Preserve Genome Integrity",
+    "authors": [
+     "McDonald KR",
+     "Guise AJ",
+     "Pourbozorgi-Langroudi P",
+     "et al."
+    ],
+    "journal": "PLoS Genet",
+    "year": "2016",
+    "date": "2016 Sep"
+   },
+   {
+    "pmid": "27185885",
+    "title": "G-rich telomeric and ribosomal DNA sequences from the fission yeast genome form stable G-quadruplex DNA structures in vitro and are unwound by the Pfh1 DNA helicase",
+    "authors": [
+     "Wallgren M",
+     "Mohammad JB",
+     "Yan KP",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2016",
+    "date": "2016 Jul 27"
+   },
+   {
+    "pmid": "25471935",
+    "title": "The essential Schizosaccharomyces pombe Pfh1 DNA helicase promotes fork movement past G-quadruplex motifs to prevent DNA damage",
+    "authors": [
+     "Sabouri N",
+     "Capra JA",
+     "Zakian VA"
+    ],
+    "journal": "BMC Biol",
+    "year": "2014",
+    "date": "2014 Dec 4"
+   },
+   {
+    "pmid": "25303777",
+    "title": "The Pif1 family helicase Pfh1 facilitates telomere replication and has an RPA-dependent role during telomere lengthening",
+    "authors": [
+     "McDonald KR",
+     "Sabouri N",
+     "Webb CJ",
+     "et al."
+    ],
+    "journal": "DNA Repair (Amst)",
+    "year": "2014",
+    "date": "2014 Dec"
+   },
+   {
+    "pmid": "23249883",
+    "title": "Mapping genomic hotspots of DNA damage by a single-strand-DNA-compatible and strand-specific ChIP-seq method",
+    "authors": [
+     "Zhou ZX",
+     "Zhang MJ",
+     "Peng X",
+     "et al."
+    ],
+    "journal": "Genome Res",
+    "year": "2013",
+    "date": "2013 Apr"
+   },
+   {
+    "pmid": "23115244",
+    "title": "Cells lacking pfh1, a fission yeast homolog of mammalian frataxin protein, display constitutive activation of the iron starvation response",
+    "authors": [
+     "Gabrielli N",
+     "Ayt\u00e9 J",
+     "Hidalgo E"
+    ],
+    "journal": "J Biol Chem",
+    "year": "2012",
+    "date": "2012 Dec 14"
+   },
+   {
+    "pmid": "22426535",
+    "title": "The DNA helicase Pfh1 promotes fork merging at replication termination sites to ensure genome stability",
+    "authors": [
+     "Steinacher R",
+     "Osman F",
+     "Dalgaard JZ",
+     "et al."
+    ],
+    "journal": "Genes Dev",
+    "year": "2012",
+    "date": "2012 Mar 15"
+   },
+   {
+    "pmid": "22426534",
+    "title": "DNA replication through hard-to-replicate sites, including both highly transcribed RNA Pol II and Pol III genes, requires the S. pombe Pfh1 helicase",
+    "authors": [
+     "Sabouri N",
+     "McDonald KR",
+     "Webb CJ",
+     "et al."
+    ],
+    "journal": "Genes Dev",
+    "year": "2012",
+    "date": "2012 Mar 15"
+   },
+   {
+    "pmid": "22347400",
+    "title": "A genomewide screen for suppressors of Alu-mediated rearrangements reveals a role for PIF1",
+    "authors": [
+     "Chisholm KM",
+     "Aubert SD",
+     "Freese KP",
+     "et al."
+    ],
+    "journal": "PLoS One",
+    "year": "2012",
+    "date": "2012"
+   },
+   {
+    "pmid": "18725402",
+    "title": "The Schizosaccharomyces pombe Pfh1p DNA helicase is essential for the maintenance of nuclear and mitochondrial DNA",
+    "authors": [
+     "Pinter SF",
+     "Aubert SD",
+     "Zakian VA"
+    ],
+    "journal": "Mol Cell Biol",
+    "year": "2008",
+    "date": "2008 Nov"
+   },
+   {
+    "pmid": "16935874",
+    "title": "Roles of Pif1-like helicases in the maintenance of genomic stability",
+    "authors": [
+     "Boul\u00e9 JB",
+     "Zakian VA"
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2006",
+    "date": "2006"
+   },
+   {
+    "pmid": "15302919",
+    "title": "Genetic and biochemical analyses of Pfh1 DNA helicase function in fission yeast",
+    "authors": [
+     "Ryu GH",
+     "Tanaka H",
+     "Kim DH",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2004",
+    "date": "2004"
+   },
+   {
+    "pmid": "12409464",
+    "title": "The fission yeast pfh1(+) gene encodes an essential 5' to 3' DNA helicase required for the completion of S-phase",
+    "authors": [
+     "Tanaka H",
+     "Ryu GH",
+     "Seo YS",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2002",
+    "date": "2002 Nov 1"
+   },
+   {
+    "pmid": "12058079",
+    "title": "Schizosaccharomyces pombe pfh1+ encodes an essential 5' to 3' DNA helicase that is a member of the PIF1 subfamily of DNA helicases",
+    "authors": [
+     "Zhou JQ",
+     "Qi H",
+     "Schulz VP",
+     "et al."
+    ],
+    "journal": "Mol Biol Cell",
+    "year": "2002",
+    "date": "2002 Jun"
+   }
+  ],
+  "query": "(Pfh1[tiab] OR \"Pfh1p\"[tiab]) AND (pombe OR \"fission yeast\" OR helicase)"
+ },
+ "interactions_intact": {
+  "total": 0,
+  "partners": []
+ }
+}

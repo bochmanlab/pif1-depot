@@ -1,0 +1,368 @@
+{
+ "uniprot": "Q6MHJ5",
+ "slug": "pif1-bdellovibrio",
+ "gene": "pif1",
+ "short": "Pif1",
+ "organism": "Bdellovibrio bacteriovorus",
+ "kingdom": "Bacteria",
+ "pubmed": "Pif1[tiab] AND (Bdellovibrio OR bacterial)",
+ "uniprot_data": {
+  "accession": "Q6MHJ5",
+  "entry": "PIF1_BDEBA",
+  "reviewed": true,
+  "name": "ATP-dependent DNA helicase Pif1",
+  "alt_names": [
+   "DNA 5'-3' helicase Pif1"
+  ],
+  "ec": [
+   "5.6.2.3"
+  ],
+  "genes": [
+   "pif1",
+   "Bd3546"
+  ],
+  "organism": "Bdellovibrio bacteriovorus (strain ATCC 15356 / DSM 50701 / NCIMB 9529 / HD100)",
+  "taxid": 264462,
+  "length": 439,
+  "mass": 49135,
+  "sequence": "MNSESKCYRFYICFARLGSGMIAGLMPVHEIELSPEQASALDLLRSGENVFLTGGAGSGKSFLIRQFMRELDPKEMPILASTGAAAVLLGGRTFHSFFGLGIMEGGADATYERASKDKRLMSRLRKVEGVIIDEISMIPGQALMIAEALSQRARESKLPWGGMRVIAVGDFAQLPPVTHTGQRDWCFLNGVWEVSGFQTVMLSHNQRVSDNLFLDVLSDVRHGKVTERVREFLNEHVQDHDEDDPGTRLFPRKINAEKFNERKLAEIDETEVVIESIYSGSERHIETLKKASPIAEKLILKIGCQVMFLQNDPQRRWVNGTRGTVVDITADQITVRKDRGREVQVSKSSFAIQDAEGNIMAQVEQFPLTLAYATTIHKSQGATLDDLWCDLSQLWEPGQAYVALSRLRSAKGLHLIGWNPRSIIVDPKVLHFYKQFEGL",
+  "existence": "1: Evidence at protein level",
+  "annotation_score": 3.0,
+  "last_modified": "2026-09-02",
+  "comments": {
+   "FUNCTION": [
+    "DNA-dependent ATPase and 5'-3' DNA helicase that efficiently unwinds G-quadruplex (G4) DNA structures. May be involved in resolving commom issues that arise during DNA replication, recombination, and repair"
+   ],
+   "CATALYTIC ACTIVITY": [
+    "Couples ATP hydrolysis with the unwinding of duplex DNA at the replication fork by translocating in the 5'-3' direction.",
+    "ATP + H2O = ADP + phosphate + H(+)"
+   ],
+   "COFACTOR": [
+    "Mg(2+)"
+   ],
+   "SUBUNIT": [
+    "Monomer"
+   ],
+   "SIMILARITY": [
+    "Belongs to the helicase family. PIF1 subfamily"
+   ]
+  },
+  "features": {
+   "domains": [
+    {
+     "name": "PIF1-like helicase (Pfam PF05970)",
+     "start": 33,
+     "end": 228
+    },
+    {
+     "name": "DNA helicase Pif1, 2B domain (Pfam PF21530)",
+     "start": 286,
+     "end": 327
+    }
+   ],
+   "regions": [],
+   "motifs": [],
+   "binding": [],
+   "mutagenesis": [],
+   "variants": []
+  },
+  "go": [
+   {
+    "id": "GO:0043139",
+    "term": "F:5'-3' DNA helicase activity"
+   },
+   {
+    "id": "GO:0016887",
+    "term": "F:ATP hydrolysis activity"
+   },
+   {
+    "id": "GO:0006281",
+    "term": "P:DNA repair"
+   },
+   {
+    "id": "GO:0000723",
+    "term": "P:telomere maintenance"
+   }
+  ],
+  "pdb": [],
+  "interpro": [
+   {
+    "id": "IPR003593",
+    "name": "AAA+_ATPase"
+   },
+   {
+    "id": "IPR010285",
+    "name": "DNA_helicase_pif1-like_DEAD"
+   },
+   {
+    "id": "IPR027417",
+    "name": "P-loop_NTPase"
+   },
+   {
+    "id": "IPR049163",
+    "name": "Pif1-like_2B_dom"
+   },
+   {
+    "id": "IPR051055",
+    "name": "PIF1_helicase"
+   }
+  ],
+  "pfam": [
+   {
+    "id": "PF05970",
+    "name": "PIF1"
+   },
+   {
+    "id": "PF21530",
+    "name": "Pif1_2B_dom"
+   }
+  ],
+  "omim": [],
+  "orphanet": [],
+  "refseq": [
+   "WP_011165875.1"
+  ],
+  "panther": [
+   {
+    "id": "PTHR47642",
+    "name": "ATP-DEPENDENT DNA HELICASE"
+   },
+   {
+    "id": "PTHR47642:SF7",
+    "name": "ATP-DEPENDENT DNA HELICASE PIF1"
+   }
+  ]
+ },
+ "group_ids": [
+  "PTHR47642"
+ ],
+ "group": "PIF1 family",
+ "alphafold": {
+  "entryId": "AF-Q6MHJ5-F1",
+  "globalMetricValue": 88.19,
+  "fractionPlddtVeryHigh": 0.699,
+  "fractionPlddtConfident": 0.226,
+  "fractionPlddtLow": 0.009,
+  "fractionPlddtVeryLow": 0.066,
+  "cifUrl": "https://alphafold.ebi.ac.uk/files/AF-Q6MHJ5-F1-model_v6.cif",
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-Q6MHJ5-F1-model_v6.pdb",
+  "paeImageUrl": "https://alphafold.ebi.ac.uk/files/AF-Q6MHJ5-F1-predicted_aligned_error_v6.png",
+  "latestVersion": 6,
+  "modelCreatedDate": "2025-08-01T00:00:00Z"
+ },
+ "literature": {
+  "count": 16,
+  "papers": [
+   {
+    "pmid": "33784404",
+    "title": "Structural and functional studies of SF1B Pif1 from Thermus oshimai reveal dimerization-induced helicase inhibition",
+    "authors": [
+     "Dai YX",
+     "Chen WF",
+     "Liu NN",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2021",
+    "date": "2021 Apr 19"
+   },
+   {
+    "pmid": "32693146",
+    "title": "Single-molecule probing the duplex and G4 unwinding patterns of a RecD family helicase",
+    "authors": [
+     "Xue ZY",
+     "Wu WQ",
+     "Zhao XC",
+     "et al."
+    ],
+    "journal": "Int J Biol Macromol",
+    "year": "2020",
+    "date": "2020 Dec 1"
+   },
+   {
+    "pmid": "32078682",
+    "title": "Microbiological Quality of Powdered Infant Formula in Latin America",
+    "authors": [
+     "Parra-Flores J",
+     "Maury-Sintjago E",
+     "Rodriguez-Fern\u00e1ndez A",
+     "et al."
+    ],
+    "journal": "J Food Prot",
+    "year": "2020",
+    "date": "2020 Mar 1"
+   },
+   {
+    "pmid": "31772234",
+    "title": "Structural basis for DNA unwinding at forked dsDNA by two coordinating Pif1 helicases",
+    "authors": [
+     "Su N",
+     "Byrd AK",
+     "Bharath SR",
+     "et al."
+    ],
+    "journal": "Nat Commun",
+    "year": "2019",
+    "date": "2019 Nov 26"
+   },
+   {
+    "pmid": "31201355",
+    "title": "Phytochrome activates the plastid-encoded RNA polymerase for chloroplast biogenesis via nucleus-to-plastid signaling",
+    "authors": [
+     "Yoo CY",
+     "Pasoreck EK",
+     "Wang H",
+     "et al."
+    ],
+    "journal": "Nat Commun",
+    "year": "2019",
+    "date": "2019 Jun 14"
+   },
+   {
+    "pmid": "31201314",
+    "title": "NCP activates chloroplast transcription by controlling phytochrome-dependent dual nuclear and plastidial switches",
+    "authors": [
+     "Yang EJ",
+     "Yoo CY",
+     "Liu J",
+     "et al."
+    ],
+    "journal": "Nat Commun",
+    "year": "2019",
+    "date": "2019 Jun 14"
+   },
+   {
+    "pmid": "30698796",
+    "title": "Structural and functional analysis of the nucleotide and DNA binding activities of the human PIF1 helicase",
+    "authors": [
+     "Dehghani-Tafti S",
+     "Levdikov V",
+     "Antson AA",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2019",
+    "date": "2019 Apr 8"
+   },
+   {
+    "pmid": "30239884",
+    "title": "The signature motif of the Saccharomyces cerevisiae Pif1 DNA helicase is essential in vivo for mitochondrial and nuclear functions and in vitro for ATPase activity",
+    "authors": [
+     "Geronimo CL",
+     "Singh SP",
+     "Galletto R",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2018",
+    "date": "2018 Sep 19"
+   },
+   {
+    "pmid": "29341597",
+    "title": "The WYL Domain of the PIF1 Helicase from the Thermophilic Bacterium Thermotoga elfii is an Accessory Single-Stranded DNA Binding Module",
+    "authors": [
+     "Andis NM",
+     "Sausen CW",
+     "Alladin A",
+     "et al."
+    ],
+    "journal": "Biochemistry",
+    "year": "2018",
+    "date": "2018 Feb 20"
+   },
+   {
+    "pmid": "28900015",
+    "title": "Structure and function of Pif1 helicase",
+    "authors": [
+     "Byrd AK",
+     "Raney KD"
+    ],
+    "journal": "Biochem Soc Trans",
+    "year": "2017",
+    "date": "2017 Oct 15"
+   },
+   {
+    "pmid": "26809678",
+    "title": "Crystal structures of the BsPif1 helicase reveal that a major movement of the 2B SH3 domain is required for DNA unwinding",
+    "authors": [
+     "Chen WF",
+     "Dai YX",
+     "Duan XL",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2016",
+    "date": "2016 Apr 7"
+   },
+   {
+    "pmid": "26904952",
+    "title": "Structural and Functional Insights into the Unwinding Mechanism of Bacteroides sp Pif1",
+    "authors": [
+     "Zhou X",
+     "Ren W",
+     "Bharath SR",
+     "et al."
+    ],
+    "journal": "Cell Rep",
+    "year": "2016",
+    "date": "2016 Mar 1"
+   },
+   {
+    "pmid": "26384418",
+    "title": "The Bacteroides sp. 3_1_23 Pif1 protein is a multifunctional helicase",
+    "authors": [
+     "Liu NN",
+     "Duan XL",
+     "Ai X",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2015",
+    "date": "2015 Oct 15"
+   },
+   {
+    "pmid": "25480150",
+    "title": "Highly expressed captured genes and cross-kingdom domains present in Helitrons create novel diversity in Pleurotus ostreatus and other fungi",
+    "authors": [
+     "Castanera R",
+     "P\u00e9rez G",
+     "L\u00f3pez L",
+     "et al."
+    ],
+    "journal": "BMC Genomics",
+    "year": "2014",
+    "date": "2014 Dec 5"
+   },
+   {
+    "pmid": "25471935",
+    "title": "The essential Schizosaccharomyces pombe Pfh1 DNA helicase promotes fork movement past G-quadruplex motifs to prevent DNA damage",
+    "authors": [
+     "Sabouri N",
+     "Capra JA",
+     "Zakian VA"
+    ],
+    "journal": "BMC Biol",
+    "year": "2014",
+    "date": "2014 Dec 4"
+   },
+   {
+    "pmid": "23292879",
+    "title": "Transcriptional programs related to phytochrome A function in Arabidopsis seed germination",
+    "authors": [
+     "Ibarra SE",
+     "Auge G",
+     "S\u00e1nchez RA",
+     "et al."
+    ],
+    "journal": "Mol Plant",
+    "year": "2013",
+    "date": "2013 Jul"
+   }
+  ],
+  "query": "Pif1[tiab] AND (Bdellovibrio OR bacterial)"
+ },
+ "interactions_intact": {
+  "total": 0,
+  "partners": []
+ }
+}

@@ -1,0 +1,302 @@
+{
+ "uniprot": "Q59RQ0",
+ "slug": "pif1-calbicans",
+ "gene": "PIF1",
+ "short": "Pif1",
+ "organism": "Candida albicans",
+ "kingdom": "Fungi",
+ "pubmed": "Pif1[tiab] AND (\"Candida albicans\" OR Candida)",
+ "uniprot_data": {
+  "accession": "Q59RQ0",
+  "entry": "PIF1_CANAL",
+  "reviewed": true,
+  "name": "ATP-dependent DNA helicase PIF1",
+  "alt_names": [
+   "DNA 5'-3' helicase PIF1",
+   "DNA repair and recombination helicase PIF1"
+  ],
+  "ec": [
+   "5.6.2.3"
+  ],
+  "genes": [
+   "PIF1",
+   "CAALFM_CR07360WA"
+  ],
+  "organism": "Candida albicans (strain SC5314 / ATCC MYA-2876)",
+  "taxid": 237561,
+  "length": 906,
+  "mass": 101321,
+  "sequence": "MLNANKSIIRLATYSIRNRIHHLRTLHSLNYINSRINIQDTNHIRPTCPCGSKQFMLESELDSALIEFLDNDDPFSDSEIKESDDLSKGQSHVYNGSPVTKNSILQIEKQQIQKSPRPTETNKRMQIRKDPDQNDNVDDDSLSSTFEFSDMDDDFMEALKAAEEITGNNTNCIKRTASTPLKKPIAKSMKNSSTPSKSAGKKYCKYIKTSSPSPSHYLIRESGSGVDILEGSPNKVQADNASPFRITSSFSSPSQIQNQGVGANPGPKSKAEQNVSSASQSSSPPMTVSQVRNPFKVPTQFRRNYSTRPITNQGSDTKKGNSHHTILLATQKPGVPFSNPSDRSYHKLEKTEGINEAQSEAKNVKPIILSNEQEYVLKQVLSGVSLFYTGSAGTGKSVLLRSIIKSLRDKYPKGVAVTASTGLAACNIGGITLHSFAGFGLGQGKVENLIKKIKRNKKAFTRWRETRVLIIDEISMVDGHLLNKLNEIAKNLRRNNRPFGGIQLVACGDFYQLPPVVKKTAHDGTELDDVEVFFAFESSAWKETIQRTITLKEIFRQKGDQRFINMLNNLRDGNVPDDTARDFCRLSRPLKCPEGIVPSELYATRYEVDMANSRKLNTIQGDVVVYNSVDTGILPEPQKTQVLTNFLAPQVLNLKVGAQVMCIKNFDDQLVNGTLGKVIDFVDRDTYMKSESKENPSTETSDEVSGLNDYIFNDFQKPKKVVKEDAPIAEQVLFTGQLSQKVEEESESSKRKSKLKDDLMKDYKNKKYPLVKFLLPDGITFRTVVVEPEQWTTEDEDGTVLVSRIQFPLILAWSLSIHKSQGQTLSKVVVDMKKIFENGQAYVALSRAVSRAGLQVLNFNRSKVASHRKVIEFYKNLSSHEKESRSGQQRLNFMQTSVKSVARAQI",
+  "existence": "1: Evidence at protein level",
+  "annotation_score": 5.0,
+  "last_modified": "2026-09-02",
+  "comments": {
+   "FUNCTION": [
+    "DNA-dependent ATPase and 5'-3' DNA helicase required for the maintenance of both mitochondrial and nuclear genome stability. Efficiently unwinds G-quadruplex (G4) DNA structures and forked RNA-DNA hybrids. Resolves G4 structures, preventing replication pausing and double-strand breaks (DSBs) at G4 motifs. Involved in the maintenance of telomeric DNA. Inhibits telomere elongation, de novo telomere formation and telomere addition to DSBs via catalytic inhibition of telomerase. Reduces the processivity of telomerase by displacing active telomerase from DNA ends. Releases telomerase by unwinding the short telomerase RNA/telomeric DNA hybrid that is the intermediate in the telomerase reaction. Involved in the maintenance of ribosomal (rDNA). Required for efficient fork arrest at the replication fork barrier within rDNA. Involved in the maintenance of mitochondrial (mtDNA). Required to maintain mtDNA under conditions that introduce dsDNA breaks in mtDNA, either preventing or repairing dsDNA breaks. May inhibit replication progression to allow time for repair. May have a general role in chromosomal replication by affecting Okazaki fragment maturation. May have a role in conjunction with DNA2 helicase/nuclease in 5'-flap extension during Okazaki fragment processing"
+   ],
+   "CATALYTIC ACTIVITY": [
+    "Couples ATP hydrolysis with the unwinding of duplex DNA at the replication fork by translocating in the 5'-3' direction.",
+    "ATP + H2O = ADP + phosphate + H(+)"
+   ],
+   "COFACTOR": [
+    "Mg(2+)"
+   ],
+   "SUBUNIT": [
+    "Monomer. Interacts with telomerase"
+   ],
+   "SUBCELLULAR LOCATION": [
+    "Nucleus; Mitochondrion"
+   ],
+   "SIMILARITY": [
+    "Belongs to the helicase family. PIF1 subfamily"
+   ]
+  },
+  "features": {
+   "domains": [
+    {
+     "name": "PIF1-like helicase (Pfam PF05970)",
+     "start": 369,
+     "end": 579
+    },
+    {
+     "name": "DNA helicase Pif1, 2B domain (Pfam PF21530)",
+     "start": 642,
+     "end": 681
+    }
+   ],
+   "regions": [
+    {
+     "name": "Disordered",
+     "start": 77,
+     "end": 146
+    },
+    {
+     "name": "Disordered",
+     "start": 229,
+     "end": 297
+    }
+   ],
+   "motifs": [],
+   "binding": [
+    {
+     "start": 390,
+     "end": 397,
+     "ligand": "ATP"
+    }
+   ],
+   "mutagenesis": [],
+   "variants": []
+  },
+  "go": [
+   {
+    "id": "GO:0031966",
+    "term": "C:mitochondrial membrane"
+   },
+   {
+    "id": "GO:0005739",
+    "term": "C:mitochondrion"
+   },
+   {
+    "id": "GO:0043596",
+    "term": "C:nuclear replication fork"
+   },
+   {
+    "id": "GO:0035861",
+    "term": "C:site of double-strand break"
+   },
+   {
+    "id": "GO:0008408",
+    "term": "F:3'-5' exonuclease activity"
+   },
+   {
+    "id": "GO:0043139",
+    "term": "F:5'-3' DNA helicase activity"
+   },
+   {
+    "id": "GO:0005524",
+    "term": "F:ATP binding"
+   },
+   {
+    "id": "GO:0016887",
+    "term": "F:ATP hydrolysis activity"
+   },
+   {
+    "id": "GO:0019237",
+    "term": "F:centromeric DNA binding"
+   },
+   {
+    "id": "GO:0003678",
+    "term": "F:DNA helicase activity"
+   },
+   {
+    "id": "GO:0051880",
+    "term": "F:G-quadruplex DNA binding"
+   },
+   {
+    "id": "GO:0160225",
+    "term": "F:G-quadruplex unwinding activity"
+   },
+   {
+    "id": "GO:0003697",
+    "term": "F:single-stranded DNA binding"
+   },
+   {
+    "id": "GO:0010521",
+    "term": "F:telomerase inhibitor activity"
+   },
+   {
+    "id": "GO:0042162",
+    "term": "F:telomeric repeat DNA binding"
+   },
+   {
+    "id": "GO:0000727",
+    "term": "P:double-strand break repair via break-induced replication"
+   },
+   {
+    "id": "GO:0032211",
+    "term": "P:negative regulation of telomere maintenance via telomerase"
+   },
+   {
+    "id": "GO:0071932",
+    "term": "P:replication fork reversal"
+   },
+   {
+    "id": "GO:0000723",
+    "term": "P:telomere maintenance"
+   },
+   {
+    "id": "GO:0000722",
+    "term": "P:telomere maintenance via recombination"
+   },
+   {
+    "id": "GO:0019985",
+    "term": "P:translesion synthesis"
+   }
+  ],
+  "pdb": [
+   {
+    "id": "7OTJ",
+    "method": "X-ray",
+    "res": "2.58 A",
+    "chains": "A/B=367-883"
+   }
+  ],
+  "interpro": [
+   {
+    "id": "IPR003593",
+    "name": "AAA+_ATPase"
+   },
+   {
+    "id": "IPR010285",
+    "name": "DNA_helicase_pif1-like_DEAD"
+   },
+   {
+    "id": "IPR027417",
+    "name": "P-loop_NTPase"
+   },
+   {
+    "id": "IPR049163",
+    "name": "Pif1-like_2B_dom"
+   },
+   {
+    "id": "IPR051055",
+    "name": "PIF1_helicase"
+   },
+   {
+    "id": "IPR048293",
+    "name": "PIF1_RRM3_pfh1"
+   }
+  ],
+  "pfam": [
+   {
+    "id": "PF05970",
+    "name": "PIF1"
+   },
+   {
+    "id": "PF21530",
+    "name": "Pif1_2B_dom"
+   }
+  ],
+  "omim": [],
+  "orphanet": [],
+  "refseq": [
+   "XP_712340.2"
+  ],
+  "panther": [
+   {
+    "id": "PTHR47642",
+    "name": "ATP-DEPENDENT DNA HELICASE"
+   },
+   {
+    "id": "PTHR47642:SF5",
+    "name": "ATP-DEPENDENT DNA HELICASE"
+   }
+  ]
+ },
+ "group_ids": [
+  "PTHR47642"
+ ],
+ "group": "PIF1 family",
+ "alphafold": {
+  "entryId": "AF-Q59RQ0-F1",
+  "globalMetricValue": 60.41,
+  "fractionPlddtVeryHigh": 0.238,
+  "fractionPlddtConfident": 0.21,
+  "fractionPlddtLow": 0.106,
+  "fractionPlddtVeryLow": 0.446,
+  "cifUrl": "https://alphafold.ebi.ac.uk/files/AF-Q59RQ0-F1-model_v6.cif",
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-Q59RQ0-F1-model_v6.pdb",
+  "paeImageUrl": "https://alphafold.ebi.ac.uk/files/AF-Q59RQ0-F1-predicted_aligned_error_v6.png",
+  "latestVersion": 6,
+  "modelCreatedDate": "2025-08-01T00:00:00Z"
+ },
+ "literature": {
+  "count": 3,
+  "papers": [
+   {
+    "pmid": "35127815",
+    "title": "Mechanistic Insight Into Cadmium- and Zinc-Induced Inactivation of the Candida albicans Pif1 Helicase",
+    "authors": [
+     "Zhang B",
+     "Zhang Q",
+     "Zhu X",
+     "et al."
+    ],
+    "journal": "Front Mol Biosci",
+    "year": "2021",
+    "date": "2021"
+   },
+   {
+    "pmid": "34166917",
+    "title": "Structural study of the function of Candida Albicans Pif1",
+    "authors": [
+     "Lu KY",
+     "Xin BG",
+     "Zhang T",
+     "et al."
+    ],
+    "journal": "Biochem Biophys Res Commun",
+    "year": "2021",
+    "date": "2021 Aug 27"
+   },
+   {
+    "pmid": "28216645",
+    "title": "A 3'-5' exonuclease activity embedded in the helicase core domain of Candida albicans Pif1 helicase",
+    "authors": [
+     "Wei XB",
+     "Zhang B",
+     "Bazeille N",
+     "et al."
+    ],
+    "journal": "Sci Rep",
+    "year": "2017",
+    "date": "2017 Feb 20"
+   }
+  ],
+  "query": "Pif1[tiab] AND (\"Candida albicans\" OR Candida)"
+ },
+ "interactions_intact": {
+  "total": 0,
+  "partners": []
+ }
+}

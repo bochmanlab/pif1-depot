@@ -1,0 +1,250 @@
+{
+ "uniprot": "Q580X6",
+ "slug": "pif5-tbrucei",
+ "gene": "PIF5",
+ "short": "TbPIF5",
+ "organism": "Trypanosoma brucei brucei",
+ "kingdom": "Protists",
+ "pubmed": "(TbPIF5[tiab] OR \"PIF5\"[tiab]) AND (Trypanosoma OR brucei)",
+ "uniprot_data": {
+  "accession": "Q580X6",
+  "entry": "PIF5_TRYB2",
+  "reviewed": true,
+  "name": "ATP-dependent DNA helicase PIF5",
+  "alt_names": [
+   "DNA 5'-3' helicase PIF5",
+   "DNA repair and recombination helicase PIF5"
+  ],
+  "ec": [
+   "5.6.2.3"
+  ],
+  "genes": [
+   "PIF5"
+  ],
+  "organism": "Trypanosoma brucei brucei (strain 927/4 GUTat10.1)",
+  "taxid": 185431,
+  "length": 928,
+  "mass": 102457,
+  "sequence": "MLSRLSAVWRPSRVALRIQRVDFTTCGNRLNRSTQPNEPPLVSGIAARSRTAKAEPVEKRGRAAIKIDSPPPPLEPPRISEEHMTRRRKVGGGKTKAAAVTKSKQRRSGRTVGASAFNTARRANGIEGSAPGKGGASDVAIDDDDDEKLVDEESKQLMQLLKEEALRREEEKKKRLRAKAAAEPTEVTDDKEYLSKLGVAERTQPVGTEAKISAQGKAEGASEGQTHFSDADADSQLPILTSLSPEQQRALRLALKGRNLFITGGAGSGKSLLIREIVYQLRHNKRRCVYVTATTGVAALNVRGSTVNSFAGVKFGDGDARQLLKWVRRSRRAAGRWRYCQTLIIDEISMMDPLLLDKLDVIARAIRRRNEPFGGIQVILCGDFLQLPPIPPRNKPQQKTEENAEAQEGGDPTDGTPAPSKLQYCFETSTWTSLNLITVILHKKFRQHDDLAFQQVLDELRVGSLSPESYELLLSRTVASKSSAKSRKKKDEDAGNDGVLPLTDAETTPAAAEKDRHVRLCATNKEVEMRNAKYFAALEPKGLPIYPSPNDGSSQQTGSSNGANSVTEEDTMRPLQVYRAYDAYSTHETEPETTEETTTGTQPSQPWVRFEDSTLPTDLALKVGTRVMVLQNISLRLGLVNGSVGEVVGFLHPLELVELVLRAPRERHFPSARGQELLERAGLPTLQDAFRCVDTALGQSLFYYLRERGIRRPEDASYGCVYGNTHCRDILRLVGLGKTESANAVHPLEMYLGGIAPQHVRLTRLPIVRLDLREGNHTSSDSGAVEDGGFANGSKRLPKHVYAFISPSSHQWYMGDQPVATRTQLPLRQAWAMTVHKAQGLTISHVEVAIHRFFSPGQAYVALSRSTRLDNIRLLDFNNASVHACPRAKEFYTVLEEEELDNEIEDDGTEGDEEALEGDGEYEGEVEE",
+  "existence": "1: Evidence at protein level",
+  "annotation_score": 5.0,
+  "last_modified": "2026-09-02",
+  "comments": {
+   "FUNCTION": [
+    "DNA-dependent ATPase and 5'-3' DNA helicase required for the maintenance of mitochondrial (kinetoplast) genome stability. Involved in processing of minicircle Okazaki fragments"
+   ],
+   "CATALYTIC ACTIVITY": [
+    "Couples ATP hydrolysis with the unwinding of duplex DNA at the replication fork by translocating in the 5'-3' direction.",
+    "ATP + H2O = ADP + phosphate + H(+)"
+   ],
+   "COFACTOR": [
+    "Mg(2+)"
+   ],
+   "SUBUNIT": [
+    "Monomer"
+   ],
+   "SUBCELLULAR LOCATION": [
+    "Mitochondrion"
+   ],
+   "DISRUPTION PHENOTYPE": [
+    "Essential, it cannot be deleted"
+   ],
+   "SIMILARITY": [
+    "Belongs to the helicase family. PIF1 subfamily"
+   ]
+  },
+  "features": {
+   "domains": [
+    {
+     "name": "PIF1-like helicase (Pfam PF05970)",
+     "start": 243,
+     "end": 399
+    },
+    {
+     "name": "DNA helicase Pif1, 2B domain (Pfam PF21530)",
+     "start": 618,
+     "end": 650
+    }
+   ],
+   "regions": [
+    {
+     "name": "Disordered",
+     "start": 29,
+     "end": 141
+    },
+    {
+     "name": "Disordered",
+     "start": 176,
+     "end": 231
+    },
+    {
+     "name": "Disordered",
+     "start": 389,
+     "end": 421
+    },
+    {
+     "name": "Disordered",
+     "start": 481,
+     "end": 513
+    },
+    {
+     "name": "Disordered",
+     "start": 545,
+     "end": 572
+    },
+    {
+     "name": "Disordered",
+     "start": 585,
+     "end": 607
+    },
+    {
+     "name": "Disordered",
+     "start": 898,
+     "end": 928
+    }
+   ],
+   "motifs": [],
+   "binding": [
+    {
+     "start": 264,
+     "end": 271,
+     "ligand": "ATP"
+    }
+   ],
+   "mutagenesis": [],
+   "variants": []
+  },
+  "go": [
+   {
+    "id": "GO:0005737",
+    "term": "C:cytoplasm"
+   },
+   {
+    "id": "GO:0005739",
+    "term": "C:mitochondrion"
+   },
+   {
+    "id": "GO:0031981",
+    "term": "C:nuclear lumen"
+   },
+   {
+    "id": "GO:0005730",
+    "term": "C:nucleolus"
+   },
+   {
+    "id": "GO:0005654",
+    "term": "C:nucleoplasm"
+   },
+   {
+    "id": "GO:0043139",
+    "term": "F:5'-3' DNA helicase activity"
+   },
+   {
+    "id": "GO:0016887",
+    "term": "F:ATP hydrolysis activity"
+   },
+   {
+    "id": "GO:0006281",
+    "term": "P:DNA repair"
+   },
+   {
+    "id": "GO:0033567",
+    "term": "P:DNA replication, Okazaki fragment processing"
+   },
+   {
+    "id": "GO:0043137",
+    "term": "P:DNA replication, removal of RNA primer"
+   },
+   {
+    "id": "GO:0000723",
+    "term": "P:telomere maintenance"
+   }
+  ],
+  "pdb": [],
+  "interpro": [
+   {
+    "id": "IPR003593",
+    "name": "AAA+_ATPase"
+   },
+   {
+    "id": "IPR010285",
+    "name": "DNA_helicase_pif1-like_DEAD"
+   },
+   {
+    "id": "IPR027417",
+    "name": "P-loop_NTPase"
+   },
+   {
+    "id": "IPR049163",
+    "name": "Pif1-like_2B_dom"
+   },
+   {
+    "id": "IPR051055",
+    "name": "PIF1_helicase"
+   }
+  ],
+  "pfam": [
+   {
+    "id": "PF05970",
+    "name": "PIF1"
+   },
+   {
+    "id": "PF21530",
+    "name": "Pif1_2B_dom"
+   }
+  ],
+  "omim": [],
+  "orphanet": [],
+  "refseq": [],
+  "panther": [
+   {
+    "id": "PTHR47642",
+    "name": "ATP-DEPENDENT DNA HELICASE"
+   },
+   {
+    "id": "PTHR47642:SF5",
+    "name": "ATP-DEPENDENT DNA HELICASE"
+   }
+  ]
+ },
+ "group_ids": [
+  "PTHR47642"
+ ],
+ "group": "PIF1 family",
+ "alphafold": {
+  "entryId": "AF-Q580X6-F1",
+  "globalMetricValue": 62.38,
+  "fractionPlddtVeryHigh": 0.176,
+  "fractionPlddtConfident": 0.331,
+  "fractionPlddtLow": 0.085,
+  "fractionPlddtVeryLow": 0.408,
+  "cifUrl": "https://alphafold.ebi.ac.uk/files/AF-Q580X6-F1-model_v6.cif",
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-Q580X6-F1-model_v6.pdb",
+  "paeImageUrl": "https://alphafold.ebi.ac.uk/files/AF-Q580X6-F1-predicted_aligned_error_v6.png",
+  "latestVersion": 6,
+  "modelCreatedDate": "2025-08-01T00:00:00Z"
+ },
+ "literature": {
+  "count": 1,
+  "papers": [
+   {
+    "pmid": "19779567",
+    "title": "TbPIF5 is a Trypanosoma brucei mitochondrial DNA helicase involved in processing of minicircle Okazaki fragments",
+    "authors": [
+     "Liu B",
+     "Wang J",
+     "Yildirir G",
+     "et al."
+    ],
+    "journal": "PLoS Pathog",
+    "year": "2009",
+    "date": "2009 Sep"
+   }
+  ],
+  "query": "(TbPIF5[tiab] OR \"PIF5\"[tiab]) AND (Trypanosoma OR brucei)"
+ },
+ "interactions_intact": {
+  "total": 0,
+  "partners": []
+ }
+}

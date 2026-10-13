@@ -1,0 +1,2706 @@
+{
+ "uniprot": "P07271",
+ "slug": "pif1-scerevisiae",
+ "gene": "PIF1",
+ "short": "Pif1",
+ "organism": "Saccharomyces cerevisiae",
+ "kingdom": "Fungi",
+ "pubmed": "Pif1[tiab] AND (yeast OR cerevisiae OR helicase)",
+ "sgd": "S000004526",
+ "uniprot_data": {
+  "accession": "P07271",
+  "entry": "PIF1_YEAST",
+  "reviewed": true,
+  "name": "ATP-dependent DNA helicase PIF1",
+  "alt_names": [
+   "DNA 5'-3' helicase PIF1",
+   "DNA repair and recombination helicase PIF1",
+   "Petite integration frequency protein 1",
+   "Telomere stability protein 1"
+  ],
+  "ec": [
+   "5.6.2.3"
+  ],
+  "genes": [
+   "PIF1",
+   "TST1",
+   "YML061C"
+  ],
+  "organism": "Saccharomyces cerevisiae (strain ATCC 204508 / S288c)",
+  "taxid": 559292,
+  "length": 859,
+  "mass": 97682,
+  "sequence": "MPKWIRSTLNHIIPRRPFICSFNSFLLLKNVSHAKLSFSMSSRGFRSNNFIQAQLKHPSILSKEDLDLLSDSDDWEEPDCIQLETEKQEKKIITDIHKEDPVDKKPMRDKNVMNFINKDSPLSWNDMFKPSIIQPPQLISENSFDQSSQKKSRSTGFKNPLRPALKKESSFDELQNNSISQERSLEMINENEKKKMQFGEKIAVLTQRPSFTELQNDQDDSNLNPHNGVKVKIPICLSKEQESIIKLAENGHNIFYTGSAGTGKSILLREMIKVLKGIYGRENVAVTASTGLAACNIGGITIHSFAGIGLGKGDADKLYKKVRRSRKHLRRWENIGALVVDEISMLDAELLDKLDFIARKIRKNHQPFGGIQLIFCGDFFQLPPVSKDPNRPTKFAFESKAWKEGVKMTIMLQKVFRQRGDVKFIDMLNRMRLGNIDDETEREFKKLSRPLPDDEIIPAELYSTRMEVERANNSRLSKLPGQVHIFNAIDGGALEDEELKERLLQNFLAPKELHLKVGAQVMMVKNLDATLVNGSLGKVIEFMDPETYFCYEALTNDPSMPPEKLETWAENPSKLKAAMEREQSDGEESAVASRKSSVKEGFAKSDIGEPVSPLDSSVFDFMKRVKTDDEVVLENIKRKEQLMQTIHQNSAGKRRLPLVRFKASDMSTRMVLVEPEDWAIEDENEKPLVSRVQLPLMLAWSLSIHKSQGQTLPKVKVDLRRVFEKGQAYVALSRAVSREGLQVLNFDRTRIKAHQKVIDFYLTLSSAESAYKQLEADEQVKKRKLDYAPGPKYKAKSKSKSNSPAPISATTQSNNGIAAMLQRHSRKRFQLKKESNSNQVHSLVSDEPRGQDTEDHILE",
+  "existence": "1: Evidence at protein level",
+  "annotation_score": 5.0,
+  "last_modified": "2026-09-02",
+  "comments": {
+   "FUNCTION": [
+    "DNA-dependent ATPase and 5'-3' DNA helicase required for the maintenance of both mitochondrial and nuclear genome stability. Efficiently unwinds G-quadruplex (G4) DNA structures and forked RNA-DNA hybrids. Appears to move along DNA in single nucleotide or base pair steps, powered by hydrolysis of 1 molecule of ATP. Processes at an unwinding rate of about 75 bp/s. Resolves G4 structures, preventing replication pausing and double-strand breaks (DSBs) at G4 motifs. Involved in the maintenance of telomeric DNA. Inhibits telomere elongation, de novo telomere formation and telomere addition to DSBs via catalytic inhibition of telomerase. Reduces the processivity of telomerase by displacing active telomerase from DNA ends. Releases telomerase by unwinding the short telomerase RNA/telomeric DNA hybrid that is the intermediate in the telomerase reaction. Involved in the maintenance of ribosomal (rDNA). Required for efficient fork arrest at the replication fork barrier within rDNA. Involved in the maintenance of mitochondrial (mtDNA). Required to maintain mtDNA under conditions that introduce dsDNA breaks in mtDNA, either preventing or repairing dsDNA breaks. May inhibit replication progression to allow time for repair. May have a general role in chromosomal replication by affecting Okazaki fragment maturation. May have a role in conjunction with DNA2 helicase/nuclease in 5'-flap extension during Okazaki fragment processing"
+   ],
+   "CATALYTIC ACTIVITY": [
+    "Couples ATP hydrolysis with the unwinding of duplex DNA at the replication fork by translocating in the 5'-3' direction.",
+    "ATP + H2O = ADP + phosphate + H(+)"
+   ],
+   "COFACTOR": [
+    "Mg(2+)",
+    "Mn(2+)"
+   ],
+   "SUBUNIT": [
+    "Monomer in solution. DNA binding induces dimerization. Associates with mitochondrial and telomeric DNA. Binding to mtDNA is non-specific and the protein seems to coat the entire mtDNA molecule. Binds to the telomerase RNA TLC1. Interacts with the mitochondrial single-strand DNA-binding protein RIM1"
+   ],
+   "SUBCELLULAR LOCATION": [
+    "Nucleus, nucleolus",
+    "Mitochondrion inner membrane"
+   ],
+   "INDUCTION": [
+    "Cell cycle-regulated. The nuclear isoform is present in very low amounts in G1 phase cells, but increases as cells progress through S phase, with a peak in late S/G2. The mitochondrial isoform follows a similar, but less pronounced induction pattern. The nuclear isoform is prone to APC/C-dependent degradation in G1, whereas the mitochondrial isoform is not"
+   ],
+   "MISCELLANEOUS": [
+    "Present with 259 molecules/cell in log phase SD medium",
+    "Produced by alternative initiation at Met-40 of isoform Mitochondrial"
+   ],
+   "SIMILARITY": [
+    "Belongs to the helicase family. PIF1 subfamily"
+   ]
+  },
+  "features": {
+   "domains": [
+    {
+     "name": "PIF1-like helicase (Pfam PF05970)",
+     "start": 236,
+     "end": 441
+    },
+    {
+     "name": "DNA helicase Pif1, 2B domain (Pfam PF21530)",
+     "start": 498,
+     "end": 542
+    }
+   ],
+   "regions": [
+    {
+     "name": "Disordered",
+     "start": 142,
+     "end": 178
+    },
+    {
+     "name": "Disordered",
+     "start": 782,
+     "end": 859
+    }
+   ],
+   "motifs": [],
+   "binding": [
+    {
+     "start": 258,
+     "end": 265,
+     "ligand": "ATP"
+    }
+   ],
+   "mutagenesis": [
+    {
+     "pos": 1,
+     "change": "M>A",
+     "desc": "In PIF1-m1; loss of mitochondrial function."
+    },
+    {
+     "pos": 40,
+     "change": "M>A",
+     "desc": "In PIF1-m2; loss of nuclear function."
+    },
+    {
+     "pos": 264,
+     "change": "K>A,R",
+     "desc": "Abolishes helicase activity resulting in elongated telomeres; binds normally to DNA substrates."
+    }
+   ],
+   "variants": []
+  },
+  "go": [
+   {
+    "id": "GO:0005743",
+    "term": "C:mitochondrial inner membrane"
+   },
+   {
+    "id": "GO:0031966",
+    "term": "C:mitochondrial membrane"
+   },
+   {
+    "id": "GO:0005739",
+    "term": "C:mitochondrion"
+   },
+   {
+    "id": "GO:0043596",
+    "term": "C:nuclear replication fork"
+   },
+   {
+    "id": "GO:0005730",
+    "term": "C:nucleolus"
+   },
+   {
+    "id": "GO:0005657",
+    "term": "C:replication fork"
+   },
+   {
+    "id": "GO:0035861",
+    "term": "C:site of double-strand break"
+   },
+   {
+    "id": "GO:0043139",
+    "term": "F:5'-3' DNA helicase activity"
+   },
+   {
+    "id": "GO:0005524",
+    "term": "F:ATP binding"
+   },
+   {
+    "id": "GO:0016887",
+    "term": "F:ATP hydrolysis activity"
+   },
+   {
+    "id": "GO:0019237",
+    "term": "F:centromeric DNA binding"
+   },
+   {
+    "id": "GO:0003678",
+    "term": "F:DNA helicase activity"
+   },
+   {
+    "id": "GO:0051880",
+    "term": "F:G-quadruplex DNA binding"
+   },
+   {
+    "id": "GO:0160225",
+    "term": "F:G-quadruplex unwinding activity"
+   },
+   {
+    "id": "GO:0003697",
+    "term": "F:single-stranded DNA binding"
+   },
+   {
+    "id": "GO:0010521",
+    "term": "F:telomerase inhibitor activity"
+   },
+   {
+    "id": "GO:0042162",
+    "term": "F:telomeric repeat DNA binding"
+   },
+   {
+    "id": "GO:0051276",
+    "term": "P:chromosome organization"
+   },
+   {
+    "id": "GO:0006310",
+    "term": "P:DNA recombination"
+   },
+   {
+    "id": "GO:0006260",
+    "term": "P:DNA replication"
+   },
+   {
+    "id": "GO:0000727",
+    "term": "P:double-strand break repair via break-induced replication"
+   },
+   {
+    "id": "GO:0032211",
+    "term": "P:negative regulation of telomere maintenance via telomerase"
+   },
+   {
+    "id": "GO:0071932",
+    "term": "P:replication fork reversal"
+   },
+   {
+    "id": "GO:0000723",
+    "term": "P:telomere maintenance"
+   },
+   {
+    "id": "GO:0000722",
+    "term": "P:telomere maintenance via recombination"
+   },
+   {
+    "id": "GO:0019985",
+    "term": "P:translesion synthesis"
+   }
+  ],
+  "pdb": [
+   {
+    "id": "5O6B",
+    "method": "X-ray",
+    "res": "2.03 A",
+    "chains": "A/B=237-780"
+   },
+   {
+    "id": "5O6D",
+    "method": "X-ray",
+    "res": "3.28 A",
+    "chains": "A/B=237-780"
+   },
+   {
+    "id": "5O6E",
+    "method": "X-ray",
+    "res": "3.35 A",
+    "chains": "A/B=237-780"
+   },
+   {
+    "id": "6E49",
+    "method": "X-ray",
+    "res": "2.90 A",
+    "chains": "D/E/F=815-831"
+   },
+   {
+    "id": "8XAK",
+    "method": "X-ray",
+    "res": "3.50 A",
+    "chains": "A/C=236-780"
+   }
+  ],
+  "interpro": [
+   {
+    "id": "IPR010285",
+    "name": "DNA_helicase_pif1-like_DEAD"
+   },
+   {
+    "id": "IPR027417",
+    "name": "P-loop_NTPase"
+   },
+   {
+    "id": "IPR049163",
+    "name": "Pif1-like_2B_dom"
+   },
+   {
+    "id": "IPR051055",
+    "name": "PIF1_helicase"
+   },
+   {
+    "id": "IPR048293",
+    "name": "PIF1_RRM3_pfh1"
+   }
+  ],
+  "pfam": [
+   {
+    "id": "PF05970",
+    "name": "PIF1"
+   },
+   {
+    "id": "PF21530",
+    "name": "Pif1_2B_dom"
+   }
+  ],
+  "omim": [],
+  "orphanet": [],
+  "refseq": [
+   "NP_013650.1"
+  ],
+  "panther": [
+   {
+    "id": "PTHR47642",
+    "name": "ATP-DEPENDENT DNA HELICASE"
+   },
+   {
+    "id": "PTHR47642:SF5",
+    "name": "ATP-DEPENDENT DNA HELICASE"
+   }
+  ]
+ },
+ "group_ids": [
+  "PTHR47642"
+ ],
+ "group": "PIF1 family",
+ "alphafold": {
+  "entryId": "AF-P07271-F1",
+  "globalMetricValue": 67.19,
+  "fractionPlddtVeryHigh": 0.306,
+  "fractionPlddtConfident": 0.282,
+  "fractionPlddtLow": 0.047,
+  "fractionPlddtVeryLow": 0.366,
+  "cifUrl": "https://alphafold.ebi.ac.uk/files/AF-P07271-F1-model_v6.cif",
+  "pdbUrl": "https://alphafold.ebi.ac.uk/files/AF-P07271-F1-model_v6.pdb",
+  "paeImageUrl": "https://alphafold.ebi.ac.uk/files/AF-P07271-F1-predicted_aligned_error_v6.png",
+  "latestVersion": 6,
+  "modelCreatedDate": "2025-08-01T00:00:00Z"
+ },
+ "literature": {
+  "count": 312,
+  "papers": [
+   {
+    "pmid": "42575689",
+    "title": "Human PIF1 clears secondary DNA structures by coupled DNA unwinding and rewinding activities",
+    "authors": [
+     "Jayachandran A",
+     "M\u00fctze M",
+     "Romaniuk K",
+     "et al."
+    ],
+    "journal": "Genes Dev",
+    "year": "2026",
+    "date": "2026 Oct 1"
+   },
+   {
+    "pmid": "42851257",
+    "title": "Genome-wide mapping of helicase-generated ssDNA reveals Hrq1 activity at RNA polymerase III-transcribed genes",
+    "authors": [
+     "Regmi S",
+     "Alsulaiti N",
+     "Darling D",
+     "et al."
+    ],
+    "journal": "bioRxiv",
+    "year": "2026",
+    "date": "2026 Aug 14"
+   },
+   {
+    "pmid": "42095273",
+    "title": "Residual double strand break repair during meiosis in budding yeast is promoted by PIF1, RAD54 and RDH54/TID1",
+    "authors": [
+     "Dutta R",
+     "Wan L",
+     "Murtha D",
+     "et al."
+    ],
+    "journal": "Genetics",
+    "year": "2026",
+    "date": "2026 Jul 6"
+   },
+   {
+    "pmid": "42443617",
+    "title": "CST complex promotes second-strand synthesis in break-induced replication",
+    "authors": [
+     "Thakre P",
+     "Wang J",
+     "Liu L",
+     "et al."
+    ],
+    "journal": "Nat Struct Mol Biol",
+    "year": "2026",
+    "date": "2026 Jul"
+   },
+   {
+    "pmid": "42150082",
+    "title": "Regulation of Pfh1 helicase activity by nucleic acid interactions and mitochondrial SSB",
+    "authors": [
+     "Ortiz-Rodr\u00edguez M",
+     "Singh SP",
+     "Cao-Garc\u00eda FJ",
+     "et al."
+    ],
+    "journal": "Proc Natl Acad Sci U S A",
+    "year": "2026",
+    "date": "2026 May 26"
+   },
+   {
+    "pmid": "42239345",
+    "title": "Dissecting the role of PCNA and Pif1 in replication of individual DNA molecules by DNA polymerase \u03b4",
+    "authors": [
+     "Zaher MS",
+     "Stith C",
+     "Mistry A",
+     "et al."
+    ],
+    "journal": "bioRxiv",
+    "year": "2026",
+    "date": "2026 May 21"
+   },
+   {
+    "pmid": "41951601",
+    "title": "Break-induced replication is enhanced by a phospho-activated RPA-binding module in Pol32",
+    "authors": [
+     "Jones D",
+     "Appanah R",
+     "Yates LA",
+     "et al."
+    ],
+    "journal": "Nat Commun",
+    "year": "2026",
+    "date": "2026 Apr 9"
+   },
+   {
+    "pmid": "41896213",
+    "title": "TONSL suppresses polymerase theta-dependent tandem duplications through chromatin-guided repair",
+    "authors": [
+     "van Schendel R",
+     "Romeijn R",
+     "Kralemann LEM",
+     "et al."
+    ],
+    "journal": "Nat Commun",
+    "year": "2026",
+    "date": "2026 Mar 27"
+   },
+   {
+    "pmid": "41775729",
+    "title": "Mitotic microhomology-mediated break-induced replication promotes chromoanasynthesis",
+    "authors": [
+     "Ngo GHP",
+     "Cleal K",
+     "Seifan S",
+     "et al."
+    ],
+    "journal": "Nat Commun",
+    "year": "2026",
+    "date": "2026 Mar 3"
+   },
+   {
+    "pmid": "41599986",
+    "title": "Chromosome-Level Genome Assembly of Ormosia henryi Provides Insights into Evolutionary Resilience and Precision Conservation",
+    "authors": [
+     "Tian X",
+     "Yuan B",
+     "Mou C",
+     "et al."
+    ],
+    "journal": "Plants (Basel)",
+    "year": "2026",
+    "date": "2026 Jan 7"
+   },
+   {
+    "pmid": "41542603",
+    "title": "PIF1, RAD54 and RDH54/TID1 promote residual double strand break repair during meiosis in the budding yeast, Saccharomyces cerevisiae",
+    "authors": [
+     "Dutta R",
+     "Murtha D",
+     "Nagosky T",
+     "et al."
+    ],
+    "journal": "bioRxiv",
+    "year": "2026",
+    "date": "2026 Jan 6"
+   },
+   {
+    "pmid": "40550429",
+    "title": "Identification of hPIF1 helicase inhibitors by virtual screening of a Fsp3-enriched library",
+    "authors": [
+     "Wever MJA",
+     "Scommegna FR",
+     "Poisson JF",
+     "et al."
+    ],
+    "journal": "Bioorg Med Chem Lett",
+    "year": "2025",
+    "date": "2025 Dec 1"
+   },
+   {
+    "pmid": "41206036",
+    "title": "The stability and unfolding of DNA: RNA hybrid G-quadruplexes",
+    "authors": [
+     "Zhang B",
+     "Li SL",
+     "Zhu X",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2025",
+    "date": "2025 Oct 28"
+   },
+   {
+    "pmid": "41037402",
+    "title": "Break-induced replication is activated to repair R-loop-associated double-strand breaks in SETX-deficient cells",
+    "authors": [
+     "Wu T",
+     "Li Y",
+     "Zhao Y",
+     "et al."
+    ],
+    "journal": "Cell Rep",
+    "year": "2025",
+    "date": "2025 Oct 28"
+   },
+   {
+    "pmid": "41120844",
+    "title": "Identification of Cdc45-interacting partners uncovers two Leishmania donovani proteins involved in DNA replication",
+    "authors": [
+     "Dashora V",
+     "Singh A",
+     "Pandey A",
+     "et al."
+    ],
+    "journal": "BMC Microbiol",
+    "year": "2025",
+    "date": "2025 Oct 21"
+   },
+   {
+    "pmid": "40854122",
+    "title": "G-quadruplexes as a source of vulnerability in BRCA2-deficient granule cell progenitors and medulloblastoma",
+    "authors": [
+     "Keahi DL",
+     "Sanders MA",
+     "Paul MR",
+     "et al."
+    ],
+    "journal": "Proc Natl Acad Sci U S A",
+    "year": "2025",
+    "date": "2025 Sep 2"
+   },
+   {
+    "pmid": "40475435",
+    "title": "Break-induced replication is activated to repair R-loop-associated double-strand breaks in SETX-deficient cells",
+    "authors": [
+     "Wu T",
+     "Li Y",
+     "Shi LZ",
+     "et al."
+    ],
+    "journal": "bioRxiv",
+    "year": "2025",
+    "date": "2025 May 19"
+   },
+   {
+    "pmid": "39888492",
+    "title": "Identification of PIF1 as a Ferroptosis-Related Prognostic Biomarker Correlated with Immune Infiltration in Hepatocellular Carcinoma",
+    "authors": [
+     "Liu F",
+     "Yin P",
+     "Lu L",
+     "et al."
+    ],
+    "journal": "Appl Biochem Biotechnol",
+    "year": "2025",
+    "date": "2025 May"
+   },
+   {
+    "pmid": "39558808",
+    "title": "Genetic Interaction Between F-Box Encoding UCC1 and RRM3 Regulates Growth Rate, Cell Size, and Stress Tolerance in Saccharomyces cerevisiae",
+    "authors": [
+     "Pandita M",
+     "Shoket H",
+     "Kumar R",
+     "et al."
+    ],
+    "journal": "J Biochem Mol Toxicol",
+    "year": "2024",
+    "date": "2024 Dec"
+   },
+   {
+    "pmid": "39417423",
+    "title": "Structure-based discovery of first inhibitors targeting the helicase activity of human PIF1",
+    "authors": [
+     "Wever MJA",
+     "Scommegna FR",
+     "Egea-Rodriguez S",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2024",
+    "date": "2024 Nov 11"
+   },
+   {
+    "pmid": "39368985",
+    "title": "53BP1 deficiency leads to hyperrecombination using break-induced replication (BIR)",
+    "authors": [
+     "Shah SB",
+     "Li Y",
+     "Li S",
+     "et al."
+    ],
+    "journal": "Nat Commun",
+    "year": "2024",
+    "date": "2024 Oct 5"
+   },
+   {
+    "pmid": "38996075",
+    "title": "PHOSPHATASE 2A dephosphorylates PHYTOCHROME-INTERACTING FACTOR3 to modulate photomorphogenesis in Arabidopsis",
+    "authors": [
+     "Cai X",
+     "Lee S",
+     "G\u00f3mez Jaime AP",
+     "et al."
+    ],
+    "journal": "Plant Cell",
+    "year": "2024",
+    "date": "2024 Oct 3"
+   },
+   {
+    "pmid": "39039287",
+    "title": "CMG helicase disassembly is essential and driven by two pathways in budding yeast",
+    "authors": [
+     "Polo Rivera C",
+     "Deegan TD",
+     "Labib KPM"
+    ],
+    "journal": "EMBO J",
+    "year": "2024",
+    "date": "2024 Sep"
+   },
+   {
+    "pmid": "39091814",
+    "title": "G-quadruplexes are a source of vulnerability in BRCA2 deficient granule cell progenitors and medulloblastoma",
+    "authors": [
+     "Keahi DL",
+     "Sanders MA",
+     "Paul MR",
+     "et al."
+    ],
+    "journal": "bioRxiv",
+    "year": "2024",
+    "date": "2024 Jul 22"
+   },
+   {
+    "pmid": "39030241",
+    "title": "Eukaryotic Pif1 helicase unwinds G-quadruplex and dsDNA using a conserved wedge",
+    "authors": [
+     "Hong Z",
+     "Byrd AK",
+     "Gao J",
+     "et al."
+    ],
+    "journal": "Nat Commun",
+    "year": "2024",
+    "date": "2024 Jul 19"
+   },
+   {
+    "pmid": "38977862",
+    "title": "Werner helicase interacting protein 1 contributes to G-quadruplex processing in human cells",
+    "authors": [
+     "Hegedus L",
+     "Toth A",
+     "Harami GM",
+     "et al."
+    ],
+    "journal": "Sci Rep",
+    "year": "2024",
+    "date": "2024 Jul 8"
+   },
+   {
+    "pmid": "38783074",
+    "title": "Alternative translation initiation by ribosomal leaky scanning produces multiple isoforms of the Pif1 helicase",
+    "authors": [
+     "Lama-Diaz T",
+     "Blanco MG"
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2024",
+    "date": "2024 Jul 8"
+   },
+   {
+    "pmid": "38752483",
+    "title": "Two residues in the DNA binding site of Pif1 helicase are essential for nuclear functions but dispensable for mitochondrial respiratory growth",
+    "authors": [
+     "Gao J",
+     "Proffitt DR",
+     "Marecki JC",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2024",
+    "date": "2024 Jun 24"
+   },
+   {
+    "pmid": "38613387",
+    "title": "Cdc13 exhibits dynamic DNA strand exchange in the presence of telomeric DNA",
+    "authors": [
+     "Nickens DG",
+     "Feng Z",
+     "Shen J",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2024",
+    "date": "2024 Jun 24"
+   },
+   {
+    "pmid": "38526099",
+    "title": "Identification of different classes of genome instability suppressor genes through analysis of DNA damage response markers",
+    "authors": [
+     "Li BZ",
+     "Kolodner RD",
+     "Putnam CD"
+    ],
+    "journal": "G3 (Bethesda)",
+    "year": "2024",
+    "date": "2024 Jun 5"
+   },
+   {
+    "pmid": "38480846",
+    "title": "The functional significance of the RPA- and PCNA-dependent recruitment of Pif1 to DNA",
+    "authors": [
+     "Kotenko O",
+     "Makovets S"
+    ],
+    "journal": "EMBO Rep",
+    "year": "2024",
+    "date": "2024 Apr"
+   },
+   {
+    "pmid": "38530355",
+    "title": "RNF4 sustains Myc-driven tumorigenesis by facilitating DNA replication",
+    "authors": [
+     "Her J",
+     "Zheng H",
+     "Bunting SF"
+    ],
+    "journal": "J Clin Invest",
+    "year": "2024",
+    "date": "2024 Mar 26"
+   },
+   {
+    "pmid": "38427559",
+    "title": "Expansion of human centromeric arrays in cells undergoing break-induced replication",
+    "authors": [
+     "Showman S",
+     "Talbert PB",
+     "Xu Y",
+     "et al."
+    ],
+    "journal": "Cell Rep",
+    "year": "2024",
+    "date": "2024 Mar 26"
+   },
+   {
+    "pmid": "38311177",
+    "title": "Loss of Dna2 fidelity results in decreased Exo1-mediated resection at DNA double-strand breaks",
+    "authors": [
+     "Mojumdar A",
+     "Granger C",
+     "Lunke M",
+     "et al."
+    ],
+    "journal": "J Biol Chem",
+    "year": "2024",
+    "date": "2024 Mar"
+   },
+   {
+    "pmid": "38117984",
+    "title": "Rrm3 and Pif1 division of labor during replication through leading and lagging strand G-quadruplex",
+    "authors": [
+     "Varon M",
+     "Dovrat D",
+     "Heuz\u00e9 J",
+     "et al."
+    ],
+    "journal": "Nucleic Acids Res",
+    "year": "2024",
+    "date": "2024 Feb 28"
+   },
+   {
+    "pmid": "38105973",
+    "title": "Cdc13 exhibits dynamic DNA strand exchange in the presence of telomeric DNA",
+    "authors": [
+     "Nickens DG",
+     "Feng Z",
+     "Shen J",
+     "et al."
+    ],
+    "journal": "bioRxiv",
+    "year": "2024",
+    "date": "2024 Feb 28"
+   },
+   {
+    "pmid": "37992890",
+    "title": "Stimulation of ATP Hydrolysis by ssDNA Provides the Necessary Mechanochemical Energy for G4 Unfolding",
+    "authors": [
+     "Dai YX",
+     "Duan XL",
+     "Fu WT",
+     "et al."
+    ],
+    "journal": "J Mol Biol",
+    "year": "2024",
+    "date": "2024 Jan 15"
+   },
+   {
+    "pmid": "38521583",
+    "title": "Observing G4 formation and its resolution by Pif1 in real time by manipulation under magnetic tweezers",
+    "authors": [
+     "Valle-Orero J",
+     "Rieu M",
+     "Allemand JF",
+     "et al."
+    ],
+    "journal": "Methods Enzymol",
+    "year": "2024",
+    "date": "2024"
+   },
+   {
+    "pmid": "38086789",
+    "title": "Inhibition of demethylase by IOX1 modulates chromatin accessibility to enhance NSCLC radiation sensitivity through attenuated PIF1",
+    "authors": [
+     "Li Q",
+     "Qin K",
+     "Tian Y",
+     "et al."
+    ],
+    "journal": "Cell Death Dis",
+    "year": "2023",
+    "date": "2023 Dec 12"
+   },
+   {
+    "pmid": "37948114",
+    "title": "Pif1 Helicase Mediates Remodeling of Protein-Nucleic Acid Complexes by Promoting Dissociation of Sub1 from G-Quadruplex DNA and Cdc13 from G-Rich Single-Stranded DNA",
+    "authors": [
+     "Chib S",
+     "Griffin WC",
+     "Gao J",
+     "et al."
+    ],
+    "journal": "Biochemistry",
+    "year": "2023",
+    "date": "2023 Dec 5"
+   }
+  ],
+  "query": "Pif1[tiab] AND (yeast OR cerevisiae OR helicase)"
+ },
+ "interactions_intact": {
+  "total": 13,
+  "partners": [
+   {
+    "uniprot": "Q12306",
+    "name": "SMT3",
+    "methods": [
+     "anti tag coip",
+     "tap"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "21743457"
+    ],
+    "score": 0.52
+   },
+   {
+    "uniprot": "P47068",
+    "name": "BBC1",
+    "methods": [
+     "peptide array"
+    ],
+    "types": [
+     "direct interaction"
+    ],
+    "pmids": [
+     "19841731"
+    ],
+    "score": 0.44
+   },
+   {
+    "uniprot": "P38129",
+    "name": "TAF5",
+    "methods": [
+     "two hybrid pooling"
+    ],
+    "types": [
+     "physical association"
+    ],
+    "pmids": [
+     "11283351"
+    ],
+    "score": 0.37
+   },
+   {
+    "uniprot": "P33416",
+    "name": "HSP78",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "19536198"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P47077",
+    "name": "NOP9",
+    "methods": [
+     "pull down"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "14690591"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P22336",
+    "name": "RFA1",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "37968396"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P32445",
+    "name": "RIM1",
+    "methods": [
+     "anti tag coip"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "37968396"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P14906",
+    "name": "SEC63",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "19536198"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P09435",
+    "name": "SSA3",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "19536198"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P11484",
+    "name": "SSB1",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "19536198"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P40150",
+    "name": "SSB2",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "19536198"
+    ],
+    "score": 0.35
+   },
+   {
+    "uniprot": "P25491",
+    "name": "YDJ1",
+    "methods": [
+     "tap"
+    ],
+    "types": [
+     "association"
+    ],
+    "pmids": [
+     "19536198"
+    ],
+    "score": 0.35
+   }
+  ]
+ },
+ "sgd_data": {
+  "sgdid": "S000004526",
+  "physical": [
+   {
+    "name": "APN1",
+    "systematic": "YKL114C",
+    "sgdid": "S000001597",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "ATP16",
+    "systematic": "YDL004W",
+    "sgdid": "S000002162",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "BFR1",
+    "systematic": "YOR198C",
+    "sgdid": "S000005724",
+    "experiments": [
+     "Affinity Capture-RNA"
+    ]
+   },
+   {
+    "name": "CCR4",
+    "systematic": "YAL021C",
+    "sgdid": "S000000019",
+    "experiments": [
+     "Affinity Capture-RNA"
+    ]
+   },
+   {
+    "name": "CCT3",
+    "systematic": "YJL014W",
+    "sgdid": "S000003551",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "CMR1",
+    "systematic": "YDL156W",
+    "sgdid": "S000002315",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "DHH1",
+    "systematic": "YDL160C",
+    "sgdid": "S000002319",
+    "experiments": [
+     "Affinity Capture-RNA"
+    ]
+   },
+   {
+    "name": "DSN1",
+    "systematic": "YIR010W",
+    "sgdid": "S000001449",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "ECM18",
+    "systematic": "YDR125C",
+    "sgdid": "S000002532",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "ERV1",
+    "systematic": "YGR029W",
+    "sgdid": "S000003261",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "ESA1",
+    "systematic": "YOR244W",
+    "sgdid": "S000005770",
+    "experiments": [
+     "Biochemical Activity"
+    ]
+   },
+   {
+    "name": "HFM1",
+    "systematic": "YGL251C",
+    "sgdid": "S000003220",
+    "experiments": [
+     "Affinity Capture-Western",
+     "Proximity Label-MS"
+    ]
+   },
+   {
+    "name": "HHT1",
+    "systematic": "YBR010W",
+    "sgdid": "S000000214",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "HHT2",
+    "systematic": "YNL031C",
+    "sgdid": "S000004976",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "ISW1",
+    "systematic": "YBR245C",
+    "sgdid": "S000000449",
+    "experiments": [
+     "Affinity Capture-RNA"
+    ]
+   },
+   {
+    "name": "MDM34",
+    "systematic": "YGL219C",
+    "sgdid": "S000003187",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "MLH3",
+    "systematic": "YPL164C",
+    "sgdid": "S000006085",
+    "experiments": [
+     "Proximity Label-MS"
+    ]
+   },
+   {
+    "name": "MMT2",
+    "systematic": "YPL224C",
+    "sgdid": "S000006145",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "MPH1",
+    "systematic": "YIR002C",
+    "sgdid": "S000001441",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "MPT5",
+    "systematic": "YGL178W",
+    "sgdid": "S000003146",
+    "experiments": [
+     "Affinity Capture-RNA"
+    ]
+   },
+   {
+    "name": "NAB2",
+    "systematic": "YGL122C",
+    "sgdid": "S000003090",
+    "experiments": [
+     "Affinity Capture-RNA"
+    ]
+   },
+   {
+    "name": "PIF1",
+    "systematic": "YML061C",
+    "sgdid": "S000004526",
+    "experiments": [
+     "Reconstituted Complex"
+    ]
+   },
+   {
+    "name": "POL30",
+    "systematic": "YBR088C",
+    "sgdid": "S000000292",
+    "experiments": [
+     "Affinity Capture-Western",
+     "Co-crystal Structure",
+     "Reconstituted Complex"
+    ]
+   },
+   {
+    "name": "PUF3",
+    "systematic": "YLL013C",
+    "sgdid": "S000003936",
+    "experiments": [
+     "Affinity Capture-RNA"
+    ]
+   },
+   {
+    "name": "RAD27",
+    "systematic": "YKL113C",
+    "sgdid": "S000001596",
+    "experiments": [
+     "Reconstituted Complex"
+    ]
+   },
+   {
+    "name": "RFA1",
+    "systematic": "YAR007C",
+    "sgdid": "S000000065",
+    "experiments": [
+     "Affinity Capture-MS",
+     "Affinity Capture-Western",
+     "Reconstituted Complex"
+    ]
+   },
+   {
+    "name": "RIM1",
+    "systematic": "YCR028C-A",
+    "sgdid": "S000007222",
+    "experiments": [
+     "Affinity Capture-MS",
+     "Affinity Capture-Western"
+    ]
+   },
+   {
+    "name": "RSM25",
+    "systematic": "YIL093C",
+    "sgdid": "S000001355",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "RVB2",
+    "systematic": "YPL235W",
+    "sgdid": "S000006156",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "SPO16",
+    "systematic": "YHR153C",
+    "sgdid": "S000001196",
+    "experiments": [
+     "Proximity Label-MS"
+    ]
+   },
+   {
+    "name": "SPO22",
+    "systematic": "YIL073C",
+    "sgdid": "S000001335",
+    "experiments": [
+     "Proximity Label-MS"
+    ]
+   },
+   {
+    "name": "SUA7",
+    "systematic": "YPR086W",
+    "sgdid": "S000006290",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "SUB1",
+    "systematic": "YMR039C",
+    "sgdid": "S000004642",
+    "experiments": [
+     "Affinity Capture-Western",
+     "Reconstituted Complex"
+    ]
+   },
+   {
+    "name": "VAM6",
+    "systematic": "YDL077C",
+    "sgdid": "S000002235",
+    "experiments": [
+     "Affinity Capture-MS"
+    ]
+   },
+   {
+    "name": "VTS1",
+    "systematic": "YOR359W",
+    "sgdid": "S000005886",
+    "experiments": [
+     "Affinity Capture-RNA"
+    ]
+   }
+  ],
+  "genetic_partners": [
+   "ACE2",
+   "ACL4",
+   "ACO1",
+   "APM1",
+   "APP1",
+   "ARG80",
+   "ASF1",
+   "ASH1",
+   "ATG23",
+   "ATP20",
+   "ATP23",
+   "BLM10",
+   "BNR1",
+   "BUB2",
+   "BUB3",
+   "BUD7",
+   "CCC2",
+   "CCR4",
+   "CDC11",
+   "CDC13",
+   "CDC73",
+   "CDC9",
+   "CDH1",
+   "CHL4",
+   "CIK1",
+   "CTF18",
+   "CTF19",
+   "CTF3",
+   "CTF4",
+   "CTF8",
+   "CTK1",
+   "DCC1",
+   "DEF1",
+   "DIA2",
+   "DNA2",
+   "DNL4",
+   "DUN1",
+   "EAF3",
+   "EAF6",
+   "ELG1",
+   "ENT2",
+   "EST2",
+   "EXO1",
+   "FIS1",
+   "GCR1",
+   "GPM3",
+   "GTO3",
+   "HED1",
+   "HOG1",
+   "HOM3",
+   "HRP1",
+   "HRQ1",
+   "HSH155",
+   "HST3",
+   "ILM1",
+   "IML3",
+   "IRC15",
+   "IRC6",
+   "LCL3",
+   "LTE1",
+   "MAD2",
+   "MAD3",
+   "MAK3",
+   "MCM10",
+   "MCM16",
+   "MCM22",
+   "MEC3",
+   "MET30",
+   "MGA2",
+   "MIG1",
+   "MIR1",
+   "MLH2",
+   "MLP1",
+   "MMS21",
+   "MMS22",
+   "MPH1",
+   "MPO1",
+   "MRC1",
+   "MRE11",
+   "MRS4",
+   "NDL1",
+   "NFI1",
+   "NPL3",
+   "NUP84",
+   "OGG1",
+   "PBP1",
+   "PET20",
+   "PET8",
+   "PEX10",
+   "PEX7",
+   "PHB1",
+   "PHO91",
+   "PMA1",
+   "POL1",
+   "POL12",
+   "POL2",
+   "POL3",
+   "POL32",
+   "POP2",
+   "PPG1",
+   "PPH3",
+   "PRE10",
+   "PRE2",
+   "PRE7",
+   "PRE9",
+   "PRI2",
+   "PRK1",
+   "PSF1",
+   "PUP1",
+   "RAD1",
+   "RAD10",
+   "RAD17",
+   "RAD18",
+   "RAD24",
+   "RAD27",
+   "RAD3",
+   "RAD5",
+   "RAD50",
+   "RAD51",
+   "RAD52",
+   "RAD53",
+   "RAD54",
+   "RAD55",
+   "RAD57",
+   "RAD9",
+   "RBD2",
+   "REV1",
+   "REV3",
+   "RFC5",
+   "RIM2",
+   "RNH1",
+   "RNR1",
+   "RPA34",
+   "RPL13A",
+   "RRD1",
+   "RRM3",
+   "RRP6",
+   "RTS1",
+   "RTT109",
+   "SAE2",
+   "SCT1",
+   "SGS1",
+   "SIR4",
+   "SIZ1",
+   "SKT5",
+   "SMC6",
+   "SML1",
+   "SMY2",
+   "SOL3",
+   "SOP4",
+   "SPE2",
+   "SPO1",
+   "STM1",
+   "STN1",
+   "SUA5",
+   "TEC1",
+   "TEL1",
+   "TEL2",
+   "TLC1",
+   "TLG2",
+   "TOP1",
+   "TOP2",
+   "TOP3",
+   "TPS2",
+   "TSA1",
+   "UMP1",
+   "UPS2",
+   "VPS3",
+   "XRS2",
+   "YAF9",
+   "YCK1",
+   "YEN1",
+   "YGR266W",
+   "YIP4",
+   "YIR020C",
+   "YKE2",
+   "YKU70",
+   "YKU80",
+   "YMR262W"
+  ],
+  "genetic_count": 179,
+  "interaction_rows": 358,
+  "phenotypes": [
+   {
+    "phenotype": "viable",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Giaever G, et al. (2002)",
+    "pmid": 12140549,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "telomere length: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Askree SH, et al. (2004)",
+    "pmid": 15161972,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "telomere length: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Gatbonton T, et al. (2006)",
+    "pmid": 16552446,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "competitive fitness: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Deutschbauer AM, et al. (2005)",
+    "pmid": 15716499,
+    "experiment": "homozygous diploid, competitive growth"
+   },
+   {
+    "phenotype": "chemical compound accumulation: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Wilson WA, et al. (2002)",
+    "pmid": 12096123,
+    "experiment": "homozygous diploid, systematic mutation set"
+   },
+   {
+    "phenotype": "mitochondrial genome maintenance: abnormal",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "Other",
+    "reference": "Lebedeva MA and Shadel GS (2007)",
+    "pmid": 17721079,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "respiratory growth: decreased rate",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Steinmetz LM, et al. (2002)",
+    "pmid": 12134146,
+    "experiment": "homozygous diploid, competitive growth"
+   },
+   {
+    "phenotype": "respiratory growth: absent",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Dimmer KS, et al. (2002)",
+    "pmid": 11907266,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "mitochondrial morphology: abnormal",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Dimmer KS, et al. (2002)",
+    "pmid": 11907266,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "UV resistance: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Hanway D, et al. (2002)",
+    "pmid": 12149442,
+    "experiment": "homozygous diploid, competitive growth"
+   },
+   {
+    "phenotype": "metal resistance: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Pagani MA, et al. (2007)",
+    "pmid": 17630978,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "chemical compound accumulation: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Guirola M, et al. (2010)",
+    "pmid": 20858222,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Barreto L, et al. (2011)",
+    "pmid": 21724935,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Barreto L, et al. (2011)",
+    "pmid": 21724935,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "vegetative growth: decreased rate",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Orij R, et al. (2012)",
+    "pmid": 23021432,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Ayers MC, et al. (2020)",
+    "pmid": 33109726,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "filamentous growth: increased",
+    "mutant_type": "overexpression",
+    "alleles": [],
+    "chemicals": [],
+    "strain": "Sigma1278b",
+    "reference": "Jin R, et al. (2008)",
+    "pmid": 17989363,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "respiratory growth: absent",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Hess DC, et al. (2009)",
+    "pmid": 19300474,
+    "experiment": "large-scale survey"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "McCue PP and Phang JM (2008)",
+    "pmid": 18975972,
+    "experiment": "heterozygous diploid, competitive growth"
+   },
+   {
+    "phenotype": "respiratory growth: absent",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Merz S and Westermann B (2009)",
+    "pmid": 19751518,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "heat sensitivity: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Sinha H, et al. (2008)",
+    "pmid": 18780730,
+    "experiment": "homozygous diploid, systematic mutation set"
+   },
+   {
+    "phenotype": "mitochondrial genome maintenance: abnormal",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Merz S and Westermann B (2009)",
+    "pmid": 19751518,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "cell size: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Jorgensen P, et al. (2002)",
+    "pmid": 12089449,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Trotter EW, et al. (2006)",
+    "pmid": 16820484,
+    "experiment": "homozygous diploid, systematic mutation set"
+   },
+   {
+    "phenotype": "vegetative growth: decreased rate",
+    "mutant_type": "overexpression",
+    "alleles": [],
+    "chemicals": [],
+    "strain": "Other",
+    "reference": "Chang M, et al. (2009)",
+    "pmid": 19704012,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased rate",
+    "mutant_type": "overexpression",
+    "alleles": [],
+    "chemicals": [],
+    "strain": "Other",
+    "reference": "Chang M, et al. (2009)",
+    "pmid": 19704012,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "overexpression",
+    "alleles": [],
+    "chemicals": [],
+    "strain": "Other",
+    "reference": "Chang M, et al. (2009)",
+    "pmid": 19704012,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "overexpression",
+    "alleles": [],
+    "chemicals": [],
+    "strain": "Other",
+    "reference": "Chang M, et al. (2009)",
+    "pmid": 19704012,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "mutation frequency: increased",
+    "mutant_type": "overexpression",
+    "alleles": [],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Ang JS, et al. (2016)",
+    "pmid": 27585847,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "metal resistance: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Guirola M, et al. (2010)",
+    "pmid": 20858222,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "resistance to chemicals: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Shi Y, et al. (2011)",
+    "pmid": 21880895,
+    "experiment": "large-scale survey"
+   },
+   {
+    "phenotype": "mutation frequency: increased",
+    "mutant_type": "overexpression",
+    "alleles": [],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Ang JS, et al. (2016)",
+    "pmid": 27585847,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "chemical compound accumulation: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Guirola M, et al. (2010)",
+    "pmid": 20858222,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "vegetative growth: decreased rate",
+    "mutant_type": "overexpression",
+    "alleles": [],
+    "chemicals": [],
+    "strain": "Other",
+    "reference": "Yoshikawa K, et al. (2011)",
+    "pmid": 21341307,
+    "experiment": "large-scale survey"
+   },
+   {
+    "phenotype": "starvation resistance: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Davey HM, et al. (2012)",
+    "pmid": 22356628,
+    "experiment": "heterozygous diploid, competitive growth"
+   },
+   {
+    "phenotype": "vegetative growth: decreased rate",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Yoshikawa K, et al. (2011)",
+    "pmid": 21341307,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "stress resistance: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "North M, et al. (2012)",
+    "pmid": 22685415,
+    "experiment": "homozygous diploid, competitive growth"
+   },
+   {
+    "phenotype": "resistance to chemicals: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Gayt\u00e1n BD, et al. (2013)",
+    "pmid": 23358190,
+    "experiment": "homozygous diploid, large-scale survey"
+   },
+   {
+    "phenotype": "mutation frequency: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Ribeyre C, et al. (2009)",
+    "pmid": 19424434,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "invasive growth: increased",
+    "mutant_type": "overexpression",
+    "alleles": [],
+    "chemicals": [],
+    "strain": "Sigma1278b",
+    "reference": "Shively CA, et al. (2013)",
+    "pmid": 23410832,
+    "experiment": "homozygous diploid, systematic mutation set"
+   },
+   {
+    "phenotype": "chemical compound accumulation: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Yu D, et al. (2012)",
+    "pmid": 23151179,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "innate thermotolerance: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Jarolim S, et al. (2013)",
+    "pmid": 24142923,
+    "experiment": "homozygous diploid, systematic mutation set"
+   },
+   {
+    "phenotype": "mitophagy: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "B\u00f6ckler S and Westermann B (2014)",
+    "pmid": 24530295,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "resistance to chemicals: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Brown JA, et al. (2006)",
+    "pmid": 16738548,
+    "experiment": "homozygous diploid, competitive growth"
+   },
+   {
+    "phenotype": "resistance to chemicals: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Brown JA, et al. (2006)",
+    "pmid": 16738548,
+    "experiment": "homozygous diploid, competitive growth"
+   },
+   {
+    "phenotype": "resistance to chemicals: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Brown JA, et al. (2006)",
+    "pmid": 16738548,
+    "experiment": "homozygous diploid, competitive growth"
+   },
+   {
+    "phenotype": "resistance to chemicals: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Brown JA, et al. (2006)",
+    "pmid": 16738548,
+    "experiment": "homozygous diploid, competitive growth"
+   },
+   {
+    "phenotype": "competitive fitness: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Brown JA, et al. (2006)",
+    "pmid": 16738548,
+    "experiment": "homozygous diploid, competitive growth"
+   },
+   {
+    "phenotype": "oxidative stress resistance: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Guirola M, et al. (2010)",
+    "pmid": 20858222,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "mutation frequency: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Zhang H and Singh KK (2014)",
+    "pmid": 25170845,
+    "experiment": "large-scale survey"
+   },
+   {
+    "phenotype": "innate thermotolerance: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Jarolim S, et al. (2013)",
+    "pmid": 24142923,
+    "experiment": "homozygous diploid, systematic mutation set"
+   },
+   {
+    "phenotype": "utilization of nitrogen source: decreased rate",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "VanderSluis B, et al. (2014)",
+    "pmid": 24721214,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "mutation frequency: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Huang ME, et al. (2003)",
+    "pmid": 12972632,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "chromosome/plasmid maintenance: decreased",
+    "mutant_type": "overexpression",
+    "alleles": [],
+    "chemicals": [],
+    "strain": "Other",
+    "reference": "Duffy S, et al. (2016)",
+    "pmid": 27551064,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "chromosome/plasmid maintenance: decreased",
+    "mutant_type": "overexpression",
+    "alleles": [],
+    "chemicals": [],
+    "strain": "Other",
+    "reference": "Duffy S, et al. (2016)",
+    "pmid": 27551064,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "chromosome/plasmid maintenance: decreased",
+    "mutant_type": "overexpression",
+    "alleles": [],
+    "chemicals": [],
+    "strain": "Other",
+    "reference": "Duffy S, et al. (2016)",
+    "pmid": 27551064,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "overexpression",
+    "alleles": [],
+    "chemicals": [],
+    "strain": "Other",
+    "reference": "Duffy S, et al. (2016)",
+    "pmid": 27551064,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "overexpression",
+    "alleles": [],
+    "chemicals": [],
+    "strain": "Other",
+    "reference": "Duffy S, et al. (2016)",
+    "pmid": 27551064,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "UV resistance: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Brown JA, et al. (2006)",
+    "pmid": 16738548,
+    "experiment": "homozygous diploid, competitive growth"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "overexpression",
+    "alleles": [],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Ang JS, et al. (2016)",
+    "pmid": 27585847,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "overexpression",
+    "alleles": [],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Ang JS, et al. (2016)",
+    "pmid": 27585847,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "overexpression",
+    "alleles": [],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Ang JS, et al. (2016)",
+    "pmid": 27585847,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "mutation frequency: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Schmidt TT, et al. (2020)",
+    "pmid": 31647103,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "chronological lifespan: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Campos SE, et al. (2018)",
+    "pmid": 29575540,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "sporulation: abnormal",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Marston AL, et al. (2004)",
+    "pmid": 14752166,
+    "experiment": "homozygous diploid, systematic mutation set"
+   },
+   {
+    "phenotype": "metal resistance: normal",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "pif1-K264A"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Guirola M, et al. (2010)",
+    "pmid": 20858222,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "mutation frequency: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "W303",
+    "reference": "Maestroni L, et al. (2020)",
+    "pmid": 32190820,
+    "experiment": "homozygous diploid"
+   },
+   {
+    "phenotype": "mutation frequency: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Putnam CD, et al. (2016)",
+    "pmid": 27071721,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "resistance to chemicals: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Henriques SF, et al. (2017)",
+    "pmid": 28428821,
+    "experiment": "systematic mutation set"
+   },
+   {
+    "phenotype": "metal resistance: increased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "pif1-m1"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Guirola M, et al. (2010)",
+    "pmid": 20858222,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "chromosome/plasmid maintenance: decreased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "pif1-m2"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Myung K, et al. (2001)",
+    "pmid": 11429610,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "mutation frequency: increased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "pif1-m2"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Hwang JY, et al. (2008)",
+    "pmid": 18585101,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "mutation frequency: increased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "pif1-m2"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Paeschke K, et al. (2013)",
+    "pmid": 23657261,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "mutation frequency: increased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "pif1-m2"
+    ],
+    "chemicals": [],
+    "strain": "Other",
+    "reference": "Morrill SA, et al. (2016)",
+    "pmid": 27026700,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "telomere length: increased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "pif1-NLS\u0394"
+    ],
+    "chemicals": [],
+    "strain": "W303",
+    "reference": "Lee RS, et al. (2023)",
+    "pmid": 37486934,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "mutation frequency: increased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "pif1-m2"
+    ],
+    "chemicals": [],
+    "strain": "W303",
+    "reference": "Lee RS, et al. (2023)",
+    "pmid": 37486934,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "mutation frequency: increased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "pif1-NLS\u0394"
+    ],
+    "chemicals": [],
+    "strain": "W303",
+    "reference": "Lee RS, et al. (2023)",
+    "pmid": 37486934,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "mutation frequency: increased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "pif1-m2+NLS\u2206"
+    ],
+    "chemicals": [],
+    "strain": "W303",
+    "reference": "Lee RS, et al. (2023)",
+    "pmid": 37486934,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "chemical compound accumulation: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Guirola M, et al. (2010)",
+    "pmid": 20858222,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "protein activity: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Guirola M, et al. (2010)",
+    "pmid": 20858222,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "chromosome/plasmid maintenance: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Gao J, et al. (2024)",
+    "pmid": 38752483,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "chromosome/plasmid maintenance: decreased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "pif1-K264A"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Gao J, et al. (2024)",
+    "pmid": 38752483,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "chromosome/plasmid maintenance: decreased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "pif1-F723A"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Gao J, et al. (2024)",
+    "pmid": 38752483,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "chromosome/plasmid maintenance: decreased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "pif1-T464A"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Gao J, et al. (2024)",
+    "pmid": 38752483,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "telomere length: increased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "pif1-K264A"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Gao J, et al. (2024)",
+    "pmid": 38752483,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "telomere length: increased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "pif1-F723A"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Gao J, et al. (2024)",
+    "pmid": 38752483,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "telomere length: increased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "pif1-T464A"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Gao J, et al. (2024)",
+    "pmid": 38752483,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "respiratory growth: absent",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Gao J, et al. (2024)",
+    "pmid": 38752483,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "respiratory growth: absent",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "pif1-K264A"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Gao J, et al. (2024)",
+    "pmid": 38752483,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "mitochondrial genome maintenance: absent",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Gao J, et al. (2024)",
+    "pmid": 38752483,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "mitochondrial genome maintenance: absent",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "pif1-K264A"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Gao J, et al. (2024)",
+    "pmid": 38752483,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "mitochondrial genome maintenance: abnormal",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "pif1-F723A"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Gao J, et al. (2024)",
+    "pmid": 38752483,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "telomere length: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Gao J, et al. (2024)",
+    "pmid": 38752483,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "telomere length: increased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "Other",
+    "reference": "Schulz VP and Zakian VA (1994)",
+    "pmid": 8287473,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "respiratory growth: absent",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "Other",
+    "reference": "Schulz VP and Zakian VA (1994)",
+    "pmid": 8287473,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "petite",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "Other",
+    "reference": "Schulz VP and Zakian VA (1994)",
+    "pmid": 8287473,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "petite",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "pif1-m1"
+    ],
+    "chemicals": [],
+    "strain": "Other",
+    "reference": "Schulz VP and Zakian VA (1994)",
+    "pmid": 8287473,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "telomere length: increased",
+    "mutant_type": "reduction of function",
+    "alleles": [
+     "pif1-m2"
+    ],
+    "chemicals": [],
+    "strain": "Other",
+    "reference": "Schulz VP and Zakian VA (1994)",
+    "pmid": 8287473,
+    "experiment": "classical genetics"
+   },
+   {
+    "phenotype": "competitive fitness: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Qian W, et al. (2012)",
+    "pmid": 23103169,
+    "experiment": "homozygous diploid, competitive growth"
+   },
+   {
+    "phenotype": "competitive fitness: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Qian W, et al. (2012)",
+    "pmid": 23103169,
+    "experiment": "homozygous diploid, competitive growth"
+   },
+   {
+    "phenotype": "competitive fitness: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Qian W, et al. (2012)",
+    "pmid": 23103169,
+    "experiment": "homozygous diploid, competitive growth"
+   },
+   {
+    "phenotype": "competitive fitness: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Qian W, et al. (2012)",
+    "pmid": 23103169,
+    "experiment": "homozygous diploid, competitive growth"
+   },
+   {
+    "phenotype": "competitive fitness: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Qian W, et al. (2012)",
+    "pmid": 23103169,
+    "experiment": "homozygous diploid, competitive growth"
+   },
+   {
+    "phenotype": "competitive fitness: decreased",
+    "mutant_type": "null",
+    "alleles": [
+     "pif1-\u0394"
+    ],
+    "chemicals": [],
+    "strain": "S288C",
+    "reference": "Qian W, et al. (2012)",
+    "pmid": 23103169,
+    "experiment": "homozygous diploid, competitive growth"
+   }
+  ]
+ }
+}
