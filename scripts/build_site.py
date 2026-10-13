@@ -301,7 +301,7 @@ def protein_page(r, meta):
     cur = CURATED.get("proteins", {}).get(r["slug"])
     if cur:
         n_cur = len({e["n"] for g in cur for e in g["items"]})
-        sec("keypapers", "Key papers", f'<p>{n_cur} papers cited in two reviews of the Pif1 family (<a href="https://pubmed.ncbi.nlm.nih.gov/32093266/">Muellner &amp; Schmidt 2020</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/28900015/">Byrd &amp; Raney 2017</a>) and assigned to this protein by title, grouped by the topic under which each review discusses it. A paper can be relevant beyond its group. The automatic PubMed search under Literature is separate.</p>' + curated_html(cur, collapse=len(cur)>3 and n_cur>25))
+        sec("keypapers", "Key papers", f'<p>{n_cur} papers cited in three reviews of the Pif1 family (<a href="https://pubmed.ncbi.nlm.nih.gov/32093266/">Muellner &amp; Schmidt 2020</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/28900015/">Byrd &amp; Raney 2017</a>; <a href="https://pubmed.ncbi.nlm.nih.gov/20097624/">Bochman et al. 2010</a>) and assigned to this protein by title, grouped by the topic under which each review discusses it. A paper can be relevant beyond its group. The automatic PubMed search under Literature is separate.</p>' + curated_html(cur, collapse=len(cur)>3 and n_cur>25))
 
     # literature
     lit = r["literature"]
@@ -397,7 +397,7 @@ def family(recs, meta):
     fam_papers = ""
     if fam_cur:
         n_fam = len({e["n"] for g in fam_cur for e in g["items"]})
-        fam_papers = (f'<h2 id="keypapers">Key papers on the family</h2><p>{n_fam} papers for family-level background, taken from the reference lists of two reviews (Muellner &amp; Schmidt 2020; Byrd &amp; Raney 2017), grouped by topic. Papers specific to one protein are on that protein&rsquo;s page. Assignment is by title keywords, so check the original reviews for context.</p>'
+        fam_papers = (f'<h2 id="keypapers">Key papers on the family</h2><p>{n_fam} papers for family-level background, taken from the reference lists of three reviews (Muellner &amp; Schmidt 2020; Byrd &amp; Raney 2017; Bochman et al. 2010), grouped by topic. Papers specific to one protein are on that protein&rsquo;s page. Assignment is by title keywords, so check the original reviews for context.</p>'
                       + "".join(f'<details style="margin:.4rem 0"><summary style="cursor:pointer;font:600 1rem -apple-system,Segoe UI,sans-serif">{E(g["topic"])} <span style="font-weight:400;color:var(--ink-soft)">({len(g["items"])})</span></summary>{curated_html([g], headings=False)}</details>' for g in fam_cur))
     body = f"""<section class="hero"><div class="wrap"><h1>Family overview</h1>
 <p class="lede">All entries on one scale, drawn on one scale. The PIF1-like helicase domain is shared across members; the N-terminal regions (for example the PH-like domain in animal and yeast Pif1) and the flanking regions differ.</p></div></section>
@@ -431,7 +431,7 @@ def about(meta, recs):
  ["Yeast alleles and phenotypes","SGD","<i>S. cerevisiae</i> only"],
  ["Clinical variants","<a href='https://www.ncbi.nlm.nih.gov/clinvar/'>ClinVar</a>","Human only; counts by classification, no individual variant tables yet"],
  ["Literature","<a href='https://pubmed.ncbi.nlm.nih.gov/'>PubMed</a>","Automatic keyword search per protein"],
- ["Key papers","Reference lists of two reviews: Muellner &amp; Schmidt, <i>Genes</i> 2020; Byrd &amp; Raney, <i>Biochem Soc Trans</i> 2017","Matched to PubMed by DOI or title and assigned to proteins by title keywords; mostly yeast-centric, so other organisms have few"]],"")}
+ ["Key papers","Reference lists of three reviews: Muellner &amp; Schmidt, <i>Genes</i> 2020; Byrd &amp; Raney, <i>Biochem Soc Trans</i> 2017; Bochman, Sabouri &amp; Zakian, <i>DNA Repair</i> 2010","Matched to PubMed by DOI or title and assigned to proteins by title keywords; mostly yeast-centric, so other organisms have few"]],"")}
 <h2>How it stays current</h2>
 <p>A script (<code>scripts/fetch_data.py</code>) re-downloads everything from the sources above and a second script (<code>scripts/build_site.py</code>) regenerates the pages. A scheduled GitHub Action runs both weekly. Data were last refreshed {fmt_date(meta['fetched'])}.</p>
 <h2>Limitations</h2>
