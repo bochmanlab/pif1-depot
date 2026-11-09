@@ -28,7 +28,7 @@
   "sequence": "MTFDDLTEGQKNAFNIVMKAIKEKKHHVTINGPAGTGKTTLTKFIIEALISTGGTGIILAAPTHAAKKILSKLSGKEASTIHSILKINPVTYEENVLFEQKEVPDLAKCRVLICDEVSMYDRKLFKILLSTIPPWCTIIGIGDNKQIRPVEPGENTAYISPFFTHKDFYQCELTEVKRSNAPIIDVATDVRNGKWNYDKVVDGHGVRGFTGDTALRDFMVNYFSIVKSLDDLFENRVMAFTNKSVDKLNSIIRKKIFETDKDFIVGEIIVMQEPLFKTYKIDGKPVSEIIFNNGQLVRIIEAEYTSTFVKARGVPGEYLIRHWDLTVETYGDDEYYREKIKIISSDEELYKFNLFLAKTAETYKNWNKGGKAPWSDFWDAKSQFSKVKALPASTFHKAQGMSVDRAFIYTPCIHYADVELAQQLLYVGVTRGRYDVFYV",
   "existence": "1: Evidence at protein level",
   "annotation_score": 4.0,
-  "last_modified": "2026-09-02",
+  "last_modified": "2026-11-04",
   "comments": {
    "FUNCTION": [
     "DNA helicase that stimulates viral DNA replication and recombination. Plays a role in T4 DNA replication initiation by selecting and activating DNA origins. Acts by dissociating and reassociating with the DNA molecule being unwound. Unwinds DNA as a monomer in a 5'-3' direction at a rate of 250 bp/s and can efficiently displace proteins from the DNA (PubMed:17823128, PubMed:22504228)"
@@ -50,7 +50,7 @@
     },
     {
      "name": "Dda helicase SH3 domain (Pfam PF18343)",
-     "start": 261,
+     "start": 260,
      "end": 389
     },
     {

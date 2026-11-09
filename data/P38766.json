@@ -32,7 +32,7 @@
   "sequence": "MFRSHASGNKKQWSKRSSNGSTPAASASGSHAYRQQTLSSFFMGCGKKSAAASKNSTTIIDLESGDEGNRNITAPPRPRLIRNNSSSLFSQSQGSFGDDDPDAEFKKLVDVPRLNSYKKSSRSLSMTSSLHKTASASTTQKTYHFDEDETLREVTSVKSNSRQLSFTSTINIEDSSMKLSTDSERPAKRSKPSMEFQGLKLTVPKKIKPLLRKTVSNMDSMNHRSASSPVVLTMEQERVVNLIVKKRTNVFYTGSAGTGKSVILQTIIRQLSSLYGKESIAITASTGLAAVTIGGSTLHKWSGIGIGNKTIDQLVKKIQSQKDLLAAWRYTKVLIIDEISMVDGNLLDKLEQIARRIRKNDDPFGGIQLVLTGDFFQLPPVAKKDEHNVVKFCFESEMWKRCIQKTILLTKVFRQQDNKLIDILNAIRYGELTVDIAKTIRNLNRDIDYADGIAPTELYATRREVELSNVKKLQSLPGDLYEFKAVDNAPERYQAILDSSLMVEKVVALKEDAQVMMLKNKPDVELVNGSLGKVLFFVTESLVVKMKEIYKIVDDEVVMDMRLVSRVIGNPLLKESKEFRQDLNARPLARLERLKILINYAVKISPHKEKFPYVRWTVGKNKYIHELMVPERFPIDIPRENVGLERTQIPLMLCWALSIHKAQGQTIQRLKVDLRRIFEAGQVYVALSRAVTMDTLQVLNFDPGKIRTNERVKDFYKRLETLK",
   "existence": "1: Evidence at protein level",
   "annotation_score": 5.0,
-  "last_modified": "2026-09-02",
+  "last_modified": "2026-11-04",
   "comments": {
    "FUNCTION": [
     "5' to 3' DNA replicative helicase recruited to paused replisomes to promote fork progression throughout nonhistone protein-DNA complexes, naturally occurring impediments that are encountered in each S phase where replication forks pauses. Needed for normal fork progression through over 1000 discrete sites scattered throughout the genome, like rDNA, tRNA genes, centromeres, active replication origins, or transcriptional silencers. Required for timely replication of the telomere and subtelomeric DNA and for wild-type levels of telomeric silencing. Involved in regulation of Ty1 transposition and protects the genome from instability at nascent sites of retrotransposition. Involved in DNA repair during stalled replication fork, regulation of fragile sites expression and essential for genome stability. Also plays a role in mtDNA replication. Has G-quadruplex (G4) unwinding activity and can suppress G4-induced genome instability when PIF1 levels are low"
@@ -62,7 +62,12 @@
     {
      "name": "PIF1-like helicase (Pfam PF05970)",
      "start": 232,
-     "end": 419
+     "end": 433
+    },
+    {
+     "name": "DNA helicase Pif1, 2B domain (Pfam PF21530)",
+     "start": 497,
+     "end": 537
     }
    ],
    "regions": [
@@ -1486,8 +1491,8 @@
   "summary": {
    "name_description": "rDNA Recombination Mutation",
    "description": "DNA helicase involved in rDNA replication and Ty1 transposition; binds to and suppresses DNA damage at G4 motifs in vivo; relieves replication fork pauses at telomeric regions; deletion or inactivation of helicase function suppresses chromosome instability (CIN) associated with centromere or kinetochore defects; structurally and functionally related to Pif1p",
-   "paragraph": null,
-   "protein_summary": null,
+   "paragraph": "RRM3/YHR031C encodes a DNA helicase that localizes to nuclear replication forks and functions in DNA replication, including replication fork reversal and progression beyond termination sites. The gene lies on the right arm of chromosome VIII between SLT2 (MAP kinase) and ERC1, with a 2,172\u2011nt coding sequence harboring 21 SNPs (7 nonsynonymous). RRM3 transcription is regulated by Fkh1p in response to heat and during stationary phase under starvation, and by Sfp1p in response to stress. Rrm3p is a 723\u2011aa, extremely low\u2011abundance helicase with an N\u2011terminal disordered region, ubiquitinylated on K438 and phosphorylated on six residues. Rrm3p interacts physically with proteins involved in DNA replication, and RRM3 shows genetic interactions with DNA repair genes. In the S288C reference strain, RRM3 is non\u2011essential; null mutants are viable but exhibit abnormal vacuolar and bud morphology, delayed S\u2011phase and metaphase\u2013anaphase progression, reduced endocytosis, slower exponential and decreased anaerobic growth, shortened chronological lifespan, increased heat sensitivity, and decreased hyperosmotic stress resistance, alongside genome instability phenotypes including increased mutation frequency, mitotic recombination, transposable element transposition, and changes in telomere length. Overexpression slows vegetative growth, increases mutation frequency, and causes abnormal cellular morphology, S\u2011phase progression, and budding.",
+   "protein_summary": "Rrm3p is a 723-amino-acid long DNA helicase of extremely low abundance; contains disordered region at N-terminus; ubiquitinylated on K438, phosphorylated on 6 residues",
    "phenotype_summary": "RRM3/YHR031C is a non-essential gene in reference strain S288C; null mutants are viable and show abnormal vacuolar and bud morphology, delayed S-phase and metaphase-anaphase progression, reduced endocytosis, slower exponential growth and decreased anaerobic growth, shortened chronological lifespan, increased heat sensitivity and decreased hyperosmotic stress resistance, with genome instability phenotypes including increased mutation frequency, mitotic recombination, transposable element transposition, and telomere length. Overexpression slows vegetative growth, increases mutation frequency, and causes abnormal cellular morphology, S\u2011phase progression, and budding.",
    "regulation_summary": "RRM3/YHR031C transcription is regulated by <a href=\"/locus/S000001393\">Fkh1p</a> in response to heat, by <a href=\"/locus/S000004395\">Sfp1p</a> in response to stress, and by <a href=\"/locus/S000001393\">Fkh1p</a> during maintenance of stationary phase in response to starvation.",
    "regulation": [
@@ -1571,10 +1576,10 @@
    },
    "disease": [],
    "literature": {
-    "primary_count": 96,
+    "primary_count": 97,
     "additional_count": 72,
     "review_count": 43,
-    "total_count": 307
+    "total_count": 308
    },
    "systematic": "YHR031C"
   },

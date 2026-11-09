@@ -29,7 +29,7 @@
   "sequence": "MLNANKSIIRLATYSIRNRIHHLRTLHSLNYINSRINIQDTNHIRPTCPCGSKQFMLESELDSALIEFLDNDDPFSDSEIKESDDLSKGQSHVYNGSPVTKNSILQIEKQQIQKSPRPTETNKRMQIRKDPDQNDNVDDDSLSSTFEFSDMDDDFMEALKAAEEITGNNTNCIKRTASTPLKKPIAKSMKNSSTPSKSAGKKYCKYIKTSSPSPSHYLIRESGSGVDILEGSPNKVQADNASPFRITSSFSSPSQIQNQGVGANPGPKSKAEQNVSSASQSSSPPMTVSQVRNPFKVPTQFRRNYSTRPITNQGSDTKKGNSHHTILLATQKPGVPFSNPSDRSYHKLEKTEGINEAQSEAKNVKPIILSNEQEYVLKQVLSGVSLFYTGSAGTGKSVLLRSIIKSLRDKYPKGVAVTASTGLAACNIGGITLHSFAGFGLGQGKVENLIKKIKRNKKAFTRWRETRVLIIDEISMVDGHLLNKLNEIAKNLRRNNRPFGGIQLVACGDFYQLPPVVKKTAHDGTELDDVEVFFAFESSAWKETIQRTITLKEIFRQKGDQRFINMLNNLRDGNVPDDTARDFCRLSRPLKCPEGIVPSELYATRYEVDMANSRKLNTIQGDVVVYNSVDTGILPEPQKTQVLTNFLAPQVLNLKVGAQVMCIKNFDDQLVNGTLGKVIDFVDRDTYMKSESKENPSTETSDEVSGLNDYIFNDFQKPKKVVKEDAPIAEQVLFTGQLSQKVEEESESSKRKSKLKDDLMKDYKNKKYPLVKFLLPDGITFRTVVVEPEQWTTEDEDGTVLVSRIQFPLILAWSLSIHKSQGQTLSKVVVDMKKIFENGQAYVALSRAVSRAGLQVLNFNRSKVASHRKVIEFYKNLSSHEKESRSGQQRLNFMQTSVKSVARAQI",
   "existence": "1: Evidence at protein level",
   "annotation_score": 5.0,
-  "last_modified": "2026-09-02",
+  "last_modified": "2026-11-04",
   "comments": {
    "FUNCTION": [
     "DNA-dependent ATPase and 5'-3' DNA helicase required for the maintenance of both mitochondrial and nuclear genome stability. Efficiently unwinds G-quadruplex (G4) DNA structures and forked RNA-DNA hybrids. Resolves G4 structures, preventing replication pausing and double-strand breaks (DSBs) at G4 motifs. Involved in the maintenance of telomeric DNA. Inhibits telomere elongation, de novo telomere formation and telomere addition to DSBs via catalytic inhibition of telomerase. Reduces the processivity of telomerase by displacing active telomerase from DNA ends. Releases telomerase by unwinding the short telomerase RNA/telomeric DNA hybrid that is the intermediate in the telomerase reaction. Involved in the maintenance of ribosomal (rDNA). Required for efficient fork arrest at the replication fork barrier within rDNA. Involved in the maintenance of mitochondrial (mtDNA). Required to maintain mtDNA under conditions that introduce dsDNA breaks in mtDNA, either preventing or repairing dsDNA breaks. May inhibit replication progression to allow time for repair. May have a general role in chromosomal replication by affecting Okazaki fragment maturation. May have a role in conjunction with DNA2 helicase/nuclease in 5'-flap extension during Okazaki fragment processing"
@@ -52,18 +52,7 @@
    ]
   },
   "features": {
-   "domains": [
-    {
-     "name": "PIF1-like helicase (Pfam PF05970)",
-     "start": 369,
-     "end": 579
-    },
-    {
-     "name": "DNA helicase Pif1, 2B domain (Pfam PF21530)",
-     "start": 642,
-     "end": 681
-    }
-   ],
+   "domains": [],
    "regions": [
     {
      "name": "Disordered",

@@ -28,7 +28,7 @@
   "sequence": "MFDKLEKILAYDNVFLSGGAGVGKSFLTNELIKSYRKQKKLAIALGSSALSAFNIGGVTLHSFFCLGYCDDMMKLSVLDRNQKQKEKLTKLKELLKTIELIIIDEISMVSANVFEMIGFRLKNSQFNGKILVVGDFFQLPPVIKEKKETLFNHSYYAFSSFFWQDLNFKNIKLSQPKRTQNMEFYNHLSLIRQGFLDEKILSFFESLRIDYKELENLEDDYTLLCGINKKVNNINQEKLSKLETPLVCFKAQVKKEDKRIKDEELDSWIRSLNILEELNIKIGARIIFCVNNWDKNYYNGEQGIIEDILYEEEKIYISIIKNNGMKILLEPYTFFMEELEQSGKDFVVNILASVTQFPIKLAYAITIHKSQGMSIEKLVCDIDHIFENGQLYVALSRATNPNTLKIYSTKKINFGFYFANILKIDSNVIEFYKKHNFLDLEIQEQII",
   "existence": "1: Evidence at protein level",
   "annotation_score": 3.0,
-  "last_modified": "2026-09-02",
+  "last_modified": "2026-11-04",
   "comments": {
    "FUNCTION": [
     "DNA-dependent ATPase and 5'-3' DNA helicase that efficiently unwinds G-quadruplex (G4) DNA structures. May be involved in resolving commom issues that arise during DNA replication, recombination, and repair"
@@ -51,8 +51,8 @@
    "domains": [
     {
      "name": "PIF1-like helicase (Pfam PF05970)",
-     "start": 13,
-     "end": 182
+     "start": 9,
+     "end": 198
     },
     {
      "name": "Helicase (Pfam PF02689)",

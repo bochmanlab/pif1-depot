@@ -51,23 +51,7 @@
    ]
   },
   "features": {
-   "domains": [
-    {
-     "name": "LRR1 pleckstrin homology domain (Pfam PF25344)",
-     "start": 9,
-     "end": 116
-    },
-    {
-     "name": "PIF1-like helicase (Pfam PF05970)",
-     "start": 206,
-     "end": 403
-    },
-    {
-     "name": "DNA helicase Pif1, 2B domain (Pfam PF21530)",
-     "start": 460,
-     "end": 504
-    }
-   ],
+   "domains": [],
    "regions": [],
    "motifs": [],
    "binding": [

@@ -61,11 +61,11 @@
     {
      "name": "PIF1-like helicase (Pfam PF05970)",
      "start": 435,
-     "end": 608
+     "end": 614
     },
     {
      "name": "DNA helicase Pif1, 2B domain (Pfam PF21530)",
-     "start": 813,
+     "start": 810,
      "end": 842
     }
    ],
